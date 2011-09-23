@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9628E6CD-62D6-4E86-BB5D-A1B6785CE469}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NewTOAPIA.Net.Udt</RootNamespace>
+    <AssemblyName>NewTOAPIA.Net.Udt</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Net">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TOAPI.Kernel32, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPI\bin\Release\TOAPI.Kernel32.dll</HintPath>
+    </Reference>
+    <Reference Include="TOAPI.Types, Version=1.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPI\bin\Release\TOAPI.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="TOAPI.Winsock, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPI\bin\Release\TOAPI.Winsock.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CACKWindow.cs" />
+    <Compile Include="CCCFactory.cs" />
+    <Compile Include="CCCVirtualFactory.cs" />
+    <Compile Include="Collections\CLossList.cs" />
+    <Compile Include="Collections\CRcvLossList.cs" />
+    <Compile Include="Core\CAckNo.cs" />
+    <Compile Include="Core\CGuard.cs" />
+    <Compile Include="CHandShake.cs" />
+    <Compile Include="Collections\CHash.cs" />
+    <Compile Include="CInfoBlock.cs" />
+    <Compile Include="CMultiplexer.cs" />
+    <Compile Include="Collections\CRcvQueue.cs" />
+    <Compile Include="Collections\CRcvUList.cs" />
+    <Compile Include="Collections\CSndLossList.cs" />
+    <Compile Include="Collections\CSndUList.cs" />
+    <Compile Include="Core\CIPAddress.cs" />
+    <Compile Include="Core\CMD5.cs" />
+    <Compile Include="Core\CMsgNo.cs" />
+    <Compile Include="Core\CPerfMon.cs" />
+    <Compile Include="Core\CSeqNo.cs" />
+    <Compile Include="Core\CUdtException.cs" />
+    <Compile Include="Collections\CRendesvousQueue.cs" />
+    <Compile Include="Collections\CSndQueue.cs" />
+    <Compile Include="Core\fd_set.cs" />
+    <Compile Include="Core\timeval.cs" />
+    <Compile Include="CPktTimeWindow.cs" />
+    <Compile Include="CRcvBuffer.cs" />
+    <Compile Include="CSndBuffer.cs" />
+    <Compile Include="CUDT.cs" />
+    <Compile Include="CUDTCC.cs" />
+    <Compile Include="UdtUnited.cs" />
+    <Compile Include="cache.cs" />
+    <Compile Include="ccc.cs" />
+    <Compile Include="channel.cs" />
+    <Compile Include="packet.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Collections\CUnitQueue.cs" />
+    <Compile Include="UdtSocket.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NewTOAPIA\NewTOAPIA.Core.csproj">
+      <Project>{E8819E96-D31D-4B4E-9BB7-5BFAF4C5FB91}</Project>
+      <Name>NewTOAPIA.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

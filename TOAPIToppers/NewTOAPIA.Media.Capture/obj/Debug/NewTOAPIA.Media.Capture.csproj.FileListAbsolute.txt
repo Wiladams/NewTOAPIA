@@ -1,0 +1,7 @@
+C:\depot\TOAPIToppers\bin\Debug\NewTOAPIA.Media.Capture.dll
+C:\depot\TOAPIToppers\bin\Debug\NewTOAPIA.Media.Capture.pdb
+C:\depot\TOAPIToppers\NewTOAPIA.Media.Capture\obj\Debug\ResolveAssemblyReference.cache
+C:\depot\TOAPIToppers\NewTOAPIA.Media.Capture\obj\Debug\NewTOAPIA.Media.Capture.CaptureDeviceSetupPage.resources
+C:\depot\TOAPIToppers\NewTOAPIA.Media.Capture\obj\Debug\NewTOAPIA.Media.Capture.csproj.GenerateResource.Cache
+C:\depot\TOAPIToppers\NewTOAPIA.Media.Capture\obj\Debug\NewTOAPIA.Media.Capture.dll
+C:\depot\TOAPIToppers\NewTOAPIA.Media.Capture\obj\Debug\NewTOAPIA.Media.Capture.pdb

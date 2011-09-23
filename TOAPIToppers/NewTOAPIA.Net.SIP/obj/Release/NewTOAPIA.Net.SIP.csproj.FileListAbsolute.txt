@@ -1,0 +1,10 @@
+C:\depot\TOAPIToppers\NewTOAPIA.Net.SIP\bin\Release\NewTOAPIA.Net.SIP.dll
+C:\depot\TOAPIToppers\NewTOAPIA.Net.SIP\bin\Release\NewTOAPIA.Net.SIP.pdb
+C:\depot\TOAPIToppers\NewTOAPIA.Net.SIP\obj\Release\ResolveAssemblyReference.cache
+C:\depot\TOAPIToppers\NewTOAPIA.Net.SIP\obj\Release\NewTOAPIA.Net.SIP.dll
+C:\depot\TOAPIToppers\NewTOAPIA.Net.SIP\obj\Release\NewTOAPIA.Net.SIP.pdb
+\\LS-WXL9E1\share\code\TOAPIToppers\NewTOAPIA.Net.SIP\bin\Release\NewTOAPIA.Net.SIP.dll
+\\LS-WXL9E1\share\code\TOAPIToppers\NewTOAPIA.Net.SIP\bin\Release\NewTOAPIA.Net.SIP.pdb
+\\LS-WXL9E1\share\code\TOAPIToppers\NewTOAPIA.Net.SIP\obj\Release\ResolveAssemblyReference.cache
+\\LS-WXL9E1\share\code\TOAPIToppers\NewTOAPIA.Net.SIP\obj\Release\NewTOAPIA.Net.SIP.dll
+\\LS-WXL9E1\share\code\TOAPIToppers\NewTOAPIA.Net.SIP\obj\Release\NewTOAPIA.Net.SIP.pdb

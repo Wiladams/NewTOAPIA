@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E8819E96-D31D-4B4E-9BB7-5BFAF4C5FB91}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NewTOAPIA</RootNamespace>
+    <AssemblyName>NewTOAPIA.Core</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Reactive, Version=1.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BCL\BlockingBoundedQueue.cs" />
+    <Compile Include="BCL\Function.cs" />
+    <Compile Include="BCL\LockFreeQueue.cs" />
+    <Compile Include="BCL\LockFreeStack.cs" />
+    <Compile Include="BCL\PinnedArray.cs" />
+    <Compile Include="BitUtils.cs" />
+    <Compile Include="BufferChunk.cs" />
+    <Compile Include="BufferChunkExt.cs" />
+    <Compile Include="COM\Unknown.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CClock.cs" />
+    <Compile Include="Interfaces\IBindable.cs" />
+    <Compile Include="Interfaces\IBracket.cs" />
+    <Compile Include="Interfaces\IHandle.cs" />
+    <Compile Include="Interfaces\IObservable.cs" />
+    <Compile Include="Interfaces\IObserver.cs" />
+    <Compile Include="Interfaces\ISelectable.cs" />
+    <Compile Include="Interfaces\IUniqueObject.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Strings.Designer.cs">
+      <DependentUpon>Strings.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Types\DisposableObject.cs" />
+    <Compile Include="Types\double3.cs" />
+    <Compile Include="Types\double4.cs" />
+    <Compile Include="Types\float2.cs" />
+    <Compile Include="Types\float3.cs" />
+    <Compile Include="Types\float3x3.cs" />
+    <Compile Include="Types\float3x4.cs" />
+    <Compile Include="Types\float4.cs" />
+    <Compile Include="Types\float4x3.cs" />
+    <Compile Include="Types\float4x4.cs" />
+    <Compile Include="BCL\Observable.cs" />
+    <Compile Include="BCL\Observer.cs" />
+    <Compile Include="Types\UnmanagedMemory.cs" />
+    <Compile Include="Types\UnmanagedObject.cs" />
+    <Compile Include="Types\UnmanagedPointer.cs" />
+    <Compile Include="VectorCalculus\Matrix.cs" />
+    <Compile Include="VectorCalculus\MatrixSquare.cs" />
+    <Compile Include="VectorCalculus\Point.cs" />
+    <Compile Include="VectorCalculus\Vector.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Strings.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>MSR.LST.Net</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

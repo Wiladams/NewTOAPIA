@@ -1,0 +1,7 @@
+C:\depot\TOAPIToppers\bin\debug\NewTOAPIA.Net.dll
+C:\depot\TOAPIToppers\bin\debug\NewTOAPIA.Net.pdb
+C:\depot\TOAPIToppers\NewTOAPIA.Net\obj\Debug\ResolveAssemblyReference.cache
+C:\depot\TOAPIToppers\NewTOAPIA.Net\obj\Debug\NewTOAPIA.Net.Strings.resources
+C:\depot\TOAPIToppers\NewTOAPIA.Net\obj\Debug\NewTOAPIA.Net.csproj.GenerateResource.Cache
+C:\depot\TOAPIToppers\NewTOAPIA.Net\obj\Debug\NewTOAPIA.Net.dll
+C:\depot\TOAPIToppers\NewTOAPIA.Net\obj\Debug\NewTOAPIA.Net.pdb

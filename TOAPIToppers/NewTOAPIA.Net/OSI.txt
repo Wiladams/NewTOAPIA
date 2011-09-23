@@ -1,0 +1,45 @@
+﻿OSI Model
+
+Open System Interconnection Reference Model
+
+Layer 1: Physical Layer
+Pins, voltages, cable specs, hubs, repeaters, network adapters, host bus adapters
+Connection to physical medium
+participate in process of sharing physical medium
+
+Layer 2: Data Link Layer
+Provides functional and procedural means to transfer data between network entities.
+Detect and correct errors in physical layer
+Creates frames
+	MAC - Media Access Control
+	LLC - Logical Link Control (IEEE 802.2)
+	
+Layer 3: Network Layer
+Transferring variable length data sequences from sour to destination via one or more networks
+Maintains quality of service requested by transport layer
+Perform network routing functions
+Perform fragmentation and reassembly
+report delivery errors
+Routers operate at this layer
+Logical addressing scheme, values chosen by network engineer
+Addressing scheme is hierarchical
+IPv7? - iso 8473
+
+Layer 4: Transport Layer
+TCP
+UDP
+
+Layer 5: Session Layer
+Controls the dialogues (connections) between computers.
+Establishes, manages, and terminates the connections between the local and remote application
+Provides full, half, simplex operation
+establishes checkpointing, adjournment, termination and restart procedures
+responsible for graceful close of sessions
+commonly implemented in applications environments that use remote procedure call
+
+Layer 6: Presentation Layer
+
+
+Layer 7: Application Layer
+
+

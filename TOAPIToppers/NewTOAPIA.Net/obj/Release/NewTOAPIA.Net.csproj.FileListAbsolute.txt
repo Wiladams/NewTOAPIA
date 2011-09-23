@@ -1,0 +1,14 @@
+C:\depot\TOAPIToppers\NewTOAPIA.Net\obj\Release\ResolveAssemblyReference.cache
+C:\depot\TOAPIToppers\NewTOAPIA.Net\obj\Release\NewTOAPIA.Net.Strings.resources
+C:\depot\TOAPIToppers\NewTOAPIA.Net\obj\Release\NewTOAPIA.Net.csproj.GenerateResource.Cache
+C:\depot\TOAPIToppers\bin\release\NewTOAPIA.Net.dll
+C:\depot\TOAPIToppers\bin\release\NewTOAPIA.Net.pdb
+C:\depot\TOAPIToppers\NewTOAPIA.Net\obj\Release\NewTOAPIA.Net.dll
+C:\depot\TOAPIToppers\NewTOAPIA.Net\obj\Release\NewTOAPIA.Net.pdb
+\\LS-WXL9E1\share\code\TOAPIToppers\bin\release\NewTOAPIA.Net.dll
+\\LS-WXL9E1\share\code\TOAPIToppers\bin\release\NewTOAPIA.Net.pdb
+\\LS-WXL9E1\share\code\TOAPIToppers\NewTOAPIA.Net\obj\Release\ResolveAssemblyReference.cache
+\\LS-WXL9E1\share\code\TOAPIToppers\NewTOAPIA.Net\obj\Release\NewTOAPIA.Net.Strings.resources
+\\LS-WXL9E1\share\code\TOAPIToppers\NewTOAPIA.Net\obj\Release\NewTOAPIA.Net.csproj.GenerateResource.Cache
+\\LS-WXL9E1\share\code\TOAPIToppers\NewTOAPIA.Net\obj\Release\NewTOAPIA.Net.dll
+\\LS-WXL9E1\share\code\TOAPIToppers\NewTOAPIA.Net\obj\Release\NewTOAPIA.Net.pdb

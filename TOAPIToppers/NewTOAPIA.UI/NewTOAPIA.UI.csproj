@@ -1,0 +1,162 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0E1DA85A-73F6-486A-BD7C-155BD823CE92}</ProjectGuid>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>NewTOAPIA.UI</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>NewTOAPIA.UI</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRules>-Microsoft.Naming#CA1702</CodeAnalysisRules>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TOAPI.GDI32, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPI\bin\Release\TOAPI.GDI32.dll</HintPath>
+    </Reference>
+    <Reference Include="TOAPI.Kernel32, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPI\bin\Release\TOAPI.Kernel32.dll</HintPath>
+    </Reference>
+    <Reference Include="TOAPI.OpenGL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPI\bin\Release\TOAPI.OpenGL.dll</HintPath>
+    </Reference>
+    <Reference Include="TOAPI.Types, Version=1.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPI\bin\Release\TOAPI.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="TOAPI.User32, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPI\bin\Release\TOAPI.User32.dll</HintPath>
+    </Reference>
+    <Reference Include="TOAPI.WinMM, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPI\bin\Release\TOAPI.WinMM.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Display\DisplayDevices.cs" />
+    <Compile Include="Display\DisplayMonitor.cs" />
+    <Compile Include="Input\HIDDevice.cs" />
+    <Compile Include="Input\InputSimulator.cs" />
+    <Compile Include="Input\Joystick.cs" />
+    <Compile Include="Input\JoystickActivityArgs.cs" />
+    <Compile Include="Input\KeyboardActivityArgs.cs" />
+    <Compile Include="Input\KeyboardDevice.cs" />
+    <Compile Include="Input\KeyboardEventSource.cs" />
+    <Compile Include="Input\KeyboardSimulator.cs" />
+    <Compile Include="Input\MouseActivityArgs.cs" />
+    <Compile Include="Input\MouseDevice.cs" />
+    <Compile Include="Input\MouseEventSource.cs" />
+    <Compile Include="Input\MouseSimulator.cs" />
+    <Compile Include="Input\USB.cs" />
+    <Compile Include="Interfaces\ICursor.cs" />
+    <Compile Include="Interfaces\IDrawable.cs" />
+    <Compile Include="Interfaces\IGraphic.cs" />
+    <Compile Include="Interfaces\IGraphicGroup.cs" />
+    <Compile Include="Interfaces\igraphichierarchy.cs" />
+    <Compile Include="Interfaces\IInteractor.cs" />
+    <Compile Include="Interfaces\ikeyboardtracker.cs" />
+    <Compile Include="Interfaces\ILayoutManager.cs" />
+    <Compile Include="Interfaces\imousetracker.cs" />
+    <Compile Include="Interfaces\IMoveable.cs" />
+    <Compile Include="Interfaces\IPlatformWindow.cs" />
+    <Compile Include="Interfaces\IPositionalValue.cs" />
+    <Compile Include="Interfaces\IResizeable.cs" />
+    <Compile Include="Interfaces\IShowable.cs" />
+    <Compile Include="Interfaces\itransformable.cs" />
+    <Compile Include="Interfaces\IWindow.cs" />
+    <Compile Include="Layout\BinaryLayout.cs" />
+    <Compile Include="Layout\GraphicCell.cs" />
+    <Compile Include="Types\Positionable.cs" />
+    <Compile Include="UIElements\TextRunG.cs" />
+    <Compile Include="Types\DeviceRegistryInfo.cs" />
+    <Compile Include="Types\DrawEvent.cs" />
+    <Compile Include="Types\Enums.cs" />
+    <Compile Include="Layout\Layout.cs" />
+    <Compile Include="Layout\LayoutManager.cs" />
+    <Compile Include="Layout\LinearLayout.cs" />
+    <Compile Include="Types\MessageDecoder.cs" />
+    <Compile Include="Types\RawInputDevice.cs" />
+    <Compile Include="Types\Win32Caret.cs" />
+    <Compile Include="Types\Win32Cursor.cs" />
+    <Compile Include="UIElements\Caption.cs" />
+    <Compile Include="UIElements\ControlFrame.cs" />
+    <Compile Include="UIElements\GrayBox.cs" />
+    <Compile Include="UIElements\GrayTrack.cs" />
+    <Compile Include="UIElements\guistyle.cs" />
+    <Compile Include="UIElements\PushButton.cs" />
+    <Compile Include="UIElements\StringLabel.cs" />
+    <Compile Include="UIElements\TrackSlider.cs" />
+    <Compile Include="Windows\DesktopWindow.cs" />
+    <Compile Include="Windows\GraphicWindow.cs" />
+    <Compile Include="Windows\User32MessageSource.cs" />
+    <Compile Include="Windows\User32Application.cs" />
+    <Compile Include="Windows\User32Menu.cs" />
+    <Compile Include="Windows\User32MenuBar.cs" />
+    <Compile Include="Windows\User32MenuItem.cs" />
+    <Compile Include="Windows\User32WindowClass.cs" />
+    <Compile Include="Windows\User32WindowStyle.cs" />
+    <Compile Include="Windows\User32WindowWrapper.cs" />
+    <Compile Include="Windows\window.cs" />
+    <Compile Include="UIElements\ActiveArea.cs" />
+    <Compile Include="UIElements\Graphic.cs" />
+    <Compile Include="UIElements\GraphicElement.cs" />
+    <Compile Include="UIElements\GraphicGroup.cs" />
+    <Compile Include="Windows\WindowMessageJunction.cs" />
+    <Compile Include="Windows\WindowProfile.cs" />
+    <Compile Include="Windows\Window_Message.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NewTOAPIA.Drawing.GDI\NewTOAPIA.Drawing.GDI.csproj">
+      <Project>{A212C60B-38FA-4F23-8217-A9D8417EDB3C}</Project>
+      <Name>NewTOAPIA.Drawing.GDI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NewTOAPIA.Drawing\NewTOAPIA.Drawing.csproj">
+      <Project>{B70180B5-9B35-4538-9F23-A0C614BF27FE}</Project>
+      <Name>NewTOAPIA.Drawing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NewTOAPIA.Graphics\NewTOAPIA.Graphics.csproj">
+      <Project>{74C33FFA-463F-4272-AFAC-64B936A75D01}</Project>
+      <Name>NewTOAPIA.Graphics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NewTOAPIA\NewTOAPIA.Core.csproj">
+      <Project>{E8819E96-D31D-4B4E-9BB7-5BFAF4C5FB91}</Project>
+      <Name>NewTOAPIA.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

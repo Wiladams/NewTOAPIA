@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E649DA0A-1009-4876-9F59-5AAB43BDE4E7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NewTOAPIA.Modeling</RootNamespace>
+    <AssemblyName>NewTOAPIA.Modeling</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlphaState.cs" />
+    <Compile Include="BoundingVolume.cs" />
+    <Compile Include="Effect.cs" />
+    <Compile Include="Geometry.cs" />
+    <Compile Include="GlobalState.cs" />
+    <Compile Include="GlobalStateManager.cs" />
+    <Compile Include="GLRenderable.cs" />
+    <Compile Include="GLTriangle.cs" />
+    <Compile Include="GLCube.cs" />
+    <Compile Include="GLUTorus.cs" />
+    <Compile Include="GLVertex.cs" />
+    <Compile Include="IndexBuffer.cs" />
+    <Compile Include="IRenderable.cs" />
+    <Compile Include="Light.cs" />
+    <Compile Include="LightManager.cs" />
+    <Compile Include="Mesh3D.cs" />
+    <Compile Include="Node.cs" />
+    <Compile Include="Plane3f.cs" />
+    <Compile Include="PolyLine.cs" />
+    <Compile Include="PolyPoint.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ModelRenderer.cs" />
+    <Compile Include="Spacial.cs" />
+    <Compile Include="TriangleMesh.cs" />
+    <Compile Include="VertexAttributes.cs" />
+    <Compile Include="VertexBuffer.cs" />
+    <Compile Include="VisibleObject.cs" />
+    <Compile Include="VisibleSet.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NewTOAPIA.Drawing\NewTOAPIA.Drawing.csproj">
+      <Project>{B70180B5-9B35-4538-9F23-A0C614BF27FE}</Project>
+      <Name>NewTOAPIA.Drawing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NewTOAPIA.GL\NewTOAPIA.GL.csproj">
+      <Project>{ADD59FCC-460A-4861-9587-EDFE8428F98F}</Project>
+      <Name>NewTOAPIA.GL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NewTOAPIA.Graphics\NewTOAPIA.Graphics.csproj">
+      <Project>{74C33FFA-463F-4272-AFAC-64B936A75D01}</Project>
+      <Name>NewTOAPIA.Graphics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NewTOAPIA\NewTOAPIA.Core.csproj">
+      <Project>{E8819E96-D31D-4B4E-9BB7-5BFAF4C5FB91}</Project>
+      <Name>NewTOAPIA.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
