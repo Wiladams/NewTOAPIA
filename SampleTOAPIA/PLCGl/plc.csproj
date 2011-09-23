@@ -1,0 +1,156 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F7AA25E3-9DD3-43BF-ABA6-83D1B7E491AE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PLC</RootNamespace>
+    <AssemblyName>PLC</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NewTOAPIA.Core, Version=1.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.Drawing, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.GL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.GL.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.Kernel, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.Modeling, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Modeling.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.UI, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TOAPI.Kernel32, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPIToppers\bin\Release\TOAPI.Kernel32.dll</HintPath>
+    </Reference>
+    <Reference Include="TOAPI.Types, Version=1.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPIToppers\bin\Release\TOAPI.Types.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Animation\IAnimatable.cs" />
+    <Compile Include="Animation\Interpolation.cs" />
+    <Compile Include="Animation\Cover.cs" />
+    <Compile Include="Animation\CrossFade.cs" />
+    <Compile Include="Animation\ExpandVerticalOut.cs" />
+    <Compile Include="Animation\FlyIn.cs" />
+    <Compile Include="Animation\ImageTransition.cs" />
+    <Compile Include="Animation\Push.cs" />
+    <Compile Include="Animation\SplitVerticalCenterWipe.cs" />
+    <Compile Include="Animation\Stretch.cs" />
+    <Compile Include="Animation\TwoPartTransition.cs" />
+    <Compile Include="Animation\UnCover.cs" />
+    <Compile Include="Animation\Wipe.cs" />
+    <Compile Include="GraphicPanel.cs">
+    </Compile>
+    <Compile Include="Graphics\GPolygon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DeliverablesList.cs" />
+    <Compile Include="Graphics\GearBox.cs" />
+    <Compile Include="Graphics\GLine.cs" />
+    <Compile Include="Graphics\GradientRectangle.cs" />
+    <Compile Include="Graphics\GraphicContainer.cs" />
+    <Compile Include="Graphics\GraphicArrow.cs" />
+    <Compile Include="Graphics\GraphicImage.cs" />
+    <Compile Include="Graphics\GRectangle.cs" />
+    <Compile Include="Graphics\HFlowLayout.cs" />
+    <Compile Include="Graphics\PixmapShard.cs" />
+    <Compile Include="Graphics\PLCBaseControl.cs" />
+    <Compile Include="HeadingButton.cs" />
+    <Compile Include="Headings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PLCController.cs" />
+    <Compile Include="PLCHardware\HardwareDataBinder.cs" />
+    <Compile Include="PLCHardware\HardwareLegend.cs" />
+    <Compile Include="PLCHardware\HardwarePhaseControl.cs" />
+    <Compile Include="PLCHardware\PLCHardwareView.cs" />
+    <Compile Include="PLCIT\ITDataBinder.cs" />
+    <Compile Include="PLCIT\ITLegend.cs" />
+    <Compile Include="PLCIT\ITPhaseControl.cs" />
+    <Compile Include="PLCIT\PLCITView.cs" />
+    <Compile Include="PLCModel.cs" />
+    <Compile Include="PLCSoftware\SoftwareDataBinder.cs" />
+    <Compile Include="Model\PLCDataBinder.cs" />
+    <Compile Include="Graphics\PLCColorScheme.cs" />
+    <Compile Include="PLCSoftware\PLCSoftwareView.cs" />
+    <Compile Include="PLCSoftware\PLCStageBar.cs" />
+    <Compile Include="PLCView.cs" />
+    <Compile Include="PLCWindow.cs">
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Graphics\TextBox.cs" />
+    <Compile Include="Graphics\VRestrictedFlowLayout.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\FeatureWheel.png" />
+    <EmbeddedResource Include="Resources\ProductWheel.png" />
+    <EmbeddedResource Include="Resources\stagebar2.png" />
+    <EmbeddedResource Include="Resources\stagebar3.png" />
+    <EmbeddedResource Include="Resources\stagebar4.png" />
+    <EmbeddedResource Include="Resources\stagehead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\eeglogo.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

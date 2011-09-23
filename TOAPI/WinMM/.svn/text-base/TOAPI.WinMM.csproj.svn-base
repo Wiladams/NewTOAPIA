@@ -1,0 +1,67 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{42FC25D0-BCDC-4869-A8C4-A22537341788}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>TOAPI.WinMM</AssemblyName>
+    <RootNamespace>TOAPI.WinMM</RootNamespace>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Types\AUXCAPS.cs" />
+    <Compile Include="Types\MIDI_Types.cs" />
+    <Compile Include="Types\MIXERCAPS.cs" />
+    <Compile Include="Types\MIXERCONTROL.cs" />
+    <Compile Include="Types\MIXERCONTROLDETAILS.cs" />
+    <Compile Include="Types\MIXERLINE.cs" />
+    <Compile Include="Types\MIXERLINECONTROLS.cs" />
+    <Compile Include="Types\MMCKINFO.cs" />
+    <Compile Include="Types\MMIOINFO.cs" />
+    <Compile Include="Types\WAVEHDR.cs" />
+    <Compile Include="Types\WAVEINCAPS.cs" />
+    <Compile Include="Types\WAVEOUTCAPS.cs" />
+    <Compile Include="winmmmethods.cs" />
+    <Compile Include="WinMM_Constants.cs" />
+    <Compile Include="WinMM_Joystick.cs" />
+    <Compile Include="WinMM_MIDI.cs" />
+    <Compile Include="WinMM_Mixer.cs" />
+    <Compile Include="WinMM_RIFF.cs" />
+    <Compile Include="WinMM_Time.cs" />
+    <Compile Include="Winmm_WaveIn.cs" />
+    <Compile Include="WinMM_WaveOut.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Types\TOAPI.Types.csproj">
+      <Project>{92AF7146-FA0C-491E-A1CE-E2E242E3ED0D}</Project>
+      <Name>TOAPI.Types</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

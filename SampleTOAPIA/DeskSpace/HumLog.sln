@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumLog.Core", "HumLog.Core\HumLog.Core.csproj", "{C59D6A76-ED64-42AD-98E7-4F3363BD0402}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumLogViewer", "HumLogViewer\HumLogViewer.csproj", "{709CC7E3-7240-4E20-83D0-1439E59877AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumLogSketch", "HumLogSketch\HumLogSketch.csproj", "{2EC8D057-BAF6-4094-968E-617F691EA540}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C59D6A76-ED64-42AD-98E7-4F3363BD0402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C59D6A76-ED64-42AD-98E7-4F3363BD0402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C59D6A76-ED64-42AD-98E7-4F3363BD0402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C59D6A76-ED64-42AD-98E7-4F3363BD0402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{709CC7E3-7240-4E20-83D0-1439E59877AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{709CC7E3-7240-4E20-83D0-1439E59877AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{709CC7E3-7240-4E20-83D0-1439E59877AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{709CC7E3-7240-4E20-83D0-1439E59877AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EC8D057-BAF6-4094-968E-617F691EA540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EC8D057-BAF6-4094-968E-617F691EA540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EC8D057-BAF6-4094-968E-617F691EA540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EC8D057-BAF6-4094-968E-617F691EA540}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

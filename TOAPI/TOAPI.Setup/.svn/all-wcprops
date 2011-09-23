@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/12428/TOAPI.Setup
+END
+Setup_Imports.cs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/12428/TOAPI.Setup/Setup_Imports.cs
+END
+Setup_Types.cs
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/12428/TOAPI.Setup/Setup_Types.cs
+END
+TOAPI.Setup.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/12428/TOAPI.Setup/TOAPI.Setup.csproj
+END

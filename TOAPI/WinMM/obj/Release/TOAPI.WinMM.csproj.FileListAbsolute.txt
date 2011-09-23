@@ -1,0 +1,10 @@
+C:\SVN\TOAPI\bin\Release\TOAPI.WinMM.dll
+C:\SVN\TOAPI\bin\Release\TOAPI.WinMM.pdb
+C:\SVN\TOAPI\WinMM\obj\Release\ResolveAssemblyReference.cache
+C:\SVN\TOAPI\WinMM\obj\Release\TOAPI.WinMM.dll
+C:\SVN\TOAPI\WinMM\obj\Release\TOAPI.WinMM.pdb
+C:\depot\TOAPI\bin\Release\TOAPI.WinMM.dll
+C:\depot\TOAPI\bin\Release\TOAPI.WinMM.pdb
+C:\depot\TOAPI\WinMM\obj\Release\ResolveAssemblyReference.cache
+C:\depot\TOAPI\WinMM\obj\Release\TOAPI.WinMM.dll
+C:\depot\TOAPI\WinMM\obj\Release\TOAPI.WinMM.pdb

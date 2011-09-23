@@ -1,0 +1,9 @@
+C:\depot\SampleTOAPIA\PixelShare\bin\Debug\HumSketch.Core.dll
+C:\depot\SampleTOAPIA\PixelShare\bin\Debug\HumSketch.Core.pdb
+C:\depot\SampleTOAPIA\bin\Debug\PixelShare.Core.dll
+C:\depot\SampleTOAPIA\bin\Debug\PixelShare.Core.pdb
+C:\depot\SampleTOAPIA\PixelShare\HumSketch.Core\obj\Debug\ResolveAssemblyReference.cache
+C:\depot\SampleTOAPIA\PixelShare\HumSketch.Core\obj\Debug\PixelShare.Core.HostForm.resources
+C:\depot\SampleTOAPIA\PixelShare\HumSketch.Core\obj\Debug\PixelShare.Core.csproj.GenerateResource.Cache
+C:\depot\SampleTOAPIA\PixelShare\HumSketch.Core\obj\Debug\PixelShare.Core.dll
+C:\depot\SampleTOAPIA\PixelShare\HumSketch.Core\obj\Debug\PixelShare.Core.pdb

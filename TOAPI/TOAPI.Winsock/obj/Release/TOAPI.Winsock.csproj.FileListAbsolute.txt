@@ -1,0 +1,10 @@
+C:\SVN\TOAPI\bin\Release\TOAPI.Winsock.dll
+C:\SVN\TOAPI\bin\Release\TOAPI.Winsock.pdb
+C:\SVN\TOAPI\TOAPI.Winsock\obj\Release\ResolveAssemblyReference.cache
+C:\SVN\TOAPI\TOAPI.Winsock\obj\Release\TOAPI.Winsock.dll
+C:\SVN\TOAPI\TOAPI.Winsock\obj\Release\TOAPI.Winsock.pdb
+C:\depot\TOAPI\bin\Release\TOAPI.Winsock.dll
+C:\depot\TOAPI\bin\Release\TOAPI.Winsock.pdb
+C:\depot\TOAPI\TOAPI.Winsock\obj\Release\ResolveAssemblyReference.cache
+C:\depot\TOAPI\TOAPI.Winsock\obj\Release\TOAPI.Winsock.dll
+C:\depot\TOAPI\TOAPI.Winsock\obj\Release\TOAPI.Winsock.pdb

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/12428/TOAPI.HID
+END
+HID_Constants.cs
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/12428/TOAPI.HID/HID_Constants.cs
+END
+HID_Imports.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/12428/TOAPI.HID/HID_Imports.cs
+END
+HID_Types.cs
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/12428/TOAPI.HID/HID_Types.cs
+END
+TOAPI.HID.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/16501/TOAPI.HID/TOAPI.HID.csproj
+END

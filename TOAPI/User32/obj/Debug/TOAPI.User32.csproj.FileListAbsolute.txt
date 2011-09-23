@@ -1,0 +1,5 @@
+C:\SVN\TOAPI\bin\Debug\TOAPI.User32.dll
+C:\SVN\TOAPI\bin\Debug\TOAPI.User32.pdb
+C:\SVN\TOAPI\User32\obj\Debug\ResolveAssemblyReference.cache
+C:\SVN\TOAPI\User32\obj\Debug\TOAPI.User32.dll
+C:\SVN\TOAPI\User32\obj\Debug\TOAPI.User32.pdb

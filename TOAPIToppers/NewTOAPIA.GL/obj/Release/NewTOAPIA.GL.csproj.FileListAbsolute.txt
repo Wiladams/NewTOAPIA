@@ -1,0 +1,10 @@
+C:\depot\TOAPIToppers\NewTOAPIA.GL\obj\Release\ResolveAssemblyReference.cache
+C:\depot\TOAPIToppers\bin\Release\NewTOAPIA.GL.dll
+C:\depot\TOAPIToppers\bin\Release\NewTOAPIA.GL.pdb
+C:\depot\TOAPIToppers\NewTOAPIA.GL\obj\Release\NewTOAPIA.GL.dll
+C:\depot\TOAPIToppers\NewTOAPIA.GL\obj\Release\NewTOAPIA.GL.pdb
+\\LS-WXL9E1\share\code\TOAPIToppers\bin\Release\NewTOAPIA.GL.dll
+\\LS-WXL9E1\share\code\TOAPIToppers\bin\Release\NewTOAPIA.GL.pdb
+\\LS-WXL9E1\share\code\TOAPIToppers\NewTOAPIA.GL\obj\Release\ResolveAssemblyReference.cache
+\\LS-WXL9E1\share\code\TOAPIToppers\NewTOAPIA.GL\obj\Release\NewTOAPIA.GL.dll
+\\LS-WXL9E1\share\code\TOAPIToppers\NewTOAPIA.GL\obj\Release\NewTOAPIA.GL.pdb

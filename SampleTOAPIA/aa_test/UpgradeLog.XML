@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="aa_test">
+</Property><Property Name="Solution File" Value="C:\depot\SampleTOAPIA\aa_test\aa_test.sln">
+</Property><Property Name="Date" Value="Tuesday, February 09, 2010">
+</Property><Property Name="Time" Value="3:48 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="aa_test.sln" Description="File successfully backed up as C:\depot\SampleTOAPIA\aa_test\Backup\aa_test.sln">
+</Event><Event ErrorLevel="0" Project="aa_test" Source="aa_test.csproj" Description="Project file successfully backed up as C:\depot\SampleTOAPIA\aa_test\Backup\aa_test.csproj">
+</Event><Event ErrorLevel="0" Project="aa_test" Source="aa_test.cs" Description="File successfully backed up as C:\depot\SampleTOAPIA\aa_test\Backup\aa_test.cs">
+</Event><Event ErrorLevel="0" Project="aa_test" Source="aa_test.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="aa_test" Source="aa_test.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="1" Project="AGG" Source="..\..\agg\AGG.csproj" Description="Warning: The project file is being backed up to a relative path that differs from the original solution relative path.  The difference in folder hierarchy may create problems in opening or building the backed up solution and project.">
+</Event><Event ErrorLevel="2" Project="AGG" Source="..\..\agg\AGG.csproj" Description="Unable to open project file to perform upgrade.  ">
+</Event><Event ErrorLevel="1" Project="agg_platform_win32" Source="..\..\agg_platform_win32\agg_platform_win32.csproj" Description="Warning: The project file is being backed up to a relative path that differs from the original solution relative path.  The difference in folder hierarchy may create problems in opening or building the backed up solution and project.">
+</Event><Event ErrorLevel="2" Project="agg_platform_win32" Source="..\..\agg_platform_win32\agg_platform_win32.csproj" Description="Unable to open project file to perform upgrade.  ">
+</Event><Event ErrorLevel="1" Project="agg_gui" Source="..\..\agg_gui\agg_gui.csproj" Description="Warning: The project file is being backed up to a relative path that differs from the original solution relative path.  The difference in folder hierarchy may create problems in opening or building the backed up solution and project.">
+</Event><Event ErrorLevel="2" Project="agg_gui" Source="..\..\agg_gui\agg_gui.csproj" Description="Unable to open project file to perform upgrade.  ">
+</Event><Event ErrorLevel="0" Project="" Source="aa_test.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="aa_test.sln" Description="Converted">
+</Event></UpgradeLog>

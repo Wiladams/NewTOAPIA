@@ -1,0 +1,5 @@
+C:\depot\SampleTOAPIA\CollectionTest\CollectionTest\bin\Debug\CollectionTest.exe
+C:\depot\SampleTOAPIA\CollectionTest\CollectionTest\bin\Debug\CollectionTest.pdb
+C:\depot\SampleTOAPIA\CollectionTest\CollectionTest\obj\Debug\ResolveAssemblyReference.cache
+C:\depot\SampleTOAPIA\CollectionTest\CollectionTest\obj\Debug\CollectionTest.exe
+C:\depot\SampleTOAPIA\CollectionTest\CollectionTest\obj\Debug\CollectionTest.pdb

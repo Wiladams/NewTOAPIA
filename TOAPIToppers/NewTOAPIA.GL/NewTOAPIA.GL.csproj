@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ADD59FCC-460A-4861-9587-EDFE8428F98F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NewTOAPIA.GL</RootNamespace>
+    <AssemblyName>NewTOAPIA.GL</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="TOAPI.GDI32, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPI\bin\Release\TOAPI.GDI32.dll</HintPath>
+    </Reference>
+    <Reference Include="TOAPI.OpenGL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPI\bin\Release\TOAPI.OpenGL.dll</HintPath>
+    </Reference>
+    <Reference Include="TOAPI.Types, Version=1.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPI\bin\Release\TOAPI.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="TOAPI.User32, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPI\bin\Release\TOAPI.User32.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BufferObjects\GLBufferLockedBytes.cs" />
+    <Compile Include="BufferObjects\GLBufferObject.cs" />
+    <Compile Include="BufferObjects\BufferObjectIndices.cs" />
+    <Compile Include="BufferObjects\PixelBufferObject.cs" />
+    <Compile Include="BufferObjects\VertexBufferObject.cs" />
+    <Compile Include="Commands\PixelStoreCommand.cs" />
+    <Compile Include="Context\GIInternal.cs" />
+    <Compile Include="Context\GL.cs" />
+    <Compile Include="Context\WglExtensions.cs" />
+    <Compile Include="Features\GLClientFeature.cs" />
+    <Compile Include="Context\GLContext.cs" />
+    <Compile Include="Context\GLDelegatesAll.cs" />
+    <Compile Include="Context\GLExtensions.cs" />
+    <Compile Include="Context\GLInfoStrings.cs" />
+    <Compile Include="Context\GraphicsInterface.cs" />
+    <Compile Include="Context\GLState.cs" />
+    <Compile Include="Context\GLU.cs" />
+    <Compile Include="Context\GluInfo.cs" />
+    <Compile Include="Features\Blend.cs" />
+    <Compile Include="Features\GLAspect.cs" />
+    <Compile Include="Features\GLAspectLines.cs" />
+    <Compile Include="Features\GLAspectList.cs" />
+    <Compile Include="Features\GLAspectPoints.cs" />
+    <Compile Include="Features\GLAspectPolygon.cs" />
+    <Compile Include="Features\GLBlendFunc.cs" />
+    <Compile Include="Features\GLClientFeatureList.cs" />
+    <Compile Include="Features\GLFeature.cs" />
+    <Compile Include="Features\GLFeatureFog.cs" />
+    <Compile Include="Features\GLFeatureLighting.cs" />
+    <Compile Include="Features\GLFeatureList.cs" />
+    <Compile Include="Features\GLHint.cs" />
+    <Compile Include="Features\GLHintedFeature.cs" />
+    <Compile Include="Features\GLPolyDrawStyle.cs" />
+    <Compile Include="Features\GLShadingModel.cs" />
+    <Compile Include="Features\HyperbolicInterpolation.cs" />
+    <Compile Include="Features\Texturing.cs" />
+    <Compile Include="FrameBuffer\GLAccumBuffer.cs" />
+    <Compile Include="FrameBuffer\GLBuffer.cs" />
+    <Compile Include="FrameBuffer\GLColorBuffer.cs" />
+    <Compile Include="FrameBuffer\GLDepthBuffer.cs" />
+    <Compile Include="FrameBuffer\GLFrameBuffer.cs" />
+    <Compile Include="FrameBuffer\GLFrameBufferObject.cs" />
+    <Compile Include="FrameBuffer\GLRenderBuffer.cs" />
+    <Compile Include="FrameBuffer\GLRenderTarget.cs" />
+    <Compile Include="FrameBuffer\GLStencilBuffer.cs" />
+    <Compile Include="GIEnums.cs" />
+    <Compile Include="Types\GLException.cs" />
+    <Compile Include="GLUEnums.cs" />
+    <Compile Include="Imaging\RGBToGray.cs" />
+    <Compile Include="Imaging\UnaryTextureProcessor.cs" />
+    <Compile Include="Imaging\IProcessTexture.cs" />
+    <Compile Include="Interfaces\IAffectLight.cs" />
+    <Compile Include="Interfaces\IEnable.cs" />
+    <Compile Include="Interfaces\IPlaceable.cs" />
+    <Compile Include="Interfaces\IRealizable.cs" />
+    <Compile Include="Interfaces\IDraw.cs" />
+    <Compile Include="Lighting\AmbientLight.cs" />
+    <Compile Include="Lighting\GLAffectLightSpot.cs" />
+    <Compile Include="Lighting\GLLight.cs" />
+    <Compile Include="Lighting\GLLightAttenuation.cs" />
+    <Compile Include="Lighting\GLLightModel.cs" />
+    <Compile Include="Lighting\GLMaterial.cs" />
+    <Compile Include="Lighting\SpotLight.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Viewer\Camera.cs" />
+    <Compile Include="Processor\GPUMemory.cs" />
+    <Compile Include="Types\GLDisplayList.cs" />
+    <Compile Include="Rendering\GLDraw.cs" />
+    <Compile Include="Rendering\GLGraphport.cs" />
+    <Compile Include="Rendering\GLPrimitiveDrawing.cs" />
+    <Compile Include="Rendering\LineDrawing.cs" />
+    <Compile Include="Rendering\PointDrawing.cs" />
+    <Compile Include="Rendering\PolygonDrawing.cs" />
+    <Compile Include="Shaders\GLSLFragmentShader.cs" />
+    <Compile Include="Shaders\GLSLGeometryShader.cs" />
+    <Compile Include="Shaders\GLSLUniformVariable.cs" />
+    <Compile Include="Shaders\GLSLVertexShader.cs" />
+    <Compile Include="Shaders\Shader.cs" />
+    <Compile Include="Shaders\ShaderProgram.cs" />
+    <Compile Include="Texture\DynamicTexture.cs" />
+    <Compile Include="Texture\GLTextureRectangle.cs" />
+    <Compile Include="Texture\GLTexture.cs" />
+    <Compile Include="Texture\GLTexture2D.cs" />
+    <Compile Include="Texture\GLTextureEnvironment.cs" />
+    <Compile Include="Texture\GLTextureParameters.cs" />
+    <Compile Include="Texture\GLTextureUnit.cs" />
+    <Compile Include="Texture\TextureHelper.cs" />
+    <Compile Include="Types\AttributeStackClient.cs" />
+    <Compile Include="Types\GIObject.cs" />
+    <Compile Include="Types\GLBracket.cs" />
+    <Compile Include="Types\GLNameStack.cs" />
+    <Compile Include="Types\GLPixelRectangle.cs" />
+    <Compile Include="Types\GLPixelData.cs" />
+    <Compile Include="Types\AttributeStackServer.cs" />
+    <Compile Include="Types\TextureCoordinates.cs" />
+    <Compile Include="Types\Viewport.cs" />
+    <Compile Include="Viewer\GLFrustum.cs" />
+    <Compile Include="Viewer\GLOrthographicCamera.cs" />
+    <Compile Include="Viewer\GLPerspectiveCamera.cs" />
+    <Compile Include="Viewer\GLProjectionCamera.cs" />
+    <Compile Include="Viewer\GLViewer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NewTOAPIA.Drawing\NewTOAPIA.Drawing.csproj">
+      <Project>{B70180B5-9B35-4538-9F23-A0C614BF27FE}</Project>
+      <Name>NewTOAPIA.Drawing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NewTOAPIA.Graphics\NewTOAPIA.Graphics.csproj">
+      <Project>{74C33FFA-463F-4272-AFAC-64B936A75D01}</Project>
+      <Name>NewTOAPIA.Graphics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NewTOAPIA\NewTOAPIA.Core.csproj">
+      <Project>{E8819E96-D31D-4B4E-9BB7-5BFAF4C5FB91}</Project>
+      <Name>NewTOAPIA.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,5 @@
+C:\SVN\TOAPI\WtsApi32\bin\Neutral\TOAPI.WtsApi32.dll
+C:\SVN\TOAPI\WtsApi32\bin\Neutral\TOAPI.WtsApi32.pdb
+C:\SVN\TOAPI\WtsApi32\obj\Neutral\ResolveAssemblyReference.cache
+C:\SVN\TOAPI\WtsApi32\obj\Neutral\TOAPI.WtsApi32.dll
+C:\SVN\TOAPI\WtsApi32\obj\Neutral\TOAPI.WtsApi32.pdb

@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B76EFB5C-A4E1-41EF-8CD9-CA3BF3C32802}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NewTOAPIA.DirectShow</RootNamespace>
+    <AssemblyName>NewTOAPIA.DirectShow</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkSubset>
+    </TargetFrameworkSubset>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TOAPI.Ole, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPI\bin\Release\TOAPI.Ole.dll</HintPath>
+    </Reference>
+    <Reference Include="TOAPI.Types, Version=1.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPI\bin\Release\TOAPI.Types.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BDA\ATSC_Enums.cs" />
+    <Compile Include="BDA\ATSC_Interfaces.cs" />
+    <Compile Include="BDA\BDA_Enums.cs" />
+    <Compile Include="BDA\BDA_Interfaces.cs" />
+    <Compile Include="BDA\BDA_Types.cs" />
+    <Compile Include="BDA\dsattrib.cs" />
+    <Compile Include="BDA\DVB_Enums.cs" />
+    <Compile Include="BDA\DVB_Interfaces.cs" />
+    <Compile Include="BDA\encdec.cs" />
+    <Compile Include="BDA\MPEG2_Enums.cs" />
+    <Compile Include="BDA\MPEG2_Interfaces.cs" />
+    <Compile Include="BDA\MPEG2_Types.cs" />
+    <Compile Include="BDA\TIF_CoClass.cs" />
+    <Compile Include="BDA\TIF_Interfaces.cs" />
+    <Compile Include="BDA\Tuner_Interfaces.cs" />
+    <Compile Include="BDA\Tuner_Classes.cs" />
+    <Compile Include="BDA\Tuner_Enums.cs" />
+    <Compile Include="BDA\TVRatings.cs" />
+    <Compile Include="Core\AXExtend.cs" />
+    <Compile Include="Core\BaseClasses.cs" />
+    <Compile Include="Core\CaptureGraphBuilder2.cs" />
+    <Compile Include="Core\DsMarshaler.cs" />
+    <Compile Include="Core\DsUtils.cs" />
+    <Compile Include="Core\Enums.cs" />
+    <Compile Include="Core\IAMCameraControl.cs" />
+    <Compile Include="Core\ICaptureGraphBuilder2.cs" />
+    <Compile Include="Core\IFileSourceFilter.cs" />
+    <Compile Include="Core\IMediaSeeking.cs" />
+    <Compile Include="Core\IReferenceClock.cs" />
+    <Compile Include="Core\IVideoFrameStep.cs" />
+    <Compile Include="Core\MPEG2_Enums.cs" />
+    <Compile Include="Core\MPEG2_Interfaces.cs" />
+    <Compile Include="Core\Types.cs" />
+    <Compile Include="Core\Uuids.cs" />
+    <Compile Include="Core\DevEnum.cs" />
+    <Compile Include="Core\VidCap.cs" />
+    <Compile Include="Core\VIDEO_STREAM_CONFIG_CAPS.cs" />
+    <Compile Include="DES\DES_Classes.cs" />
+    <Compile Include="DES\DES_Enums.cs" />
+    <Compile Include="DES\DES_Interfaces.cs" />
+    <Compile Include="DES\DES_Types.cs" />
+    <Compile Include="DES\EMTMarshaler.cs" />
+    <Compile Include="DsDevice.cs" />
+    <Compile Include="DsError.cs" />
+    <Compile Include="DVD\Marshaler.cs" />
+    <Compile Include="DVD\DVD_Classes.cs" />
+    <Compile Include="DVD\DVD_Enums.cs" />
+    <Compile Include="DVD\DVD_Interfaces.cs" />
+    <Compile Include="DVD\DVD_Types.cs" />
+    <Compile Include="Filter.cs" />
+    <Compile Include="FilterCollection.cs" />
+    <Compile Include="MMStreaming\MMStream_Error.cs" />
+    <Compile Include="MMStreaming\MMStream_Enums.cs" />
+    <Compile Include="MMStreaming\MMStream_Interfaces.cs" />
+    <Compile Include="MMStreaming\MMStream_CoClass.cs" />
+    <Compile Include="MMStreaming\MMStream_Guids.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quartz\Enums.cs" />
+    <Compile Include="Quartz\FilGraphManagerClass.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Quartz\IAMCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Quartz\IAMStats.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Quartz\IBasicAudio.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Quartz\IBasicVideo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Quartz\IBasicVideo2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Quartz\IDeferredCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Quartz\IFilterInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Quartz\IMediaControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Quartz\IMediaEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Quartz\IMediaEventEx.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Quartz\IMediaPosition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Quartz\IMediaTypeInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Quartz\IPinInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Quartz\IQueueCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Quartz\IRegFilterInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Quartz\IVideoWindow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SBE\SBE_Classes.cs" />
+    <Compile Include="SBE\SBE_Enums.cs" />
+    <Compile Include="SBE\SBE_Interfaces.cs" />
+    <Compile Include="SBE\SBE_Types.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NewTOAPIA.Media\NewTOAPIA.Media.csproj">
+      <Project>{BB1114E7-8889-4DC2-9C37-A633B1587600}</Project>
+      <Name>NewTOAPIA.Media</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DES\README.txt" />
+    <Content Include="Quartz\Quartz.txt" />
+    <Content Include="README.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

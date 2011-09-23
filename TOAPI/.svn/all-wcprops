@@ -1,0 +1,21 @@
+K 26
+svn:wc:ra_dav:activity-url
+V 14
+/svn/!svn/act/
+K 25
+svn:wc:ra_dav:version-url
+V 20
+/svn/!svn/ver/16501/
+END
+toapi.sln
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/12428/toapi.sln
+END
+TOAPI.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/12428/TOAPI.csproj
+END

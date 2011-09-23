@@ -1,0 +1,5 @@
+C:\SVN\TOAPI\bin\Debug\TOAPI.Types.dll
+C:\SVN\TOAPI\bin\Debug\TOAPI.Types.pdb
+C:\SVN\TOAPI\Types\obj\Debug\ResolveAssemblyReference.cache
+C:\SVN\TOAPI\Types\obj\Debug\TOAPI.Types.dll
+C:\SVN\TOAPI\Types\obj\Debug\TOAPI.Types.pdb

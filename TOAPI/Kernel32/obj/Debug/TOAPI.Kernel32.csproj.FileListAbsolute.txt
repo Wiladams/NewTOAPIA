@@ -1,0 +1,5 @@
+C:\SVN\TOAPI\bin\Debug\TOAPI.Kernel32.dll
+C:\SVN\TOAPI\bin\Debug\TOAPI.Kernel32.pdb
+C:\SVN\TOAPI\Kernel32\obj\Debug\ResolveAssemblyReference.cache
+C:\SVN\TOAPI\Kernel32\obj\Debug\TOAPI.Kernel32.dll
+C:\SVN\TOAPI\Kernel32\obj\Debug\TOAPI.Kernel32.pdb

@@ -1,0 +1,9 @@
+C:\depot\SampleTOAPIA\USBTester\obj\Debug\ResolveAssemblyReference.cache
+C:\depot\SampleTOAPIA\USBTester\bin\Debug\USBTester.exe
+C:\depot\SampleTOAPIA\USBTester\bin\Debug\USBTester.pdb
+C:\depot\SampleTOAPIA\USBTester\bin\Debug\TOAPI.HID.dll
+C:\depot\SampleTOAPIA\USBTester\bin\Debug\TOAPI.Setup.dll
+C:\depot\SampleTOAPIA\USBTester\bin\Debug\TOAPI.Setup.pdb
+C:\depot\SampleTOAPIA\USBTester\bin\Debug\TOAPI.HID.pdb
+C:\depot\SampleTOAPIA\USBTester\obj\Debug\USBTester.exe
+C:\depot\SampleTOAPIA\USBTester\obj\Debug\USBTester.pdb

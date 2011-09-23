@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/12428/Kernel32/Types
+END
+INPUT_RECORD.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/12428/Kernel32/Types/INPUT_RECORD.cs
+END
+LUID.cs
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/12428/Kernel32/Types/LUID.cs
+END
+STARTUPINFO.cs
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/12428/Kernel32/Types/STARTUPINFO.cs
+END
+TOKEN.cs
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/12428/Kernel32/Types/TOKEN.cs
+END
+OVERLAPPED.cs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/16501/Kernel32/Types/OVERLAPPED.cs
+END
+CONSOLE_SELECTION_INFO.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/12428/Kernel32/Types/CONSOLE_SELECTION_INFO.cs
+END

@@ -1,0 +1,63 @@
+Microsoft (R) COFF/PE Dumper Version 9.00.20706.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file c:\windows\system32\wtsapi32.dll
+
+File Type: DLL
+
+  Section contains the following exports for WTSAPI32.dll
+
+    00000000 characteristics
+    4549A2A6 time date stamp Thu Nov 02 13:17:50 2006
+        0.00 version
+           1 ordinal base
+          37 number of functions
+          37 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00001F28 WTSCloseServer
+          2    1 000025B3 WTSDisconnectSession
+          3    2 0000326C WTSEnumerateProcessesA
+          4    3 00002F79 WTSEnumerateProcessesW
+          5    4 000021FD WTSEnumerateServersA
+          6    5 000020E7 WTSEnumerateServersW
+          7    6 000028C2 WTSEnumerateSessionsA
+          8    7 0000239F WTSEnumerateSessionsW
+          9    8 00001D2D WTSFreeMemory
+         10    9 000025D2 WTSLogoffSession
+         11    A 00001F18 WTSOpenServerA
+         12    B 00001F08 WTSOpenServerW
+         13    C 00002E67 WTSQuerySessionInformationA
+         14    D 00002A66 WTSQuerySessionInformationW
+         15    E 00003BB6 WTSQueryUserConfigA
+         16    F 000038C5 WTSQueryUserConfigW
+         17   10 00001E99 WTSQueryUserToken
+         18   11 00002710 WTSRegisterSessionNotification
+         19   12 000027C1 WTSRegisterSessionNotificationEx
+         20   13 0000255E WTSSendMessageA
+         21   14 00002509 WTSSendMessageW
+         22   15 000024FE WTSSetSessionInformationA
+         23   16 000024FE WTSSetSessionInformationW
+         24   17 00004019 WTSSetUserConfigA
+         25   18 00003CC8 WTSSetUserConfigW
+         26   19 00001E32 WTSShutdownSystem
+         27   1A 0000324D WTSTerminateProcess
+         28   1B 00002770 WTSUnRegisterSessionNotification
+         29   1C 00002822 WTSUnRegisterSessionNotificationEx
+         30   1D 000034A7 WTSVirtualChannelClose
+         31   1E 0000343D WTSVirtualChannelOpen
+         32   1F 000036B5 WTSVirtualChannelPurgeInput
+         33   20 000036D7 WTSVirtualChannelPurgeOutput
+         34   21 000036F9 WTSVirtualChannelQuery
+         35   22 00003573 WTSVirtualChannelRead
+         36   23 000034FC WTSVirtualChannelWrite
+         37   24 00001C45 WTSWaitSystemEvent
+
+  Summary
+
+        1000 .data
+        1000 .reloc
+        1000 .rsrc
+        5000 .text

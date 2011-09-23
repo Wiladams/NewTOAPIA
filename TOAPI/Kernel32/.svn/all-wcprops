@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/12428/Kernel32
+END
+Kernel32_Thread.cs
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/12428/Kernel32/Kernel32_Thread.cs
+END
+PInvokePointer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/12428/Kernel32/PInvokePointer.cs
+END
+Kernel32_Memory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/12428/Kernel32/Kernel32_Memory.cs
+END
+AdvApi32_Enums.cs
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/12428/Kernel32/AdvApi32_Enums.cs
+END
+Kernel32_WOW.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/12428/Kernel32/Kernel32_WOW.cs
+END
+Kernel32_Process.cs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/12428/Kernel32/Kernel32_Process.cs
+END
+Kernel32_File.cs
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/12428/Kernel32/Kernel32_File.cs
+END
+TOAPI.Kernel32.sln
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/12428/Kernel32/TOAPI.Kernel32.sln
+END
+UserEnv.cs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/12428/Kernel32/UserEnv.cs
+END
+Kernel32_Information.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/12428/Kernel32/Kernel32_Information.cs
+END
+TOAPI.Kernel32.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/12428/Kernel32/TOAPI.Kernel32.csproj
+END
+Kernel32_Fiber.cs
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/12428/Kernel32/Kernel32_Fiber.cs
+END
+AdvApi32_Methods.cs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/12428/Kernel32/AdvApi32_Methods.cs
+END
+Kernel32Enums.cs
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/12428/Kernel32/Kernel32Enums.cs
+END
+AdvApi32_Types.cs
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/12428/Kernel32/AdvApi32_Types.cs
+END
+PSAPIMethods.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/12428/Kernel32/PSAPIMethods.cs
+END
+PSAPI_Types.cs
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/12428/Kernel32/PSAPI_Types.cs
+END
+Kernel32_Time.cs
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/12428/Kernel32/Kernel32_Time.cs
+END
+AdvApi32_Constants.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/12428/Kernel32/AdvApi32_Constants.cs
+END
+Kernel32_Console.cs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/12428/Kernel32/Kernel32_Console.cs
+END
+Kernel32_Storage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/12428/Kernel32/Kernel32_Storage.cs
+END
+Kernel32_Library.cs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/12428/Kernel32/Kernel32_Library.cs
+END
+Kernel32Methods.cs
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/12428/Kernel32/Kernel32Methods.cs
+END
+Kernel32Types.cs
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/12428/Kernel32/Kernel32Types.cs
+END

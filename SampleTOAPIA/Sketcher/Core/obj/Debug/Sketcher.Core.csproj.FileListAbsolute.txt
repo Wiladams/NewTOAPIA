@@ -1,0 +1,5 @@
+C:\depot\SampleTOAPIA\Sketcher\bin\Debug\Sketcher.Core.dll
+C:\depot\SampleTOAPIA\Sketcher\bin\Debug\Sketcher.Core.pdb
+C:\depot\SampleTOAPIA\Sketcher\Core\obj\Debug\ResolveAssemblyReference.cache
+C:\depot\SampleTOAPIA\Sketcher\Core\obj\Debug\Sketcher.Core.dll
+C:\depot\SampleTOAPIA\Sketcher\Core\obj\Debug\Sketcher.Core.pdb

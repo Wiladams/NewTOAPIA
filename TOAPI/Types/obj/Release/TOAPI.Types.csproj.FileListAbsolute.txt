@@ -1,0 +1,10 @@
+C:\SVN\TOAPI\bin\Release\TOAPI.Types.dll
+C:\SVN\TOAPI\bin\Release\TOAPI.Types.pdb
+C:\SVN\TOAPI\Types\obj\Release\ResolveAssemblyReference.cache
+C:\SVN\TOAPI\Types\obj\Release\TOAPI.Types.dll
+C:\SVN\TOAPI\Types\obj\Release\TOAPI.Types.pdb
+C:\depot\TOAPI\bin\Release\TOAPI.Types.dll
+C:\depot\TOAPI\bin\Release\TOAPI.Types.pdb
+C:\depot\TOAPI\Types\obj\Release\ResolveAssemblyReference.cache
+C:\depot\TOAPI\Types\obj\Release\TOAPI.Types.dll
+C:\depot\TOAPI\Types\obj\Release\TOAPI.Types.pdb

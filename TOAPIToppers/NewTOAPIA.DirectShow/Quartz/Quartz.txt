@@ -1,0 +1,28 @@
+﻿This set of interfaces cover the quartz.dll file.
+
+The Quartz library was originally intended to allow VB
+programmers to access DirectShow.  It also provided a
+simple scripting interface so that JScript could be used
+to program simple scenarios for DirectShow as well.
+
+This library can be used for very high level DirectShow
+programming.  If you want access to lower level interfaces
+you will have to use the DirectShow Editing Services (DES)
+and other interfaces.
+
+You can create a bare bones DirectShow application by using
+nothing more than the IMediaControl interface that is implemented
+here.
+
+Files related to Quartz
+
+dxtmsft.dll, d3d8.dll, 
+d3d8thk.dll, d3d9.dll, 
+d3dim700.dll, d3dxof.dll, 
+ddraw.dll, ddrawex.dll, 
+devenum.dll, dinput.dll, 
+dinput8.dll, dplay.dll, 
+dplayx.dll, dsound.dll, 
+glu32.dll, ksuser.dll, 
+opengl32.dll, wing.dll, 
+wing32.dll

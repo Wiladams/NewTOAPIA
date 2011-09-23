@@ -1,0 +1,4 @@
+C:\depot\SampleTOAPIA\ListenUp\obj\Debug\ResolveAssemblyReference.cache
+C:\depot\SampleTOAPIA\ListenUp\obj\Debug\Chatter.Form1.resources
+C:\depot\SampleTOAPIA\ListenUp\obj\Debug\ListenUp.Properties.Resources.resources
+C:\depot\SampleTOAPIA\ListenUp\obj\Debug\ListenUp.csproj.GenerateResource.Cache

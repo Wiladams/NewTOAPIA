@@ -1,0 +1,123 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D457D8E4-4BDD-4568-B6E7-CCC0CA1632D2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>TOAPI.User32</AssemblyName>
+    <RootNamespace>TOAPI.User32</RootNamespace>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Neutral|AnyCPU' ">
+    <OutputPath>bin\Neutral\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Types\DISPLAY_DEVICE.cs" />
+    <Compile Include="Types\ICONINFO.cs" />
+    <Compile Include="Types\MONITORINFO.cs" />
+    <Compile Include="Types\MSHOOKSTRUCT.cs" />
+    <Compile Include="Types\RAWHID.cs" />
+    <Compile Include="Types\RAWINPUT.cs" />
+    <Compile Include="Types\RAWINPUTDEVICE.cs" />
+    <Compile Include="Types\RAWINPUTDEVICELIST.cs" />
+    <Compile Include="Types\RAWINPUTHEADER.cs" />
+    <Compile Include="Types\RAWKEYBOARD.cs" />
+    <Compile Include="Types\RAWMOUSE.cs" />
+    <Compile Include="Types\RID_DEVICE_INFO.cs" />
+    <Compile Include="Types\RID_DEVICE_INFO_HID.cs" />
+    <Compile Include="Types\RID_DEVICE_INFO_KEYBOARD.cs" />
+    <Compile Include="Types\RID_DEVICE_INFO_MOUSE.cs" />
+    <Compile Include="Types\USEROBJECTFLAGS.cs" />
+    <Compile Include="Types\WNDCLASS.cs" />
+    <Compile Include="User32Constants.cs" />
+    <Compile Include="User32Enums.cs" />
+    <Compile Include="User32Methods.cs" />
+    <Compile Include="User32_Clipboard.cs" />
+    <Compile Include="User32_Desktop.cs" />
+    <Compile Include="User32_Drawing.cs" />
+    <Compile Include="User32_IO.cs" />
+    <Compile Include="User32_Message.cs" />
+    <Compile Include="User32_Monitor.cs" />
+    <Compile Include="User32_UserObject.cs" />
+    <Compile Include="User32_Window.cs" />
+    <Compile Include="User32_WindowStation.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="user32_dump.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Kernel32\TOAPI.Kernel32.csproj">
+      <Project>{E1C2D415-4D72-40A0-867D-383D7F7E55F9}</Project>
+      <Name>TOAPI.Kernel32</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Types\TOAPI.Types.csproj">
+      <Project>{92AF7146-FA0C-491E-A1CE-E2E242E3ED0D}</Project>
+      <Name>TOAPI.Types</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

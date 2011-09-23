@@ -1,0 +1,1 @@
+csc /r:canvas.dll /r:System.Xml.dll *.cs

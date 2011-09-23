@@ -1,0 +1,3 @@
+C:\depot\SampleTOAPIA\PixelShare\HumSketch.Core\obj\Release\ResolveAssemblyReference.cache
+C:\depot\SampleTOAPIA\PixelShare\HumSketch.Core\obj\Release\PixelShare.Core.HostForm.resources
+C:\depot\SampleTOAPIA\PixelShare\HumSketch.Core\obj\Release\PixelShare.Core.csproj.GenerateResource.Cache

@@ -1,0 +1,151 @@
+9
+
+dir
+16501
+https://TOAPI.svn.codeplex.com/svn
+https://TOAPI.svn.codeplex.com/svn
+
+
+
+2009-03-10T17:57:54.084687Z
+16501
+unknown
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+25d8fd2b-6a69-44ad-a716-4a7b2595fe98
+
+
+
+
+
+
+0
+
+TOAPI.HID
+dir
+
+dwmapi
+dir
+
+User32
+dir
+
+TOAPI.AviCap32
+dir
+
+Kernel32
+dir
+
+WinMM
+dir
+
+TOAPI.Winsock
+dir
+
+OpenGL32
+dir
+
+Dhcpcsvc
+dir
+
+OleAut32
+dir
+
+tools
+dir
+
+Types
+dir
+
+toapi.sln
+file
+12428
+
+
+
+2009-02-17T20:33:18.080288Z
+dd504ddc7e903207c8767737875b75a1
+2009-02-24T03:40:31.151354Z
+12428
+unknown
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6915
+
+GDI32
+dir
+
+Documentation
+dir
+
+TOAPI.csproj
+file
+12428
+
+
+
+2009-02-17T20:33:18.002292Z
+040764df8f71a5f7d4d029c8717676f9
+2009-02-24T03:40:31.151354Z
+12428
+unknown
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1868
+
+TOAPI.Setup
+dir
+
+WtsApi32
+dir
+

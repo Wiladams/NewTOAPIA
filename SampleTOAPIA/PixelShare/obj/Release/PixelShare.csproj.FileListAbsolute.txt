@@ -1,0 +1,4 @@
+C:\depot\SampleTOAPIA\PixelShare\obj\Release\ResolveAssemblyReference.cache
+C:\depot\SampleTOAPIA\PixelShare\obj\Release\PixelShare.Core.Properties.Resources.resources
+C:\depot\SampleTOAPIA\PixelShare\obj\Release\PixelShare.Core.ServerForm.resources
+C:\depot\SampleTOAPIA\PixelShare\obj\Release\PixelShare.csproj.GenerateResource.Cache

@@ -1,0 +1,12 @@
+C:\SVN\TOAPI\TOAPI.HID\bin\Release\TOAPI.HID.dll
+C:\SVN\TOAPI\TOAPI.HID\bin\Release\TOAPI.HID.pdb
+C:\SVN\TOAPI\bin\Release\TOAPI.HID.dll
+C:\SVN\TOAPI\bin\Release\TOAPI.HID.pdb
+C:\SVN\TOAPI\TOAPI.HID\obj\Release\ResolveAssemblyReference.cache
+C:\SVN\TOAPI\TOAPI.HID\obj\Release\TOAPI.HID.dll
+C:\SVN\TOAPI\TOAPI.HID\obj\Release\TOAPI.HID.pdb
+C:\depot\TOAPI\bin\Release\TOAPI.HID.dll
+C:\depot\TOAPI\bin\Release\TOAPI.HID.pdb
+C:\depot\TOAPI\TOAPI.HID\obj\Release\ResolveAssemblyReference.cache
+C:\depot\TOAPI\TOAPI.HID\obj\Release\TOAPI.HID.dll
+C:\depot\TOAPI\TOAPI.HID\obj\Release\TOAPI.HID.pdb

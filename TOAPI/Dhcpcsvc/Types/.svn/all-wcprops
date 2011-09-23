@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/12428/Dhcpcsvc/Types
+END
+MCAST_LEASE_RESPONSE.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/12428/Dhcpcsvc/Types/MCAST_LEASE_RESPONSE.cs
+END
+MCAST_SCOPE_CTX.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/12428/Dhcpcsvc/Types/MCAST_SCOPE_CTX.cs
+END
+MCAST_SCOPE_ENTRY.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/12428/Dhcpcsvc/Types/MCAST_SCOPE_ENTRY.cs
+END
+IPNG_ADDRESS.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/12428/Dhcpcsvc/Types/IPNG_ADDRESS.cs
+END
+MCAST_CLIENT_UID.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/12428/Dhcpcsvc/Types/MCAST_CLIENT_UID.cs
+END
+MCAST_LEASE_REQUEST.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/12428/Dhcpcsvc/Types/MCAST_LEASE_REQUEST.cs
+END

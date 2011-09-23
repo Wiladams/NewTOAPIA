@@ -1,0 +1,8 @@
+C:\depot\HamSketch\bin\Debug\SketchViewer.exe.config
+C:\depot\HamSketch\bin\Debug\SketchViewer.exe
+C:\depot\HamSketch\bin\Debug\SketchViewer.pdb
+C:\depot\HamSketch\HumSketchViewer\obj\Debug\ResolveAssemblyReference.cache
+C:\depot\HamSketch\HumSketchViewer\obj\Debug\HumSketchViewer.Properties.Resources.resources
+C:\depot\HamSketch\HumSketchViewer\obj\Debug\HumSketchViewer.csproj.GenerateResource.Cache
+C:\depot\HamSketch\HumSketchViewer\obj\Debug\SketchViewer.exe
+C:\depot\HamSketch\HumSketchViewer\obj\Debug\SketchViewer.pdb

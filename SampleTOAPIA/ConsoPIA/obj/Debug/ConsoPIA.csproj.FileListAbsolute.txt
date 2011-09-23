@@ -1,0 +1,8 @@
+C:\depot\SampleTOAPIA\ConsoPIA\bin\Debug\ConsoPIA.exe
+C:\depot\SampleTOAPIA\ConsoPIA\bin\Debug\ConsoPIA.pdb
+C:\depot\SampleTOAPIA\ConsoPIA\bin\Debug\TOAPI.Types.dll
+C:\depot\SampleTOAPIA\ConsoPIA\bin\Debug\TOAPI.Kernel32.pdb
+C:\depot\SampleTOAPIA\ConsoPIA\bin\Debug\TOAPI.Types.pdb
+C:\depot\SampleTOAPIA\ConsoPIA\obj\Debug\ResolveAssemblyReference.cache
+C:\depot\SampleTOAPIA\ConsoPIA\obj\Debug\ConsoPIA.exe
+C:\depot\SampleTOAPIA\ConsoPIA\obj\Debug\ConsoPIA.pdb

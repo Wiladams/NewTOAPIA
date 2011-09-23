@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FAT32", "FAT32\FAT32.csproj", "{5418530A-759F-4FD0-94D9-10A91A345CB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{7E2AD7A9-9D2C-4397-A4D6-A4862CE77B93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FatFsLib", "FatFsLib\FatFsLib.csproj", "{9734D678-5CFE-4CCD-820B-2E037F0E305A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5418530A-759F-4FD0-94D9-10A91A345CB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5418530A-759F-4FD0-94D9-10A91A345CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5418530A-759F-4FD0-94D9-10A91A345CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5418530A-759F-4FD0-94D9-10A91A345CB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E2AD7A9-9D2C-4397-A4D6-A4862CE77B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E2AD7A9-9D2C-4397-A4D6-A4862CE77B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E2AD7A9-9D2C-4397-A4D6-A4862CE77B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E2AD7A9-9D2C-4397-A4D6-A4862CE77B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9734D678-5CFE-4CCD-820B-2E037F0E305A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9734D678-5CFE-4CCD-820B-2E037F0E305A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9734D678-5CFE-4CCD-820B-2E037F0E305A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9734D678-5CFE-4CCD-820B-2E037F0E305A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,35 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Runtime.InteropServices;
+
+namespace TOAPI.Winsock
+{
+    public class WinInet
+    {
+        [DllImport("WININET.DLL", EntryPoint = "InternetOpen", SetLastError = true)]
+        public static extern IntPtr InternetOpen(string sAgent
+            , uint lAccessType
+            , string sProxyName
+            , string sProxyBypass
+            , uint lFlags);
+
+        [DllImport("WININET.DLL", EntryPoint = "InternetOpenUrl", SetLastError = true)]
+        public static extern IntPtr InternetOpenUrl(IntPtr hIneternetSession
+            , string sUrl
+            , string sHeaders
+            , uint lHeadrsLength
+            , uint lFlags
+            , uint lContext);
+
+        [DllImport("WININET.DLL", EntryPoint = "InternetReadFile", SetLastError = true)]
+        public static extern bool InternetReadFile(IntPtr hFile
+            , byte[] pBuffer
+            , int nBytesToRead
+            , ref uint nBytesRead);
+
+        [DllImport("WININET.DLL", EntryPoint = "InternetCloseHandle", SetLastError = true)]
+        public static extern int InternetCloseHandle(IntPtr hHandle);
+
+    }
+}

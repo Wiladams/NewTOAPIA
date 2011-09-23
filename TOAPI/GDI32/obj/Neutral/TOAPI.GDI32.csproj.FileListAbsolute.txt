@@ -1,0 +1,7 @@
+C:\SVN\TOAPI\GDI32\bin\Neutral\TOAPI.GDI32.dll
+C:\SVN\TOAPI\GDI32\bin\Neutral\TOAPI.GDI32.pdb
+C:\SVN\TOAPI\GDI32\bin\Neutral\TOAPI.Types.dll
+C:\SVN\TOAPI\GDI32\bin\Neutral\TOAPI.Types.pdb
+C:\SVN\TOAPI\GDI32\obj\Neutral\ResolveAssemblyReference.cache
+C:\SVN\TOAPI\GDI32\obj\Neutral\TOAPI.GDI32.dll
+C:\SVN\TOAPI\GDI32\obj\Neutral\TOAPI.GDI32.pdb

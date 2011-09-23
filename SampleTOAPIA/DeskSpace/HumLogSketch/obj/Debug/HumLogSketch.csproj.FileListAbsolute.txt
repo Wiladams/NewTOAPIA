@@ -1,0 +1,10 @@
+C:\depot\codebox\HamSketch\HumLogSketch\obj\Debug\ResolveAssemblyReference.cache
+C:\depot\codebox\HamSketch\HumLogSketch\obj\Debug\HumLogSketch.Properties.Resources.resources
+C:\depot\codebox\HamSketch\HumLogSketch\obj\Debug\HumLogSketch.csproj.GenerateResource.Cache
+C:\depot\codebox\HamSketch\bin\Debug\HumLogSketch.exe
+C:\depot\codebox\HamSketch\bin\Debug\HumLogSketch.pdb
+C:\depot\codebox\HamSketch\HumLogSketch\obj\Debug\HumLogSketch.exe
+C:\depot\codebox\HamSketch\HumLogSketch\obj\Debug\HumLogSketch.pdb
+C:\depot\SampleTOAPIA\HamSketch\HumLogSketch\obj\Debug\ResolveAssemblyReference.cache
+C:\depot\SampleTOAPIA\HamSketch\HumLogSketch\obj\Debug\HumLogSketch.Properties.Resources.resources
+C:\depot\SampleTOAPIA\HamSketch\HumLogSketch\obj\Debug\HumLogSketch.csproj.GenerateResource.Cache

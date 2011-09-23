@@ -1,0 +1,10 @@
+C:\depot\HamSketch\bin\Debug\HumSketch.Core.dll
+C:\depot\HamSketch\bin\Debug\HumSketch.Core.pdb
+C:\depot\HamSketch\HumSketch.Core\obj\Debug\ResolveAssemblyReference.cache
+C:\depot\HamSketch\HumSketch.Core\obj\Debug\HumSketch.Core.dll
+C:\depot\HamSketch\HumSketch.Core\obj\Debug\HumSketch.Core.pdb
+C:\depot\SampleTOAPIA\Sketcher\bin\Debug\HumSketch.Core.dll
+C:\depot\SampleTOAPIA\Sketcher\bin\Debug\HumSketch.Core.pdb
+C:\depot\SampleTOAPIA\Sketcher\HumSketch.Core\obj\Debug\ResolveAssemblyReference.cache
+C:\depot\SampleTOAPIA\Sketcher\HumSketch.Core\obj\Debug\HumSketch.Core.dll
+C:\depot\SampleTOAPIA\Sketcher\HumSketch.Core\obj\Debug\HumSketch.Core.pdb

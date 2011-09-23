@@ -1,0 +1,121 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B70180B5-9B35-4538-9F23-A0C614BF27FE}</ProjectGuid>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>NewTOAPIA.Drawing</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>NewTOAPIA.Drawing</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Geometry\Arc.cs" />
+    <Compile Include="Geometry\conv_stroke.cs" />
+    <Compile Include="Geometry\Ellipse.cs" />
+    <Compile Include="Geometry\gsv_text.cs" />
+    <Compile Include="Geometry\IVertexDest.cs" />
+    <Compile Include="Geometry\math_stroke.cs" />
+    <Compile Include="Geometry\Path.cs" />
+    <Compile Include="Geometry\PathStorage.cs" />
+    <Compile Include="Geometry\ScanlineSpan.cs" />
+    <Compile Include="Interfaces\IGenerator.cs" />
+    <Compile Include="Interfaces\IImage.cs" />
+    <Compile Include="Geometry\RoundRect.cs" />
+    <Compile Include="Interfaces\IGraphState.cs" />
+    <Compile Include="Interfaces\IRender2DPrimitives.cs" />
+    <Compile Include="Interfaces\IRenderPixelBuffer.cs" />
+    <Compile Include="Geometry\LineSegment.cs" />
+    <Compile Include="Geometry\RectangleG.cs" />
+    <Compile Include="Geometry\IVertexSource.cs" />
+    <Compile Include="OpenVG\OpenVG_Images.cs" />
+    <Compile Include="OpenVG\OpenVG_State.cs" />
+    <Compile Include="OpenVG\VGFont.cs" />
+    <Compile Include="OpenVG\VGImage.cs" />
+    <Compile Include="OpenVG\VGPaint.cs" />
+    <Compile Include="OpenVG\VGPath.cs" />
+    <Compile Include="Renderer\agg_math.cs" />
+    <Compile Include="Renderer\Blender.cs" />
+    <Compile Include="Renderer\ClippingProxy.cs" />
+    <Compile Include="Renderer\clip_liang_barsky.cs" />
+    <Compile Include="Renderer\conv_transform.cs" />
+    <Compile Include="Renderer\GammaLookupTable.cs" />
+    <Compile Include="Renderer\IColorType.cs" />
+    <Compile Include="Renderer\ImageBuffer.cs" />
+    <Compile Include="Renderer\conv_adaptor_vcgen.cs" />
+    <Compile Include="Renderer\dda_line.cs" />
+    <Compile Include="Renderer\gamma_functions.cs" />
+    <Compile Include="Geometry\GPath.cs" />
+    <Compile Include="OpenVG\IRenderVectors.cs" />
+    <Compile Include="OpenVG\OpenVG.cs" />
+    <Compile Include="Renderer\ImageProxy.cs" />
+    <Compile Include="Renderer\ImageRenderer.cs" />
+    <Compile Include="Renderer\image_filters.cs" />
+    <Compile Include="Renderer\IMarkers.cs" />
+    <Compile Include="Renderer\IRasterizer.cs" />
+    <Compile Include="Renderer\quicksort.cs" />
+    <Compile Include="Renderer\RasterBufferAccessor.cs" />
+    <Compile Include="Renderer\rasterizer_cells_aa.cs" />
+    <Compile Include="Renderer\rasterizer_compound_aa.cs" />
+    <Compile Include="Renderer\rasterizer_sl_clip.cs" />
+    <Compile Include="Renderer\RenderBase.cs" />
+    <Compile Include="Renderer\renderer_scanline.cs" />
+    <Compile Include="Renderer\RGBA.cs" />
+    <Compile Include="Renderer\scanline_p.cs" />
+    <Compile Include="Renderer\span_allocator.cs" />
+    <Compile Include="Renderer\span_image_filter.cs" />
+    <Compile Include="Renderer\span_image_filter_rgba.cs" />
+    <Compile Include="Renderer\span_interpolator_linear.cs" />
+    <Compile Include="Renderer\vcgen_stroke.cs" />
+    <Compile Include="Types\agg_array.cs" />
+    <Compile Include="Interfaces\IGraphPort.cs" />
+    <Compile Include="Geometry\VertexSequence.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NewTOAPIA.Graphics\NewTOAPIA.Graphics.csproj">
+      <Project>{74C33FFA-463F-4272-AFAC-64B936A75D01}</Project>
+      <Name>NewTOAPIA.Graphics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NewTOAPIA\NewTOAPIA.Core.csproj">
+      <Project>{E8819E96-D31D-4B4E-9BB7-5BFAF4C5FB91}</Project>
+      <Name>NewTOAPIA.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

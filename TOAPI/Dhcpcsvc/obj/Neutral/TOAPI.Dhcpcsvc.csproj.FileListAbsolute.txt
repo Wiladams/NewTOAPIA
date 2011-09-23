@@ -1,0 +1,5 @@
+C:\SVN\TOAPI\Dhcpcsvc\bin\Neutral\TOAPI.Dhcpcsvc.dll
+C:\SVN\TOAPI\Dhcpcsvc\bin\Neutral\TOAPI.Dhcpcsvc.pdb
+C:\SVN\TOAPI\Dhcpcsvc\obj\Neutral\ResolveAssemblyReference.cache
+C:\SVN\TOAPI\Dhcpcsvc\obj\Neutral\TOAPI.Dhcpcsvc.dll
+C:\SVN\TOAPI\Dhcpcsvc\obj\Neutral\TOAPI.Dhcpcsvc.pdb

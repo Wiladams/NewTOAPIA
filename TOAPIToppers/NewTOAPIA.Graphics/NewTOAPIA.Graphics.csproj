@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{74C33FFA-463F-4272-AFAC-64B936A75D01}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NewTOAPIA.Graphics</RootNamespace>
+    <AssemblyName>NewTOAPIA.Graphics</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Color\Colorref.cs" />
+    <Compile Include="Color\ColorRGB.cs" />
+    <Compile Include="Color\ColorRGBA.cs" />
+    <Compile Include="Color\ColorYCrCb.cs" />
+    <Compile Include="Color\ColorYIQ.cs" />
+    <Compile Include="Color\ColorYUV.cs" />
+    <Compile Include="Color\IColorModelT.cs" />
+    <Compile Include="Color\NTSCGray.cs" />
+    <Compile Include="Constants\Enums.cs" />
+    <Compile Include="Constants\PixelEnums.cs" />
+    <Compile Include="Geometry\BoundingBox.cs" />
+    <Compile Include="Geometry\RectangleD.cs" />
+    <Compile Include="Geometry\RectangleI.cs" />
+    <Compile Include="Math\agg_basics.cs" />
+    <Compile Include="Math\Matrix4.cs" />
+    <Compile Include="Geometry\Point.cs" />
+    <Compile Include="Geometry\Point2I.cs" />
+    <Compile Include="Math\Quaternion.cs" />
+    <Compile Include="Geometry\Size2I.cs" />
+    <Compile Include="Geometry\Vector2.cs" />
+    <Compile Include="Geometry\Vector3.cs" />
+    <Compile Include="Geometry\Vector4.cs" />
+    <Compile Include="Noise.cs" />
+    <Compile Include="PixelArray\IColorAccessor.cs" />
+    <Compile Include="PixelArray\IPixelAccessor.cs" />
+    <Compile Include="PixelArray\IPixelArray.cs" />
+    <Compile Include="Pixel\PixelBGR.cs" />
+    <Compile Include="Pixel\PixelBGRA.cs" />
+    <Compile Include="Pixel\PixelLum.cs" />
+    <Compile Include="Pixel\Pixel.cs" />
+    <Compile Include="PixelArray\PixelAccessor.cs" />
+    <Compile Include="PixelArray\pixelaccessors.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PixelArray\PixelAccessorT.cs" />
+    <Compile Include="PixelArray\PixelArray.cs" />
+    <Compile Include="PixelArray\pixelarrayt.cs" />
+    <Compile Include="PixelArray\PixelRectangleInfo.cs" />
+    <Compile Include="Pixel\PixelType.cs" />
+    <Compile Include="Pixel\PixelRGB.cs" />
+    <Compile Include="Pixel\PixelRGBA.cs" />
+    <Compile Include="Transform\Transformation.cs" />
+    <Compile Include="Pixel\IPixel.cs" />
+    <Compile Include="Pixel\IPixelInformation.cs" />
+    <Compile Include="Math\Maths.cs" />
+    <Compile Include="Geometry\Normal3D.cs" />
+    <Compile Include="Geometry\Point2D.cs" />
+    <Compile Include="Geometry\Point3D.cs" />
+    <Compile Include="Types\Ray.cs" />
+    <Compile Include="Geometry\Size2D.cs" />
+    <Compile Include="Geometry\Vector2D.cs" />
+    <Compile Include="Geometry\Vector3D.cs" />
+    <Compile Include="Pixel\PixelInformation.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Types\Resolution.cs" />
+    <Compile Include="Transform\Affine.cs" />
+    <Compile Include="Transform\Bilinear.cs" />
+    <Compile Include="Transform\ITransform.cs" />
+    <Compile Include="Transform\Perspective.cs" />
+    <Compile Include="Transform\simul_eq.cs" />
+    <Compile Include="Transform\Viewport.cs" />
+    <Compile Include="Types\GBrush.cs" />
+    <Compile Include="Types\GPen.cs" />
+    <Compile Include="Types\IBrush.cs" />
+    <Compile Include="Types\IFont.cs" />
+    <Compile Include="Types\IPen.cs" />
+    <Compile Include="obj\bvec2.cs" />
+    <Compile Include="VectorCalculus\bvec3.cs" />
+    <Compile Include="VectorCalculus\bvec4.cs" />
+    <Compile Include="VectorCalculus\Enums.cs" />
+    <Compile Include="VectorCalculus\ivec.cs" />
+    <Compile Include="VectorCalculus\mat2.cs" />
+    <Compile Include="VectorCalculus\mat2x3.cs" />
+    <Compile Include="VectorCalculus\mat2x4.cs" />
+    <Compile Include="VectorCalculus\mat3.cs" />
+    <Compile Include="VectorCalculus\mat3x2.cs" />
+    <Compile Include="VectorCalculus\mat3x4.cs" />
+    <Compile Include="VectorCalculus\mat4.cs" />
+    <Compile Include="VectorCalculus\mat4x2.cs" />
+    <Compile Include="VectorCalculus\mat4x3.cs" />
+    <Compile Include="VectorCalculus\uvec.cs" />
+    <Compile Include="VectorCalculus\vec2.cs" />
+    <Compile Include="VectorCalculus\vec3.cs" />
+    <Compile Include="VectorCalculus\vec4.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NewTOAPIA\NewTOAPIA.Core.csproj">
+      <Project>{E8819E96-D31D-4B4E-9BB7-5BFAF4C5FB91}</Project>
+      <Name>NewTOAPIA.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

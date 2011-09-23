@@ -1,0 +1,66 @@
+Microsoft (R) COFF/PE Dumper Version 9.00.21022.08
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file c:\Windows\system32\dwmapi.dll
+
+File Type: DLL
+
+  Section contains the following exports for dwmapi.dll
+
+    00000000 characteristics
+    4549AECE time date stamp Thu Nov 02 14:09:42 2006
+        0.00 version
+         100 ordinal base
+          40 number of functions
+          23 number of names
+
+    ordinal hint RVA      name
+
+        111    0 00005CAD DwmAttachMilContent
+        113    1 0000559B DwmDefWindowProc
+        114    2 00005D1B DwmDetachMilContent
+        116    3 0000283D DwmEnableBlurBehindWindow
+        102    4 000039C3 DwmEnableComposition
+        117    5 00005DC2 DwmEnableMMCSS
+        122    6 00002507 DwmExtendFrameIntoClientArea
+        123    7 00005549 DwmFlush
+        125    8 0000302A DwmGetColorizationColor
+        126    9 00005E35 DwmGetCompositionTimingInfo
+        127    A 00005952 DwmGetGraphicsStreamClient
+        128    B 00005BBD DwmGetGraphicsStreamTransformHint
+        129    C 00005A48 DwmGetTransportAttributes
+        130    D 0000617C DwmGetWindowAttribute
+        131    E 00001BB6 DwmIsCompositionEnabled
+        132    F 0000607A DwmModifyPreviousDxFrameDuration
+        133   10 00002F85 DwmQueryThumbnailSourceSize
+        134   11 0000192C DwmRegisterThumbnail
+        135   12 00006028 DwmSetDxFrameDuration
+        136   13 00005F18 DwmSetPresentParameters
+        137   14 00002A49 DwmSetWindowAttribute
+        138   15 00002993 DwmUnregisterThumbnail
+        139   16 00001895 DwmUpdateThumbnailProperties
+        100      00003A50 [NONAME]
+        101      00003BF5 [NONAME]
+        103      00005503 [NONAME]
+        104      00005359 [NONAME]
+        105      000057B1 [NONAME]
+        106      0000547F [NONAME]
+        107      000053E0 [NONAME]
+        108      00003A1D [NONAME]
+        109      00005830 [NONAME]
+        110      000058F5 [NONAME]
+        112      00005B31 [NONAME]
+        115      00003661 [NONAME]
+        118      00003215 [NONAME]
+        119      000034A3 [NONAME]
+        120      000052F9 [NONAME]
+        121      000060D3 [NONAME]
+        124      0000196D [NONAME]
+
+  Summary
+
+        2000 .data
+        1000 .reloc
+        1000 .rsrc
+        7000 .text

@@ -1,0 +1,78 @@
+Microsoft (R) COFF/PE Dumper Version 9.00.20706.01
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file c:\windows\system32\glu32.dll
+
+File Type: DLL
+
+  Section contains the following exports for GLU32.dll
+
+    00000000 characteristics
+    4549A82B time date stamp Thu Nov 02 13:41:23 2006
+        0.00 version
+           1 ordinal base
+          52 number of functions
+          52 number of names
+
+    ordinal hint RVA      name
+
+          1    0 000019DA gluBeginCurve
+          2    1 00003110 gluBeginPolygon
+          3    2 000019A0 gluBeginSurface
+          4    3 00001A84 gluBeginTrim
+          5    4 00007B3C gluBuild1DMipmaps
+          6    5 00007DF0 gluBuild2DMipmaps
+          7    6 00008231 gluCylinder
+          8    7 000020A8 gluDeleteNurbsRenderer
+          9    8 00008127 gluDeleteQuadric
+         10    9 00003236 gluDeleteTess
+         11    A 0000A6A1 gluDisk
+         12    B 00001A14 gluEndCurve
+         13    C 000034D1 gluEndPolygon
+         14    D 00001A4C gluEndSurface
+         15    E 00001ABC gluEndTrim
+         16    F 0000AA44 gluErrorString
+         17   10 0000A9C7 gluErrorUnicodeStringEXT
+         18   11 00001EE8 gluGetNurbsProperty
+         19   12 0000AAC1 gluGetString
+         20   13 00002D95 gluGetTessProperty
+         21   14 00001C16 gluLoadSamplingMatrices
+         22   15 0000AD09 gluLookAt
+         23   16 00001916 gluNewNurbsRenderer
+         24   17 000080F9 gluNewQuadric
+         25   18 00002BF1 gluNewTess
+         26   19 000034B3 gluNextContour
+         27   1A 00002025 gluNurbsCallback
+         28   1B 00001B53 gluNurbsCurve
+         29   1C 00001C57 gluNurbsProperty
+         30   1D 00001BB8 gluNurbsSurface
+         31   1E 0000ABA1 gluOrtho2D
+         32   1F 00008BFA gluPartialDisk
+         33   20 0000ABE3 gluPerspective
+         34   21 0000B1A8 gluPickMatrix
+         35   22 0000B043 gluProject
+         36   23 00001AF4 gluPwlCurve
+         37   24 00008150 gluQuadricCallback
+         38   25 000081FD gluQuadricDrawStyle
+         39   26 0000817F gluQuadricNormals
+         40   27 000081C9 gluQuadricOrientation
+         41   28 000081B2 gluQuadricTexture
+         42   29 000079DD gluScaleImage
+         43   2A 00009728 gluSphere
+         44   2B 000030D6 gluTessBeginContour
+         45   2C 00003096 gluTessBeginPolygon
+         46   2D 00002E39 gluTessCallback
+         47   2E 00003358 gluTessEndContour
+         48   2F 0000337E gluTessEndPolygon
+         49   30 00002E16 gluTessNormal
+         50   31 00002CA9 gluTessProperty
+         51   32 0000325D gluTessVertex
+         52   33 0000B0E8 gluUnProject
+
+  Summary
+
+        5000 .data
+        1000 .reloc
+        1000 .rsrc
+       1B000 .text

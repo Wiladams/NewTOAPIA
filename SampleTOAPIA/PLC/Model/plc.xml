@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<plc type="software" version="0.9">
+	<organization name="Microsoft"></organization>
+	<phase id="phase1" title="Product Definition">
+		<stage id="stage1" title="Value Proposition">
+			<item type="deliverable" title="Value Proposition Vision Document"></item>
+			<item type="deliverable" title="Integrated Communication Plan"></item>
+			<item type="deliverable" title="User Needs Assessment Matrix"></item>
+			<item type="deliverable" title="Competitive Analysis Benchmark Document"></item>
+			<item type="deliverable" title="Ethnographic Research Summary Document"></item>
+			<item type="deliverable" title="Early Low-Fidelity Prototypes"></item>
+		</stage>
+		<stage id="stage2" title="Engineering">
+			<item type="deliverable" title="Content Vision Document"></item>
+			<item type="deliverable" title="Engineering Release Vision Memo"></item>
+			<item type="deliverable" title="Strategic Investments Document"></item>
+			<item type="deliverable" title="Engineering Excellence Investments Document"></item>
+			<item type="deliverable" title="Persona Taxonomy"></item>
+			<item type="deliverable" title="User Experience Scenarios"></item>
+		</stage>
+	</phase>
+	<phase id="phase2" title="Product Development">
+		<stage id="stage3" title="Requirements">
+			<item type="deliverable" name="Architecture Document"></item>
+			<item type="deliverable" name="Basics Checklist"></item>
+			<item type="deliverable" name="Bug Database"></item>
+			<item type="deliverable" name="Change Management"></item>
+			<item type="deliverable" name="Design Stage Exit Criteria"></item>
+			<item type="deliverable" name="Development Platform"></item>
+			<item type="deliverable" name="One-Page Feature Specification"></item>
+			<item type="deliverable" name="Prioritized Features List"></item>
+			<item type="deliverable" name="Project Playbook"></item>
+			<item type="deliverable" name="Project Schedule"></item>
+			<item type="deliverable" name="Scenario Implementation Document"></item>
+			<item type="deliverable" name="Status Page"></item>
+			<item type="deliverable" name="User Experience Threat Model"></item>
+			<item type="deliverable" name="Scenario Priority Definition Matrix"></item>
+			<item type="deliverable" name="User Research Road Map Plan"></item>
+			<item type="deliverable" name="Cognitive Walkthrough Report"></item>
+			<item type="task" name="Review deliverables for the Requirements"></item>
+			<item type="deliverable" name="Task Flow Model"></item>
+		</stage>
+		<stage id="stage4" title="Design">
+			<item type="deliverable" title="Content Publishing Plan"></item>
+			<item type="deliverable" title="Design Document"></item>
+			<item type="deliverable" title="Design Stage Review Checklist"></item>
+			<item type="deliverable" title="Detailed Feature Specification"></item>
+			<item type="deliverable" title="Implementation Stage Exit Criteria Checklist"></item>
+			<item type="deliverable" title="Task Schedule"></item>
+			<item type="deliverable" title="Threat Model Analysis"></item>
+			<item type="deliverable" title="Localization Plan"></item>
+			<item type="deliverable" title="Security Design Best Practices Review"></item>
+			<item type="deliverable" title="Branding User Experience Guidelines"></item>
+			<item type="deliverable" title="High-Fidelity Prototype"></item>
+			<item type="deliverable" title="Usability Inspection Report"></item>
+		</stage>
+		<stage id="stage5" title="Implementation">
+			<item type="task" title="Update project schedule"></item>
+			<item type="deliverable" title="Beta Deployment Plan"></item>
+			<item type="deliverable" title="Bug Triage"></item>
+			<item type="deliverable" title="Content Test Plan"></item>
+			<item type="deliverable" title="Code Debugging"></item>
+			<item type="deliverable" title="Detailed Content Deliverable Plans"></item>
+			<item type="deliverable" title="Implementation Stage Review Checklist"></item>
+			<item type="deliverable" title="Managing Code with Source Depot"></item>
+			<item type="deliverable" title="Positioning and Messaging Framework"></item>
+			<item type="deliverable" title="Bug Resolution"></item>
+			<item type="deliverable" title="Test Case"></item>
+			<item type="deliverable" title="Windows Hardware Quality Labs (WHQL) Test Specification Document"></item>
+			<item type="deliverable" title="Unit Tests"></item>
+			<item type="deliverable" title="Verification Stage Exit Criteria Checklist"></item>
+			<item type="deliverable" title="Working Code"></item>
+			<item type="deliverable" title="User Interface Accessibility Test Plan"></item>
+			<item type="deliverable" title="User Experience Scorecard"></item>
+			<item type="deliverable" title="User Research Lab Study Report"></item>
+			<item type="deliverable" title="User Research Survey Report"></item>
+			<item type="task" title="Update project playbook with Verification stage details"></item>
+		</stage>
+		<stage id="stage6" title="Verification">
+			<item type="deliverable" title="Beta Version"></item>
+			<item type="deliverable" title="Customer Feedback Plan"></item>
+			<item type="deliverable" title="Release Candidates"></item>
+			<item type="deliverable" title="Release Stage Exit Criteria"></item>
+			<item type="deliverable" title="Test Execution Status Report"></item>
+			<item type="deliverable" title="Verification Stage Review Checklist"></item>
+			<item type="deliverable" title="Marketing Plan"></item>
+		</stage>
+		<stage id="stage7" title="Release">
+			<item type="deliverable" title="Acceptance Criteria"></item>
+			<item type="deliverable" title="Baseline Usability Report"></item>
+			<item type="deliverable" title="Gold Master"></item>
+			<item type="deliverable" title="Lessons Learned Report"></item>
+			<item type="deliverable" title="Post-Release Report"></item>
+			<item type="deliverable" title="Release Readiness Review Checklist"></item>
+			<item type="deliverable" title="Sustained Engineering Transition Checklist"></item>
+			<item type="deliverable" title="User Experience Wish List"></item>
+		</stage>
+	</phase>
+	<phase id="phase3" title="Servicing">
+		<stage id="stage8" title="Product Servicing">
+			<item type="deliverable" title="Awareness and Perceptions"></item>
+			<item type="deliverable" title="Customer Satisfaction and Experience"></item>
+			<item type="deliverable" title="Deployment Tracking"></item>
+			<item type="deliverable" title="Product Usage and Satisfaction"></item>
+			<item type="deliverable" title="User Experience Instrumentation Report(s)"></item>
+		</stage>
+	</phase>
+	<subject id="subject1" title="Serviceability" type="subject">
+		<description>Quick and easy identification of the root cause of errors or unexpected behavior, and resolution with minimum impact to customers.</description>
+		<raci>
+			<accountable>
+				<pm/>
+			</accountable>
+			<responsible>
+				<pm/>
+			</responsible>
+		</raci>
+	</subject>
+	<subject id="subject2" title="Privacy" type="subject">
+		<description>Privacy, a cornerstone of trustworthy computing, means protecting personal information (both our customers' and their customers').</description>
+		<raci>
+			<accountable>
+				<pm/>
+			</accountable>
+		</raci>
+	</subject>
+	<subject id="subject3" title="Reliability" type="subject">
+		<description>Building reliability into our products is one of the pillars of the Microsoft promise of trustworthy computing.</description>
+		<raci>
+			<accountable><pm/></accountable>
+		</raci>
+	</subject>
+</plc>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CBDBE705-0563-4117-8DB0-76CCEAC4264B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NewTOAPIA.GL.Media</RootNamespace>
+    <AssemblyName>NewTOAPIA.GL.Media</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VideoTexture.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NewTOAPIA.DirectShow\NewTOAPIA.DirectShow.csproj">
+      <Project>{B76EFB5C-A4E1-41EF-8CD9-CA3BF3C32802}</Project>
+      <Name>NewTOAPIA.DirectShow</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NewTOAPIA.GL\NewTOAPIA.GL.csproj">
+      <Project>{ADD59FCC-460A-4861-9587-EDFE8428F98F}</Project>
+      <Name>NewTOAPIA.GL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NewTOAPIA.Media.Capture\NewTOAPIA.Media.Capture.csproj">
+      <Project>{30883379-6B97-441A-BD6E-ED0D410D1AED}</Project>
+      <Name>NewTOAPIA.Media.Capture</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NewTOAPIA.Media\NewTOAPIA.Media.csproj">
+      <Project>{BB1114E7-8889-4DC2-9C37-A633B1587600}</Project>
+      <Name>NewTOAPIA.Media</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NewTOAPIA\NewTOAPIA.Core.csproj">
+      <Project>{E8819E96-D31D-4B4E-9BB7-5BFAF4C5FB91}</Project>
+      <Name>NewTOAPIA.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

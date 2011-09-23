@@ -1,0 +1,15 @@
+C:\depot\SampleTOAPIA\USBHIDTest\USBHIDTest\obj\Debug\ResolveAssemblyReference.cache
+C:\depot\SampleTOAPIA\USBHIDTest\USBHIDTest\bin\Debug\USBHIDTest.exe
+C:\depot\SampleTOAPIA\USBHIDTest\USBHIDTest\bin\Debug\USBHIDTest.pdb
+C:\depot\SampleTOAPIA\USBHIDTest\USBHIDTest\bin\Debug\TOAPI.HID.dll
+C:\depot\SampleTOAPIA\USBHIDTest\USBHIDTest\bin\Debug\TOAPI.Kernel32.dll
+C:\depot\SampleTOAPIA\USBHIDTest\USBHIDTest\bin\Debug\TOAPI.Setup.dll
+C:\depot\SampleTOAPIA\USBHIDTest\USBHIDTest\bin\Debug\TOAPI.Types.dll
+C:\depot\SampleTOAPIA\USBHIDTest\USBHIDTest\bin\Debug\TOAPI.Types.pdb
+C:\depot\SampleTOAPIA\USBHIDTest\USBHIDTest\bin\Debug\TOAPI.Setup.pdb
+C:\depot\SampleTOAPIA\USBHIDTest\USBHIDTest\bin\Debug\TOAPI.Kernel32.pdb
+C:\depot\SampleTOAPIA\USBHIDTest\USBHIDTest\bin\Debug\TOAPI.HID.pdb
+C:\depot\SampleTOAPIA\USBHIDTest\USBHIDTest\obj\Debug\USBHIDTest.exe
+C:\depot\SampleTOAPIA\USBHIDTest\USBHIDTest\obj\Debug\USBHIDTest.pdb
+C:\depot\SampleTOAPIA\USBHIDTest\USBHIDTest\bin\Debug\TOAPI.User32.dll
+C:\depot\SampleTOAPIA\USBHIDTest\USBHIDTest\bin\Debug\TOAPI.User32.pdb

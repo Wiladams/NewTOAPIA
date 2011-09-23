@@ -1,0 +1,13 @@
+C:\depot\SampleTOAPIA\HIDTest\HIDTest\bin\Debug\HIDTest.exe
+C:\depot\SampleTOAPIA\HIDTest\HIDTest\bin\Debug\HIDTest.pdb
+C:\depot\SampleTOAPIA\HIDTest\HIDTest\bin\Debug\TOAPI.HID.dll
+C:\depot\SampleTOAPIA\HIDTest\HIDTest\bin\Debug\TOAPI.Kernel32.dll
+C:\depot\SampleTOAPIA\HIDTest\HIDTest\bin\Debug\TOAPI.Setup.dll
+C:\depot\SampleTOAPIA\HIDTest\HIDTest\bin\Debug\TOAPI.Types.dll
+C:\depot\SampleTOAPIA\HIDTest\HIDTest\bin\Debug\TOAPI.Types.pdb
+C:\depot\SampleTOAPIA\HIDTest\HIDTest\bin\Debug\TOAPI.Setup.pdb
+C:\depot\SampleTOAPIA\HIDTest\HIDTest\bin\Debug\TOAPI.Kernel32.pdb
+C:\depot\SampleTOAPIA\HIDTest\HIDTest\bin\Debug\TOAPI.HID.pdb
+C:\depot\SampleTOAPIA\HIDTest\HIDTest\obj\Debug\ResolveAssemblyReference.cache
+C:\depot\SampleTOAPIA\HIDTest\HIDTest\obj\Debug\HIDTest.exe
+C:\depot\SampleTOAPIA\HIDTest\HIDTest\obj\Debug\HIDTest.pdb

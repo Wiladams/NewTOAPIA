@@ -1,0 +1,5 @@
+C:\depot\SampleTOAPIA\DeskShare\HumSketchViewer\obj\Debug\ResolveAssemblyReference.cache
+C:\depot\SampleTOAPIA\DeskShare\bin\Debug\DeskView.exe
+C:\depot\SampleTOAPIA\DeskShare\bin\Debug\DeskView.pdb
+C:\depot\SampleTOAPIA\DeskShare\HumSketchViewer\obj\Debug\DeskView.exe
+C:\depot\SampleTOAPIA\DeskShare\HumSketchViewer\obj\Debug\DeskView.pdb

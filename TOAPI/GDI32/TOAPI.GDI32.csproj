@@ -1,0 +1,66 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F4A604CB-9FB8-4892-B146-4B84D244D6A1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>TOAPI.GDI32</AssemblyName>
+    <RootNamespace>TOAPI.GDI32</RootNamespace>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Neutral|AnyCPU' ">
+    <OutputPath>bin\Neutral\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Types\EMRConstants.cs" />
+    <Compile Include="Types\EnhMetaRecordTypes.cs" />
+    <Compile Include="Types\EnhMetaStructures.cs" />
+    <Compile Include="Types\GDI32Constants.cs" />
+    <Compile Include="GDI32Enums.cs" />
+    <Compile Include="GDI32Methods.cs" />
+    <Compile Include="GDI32_Bitmap.cs" />
+    <Compile Include="GDI32_DeviceContext.cs" />
+    <Compile Include="GDI32_Drawing.cs" />
+    <Compile Include="GDI32_Metafile.cs" />
+    <Compile Include="GDI32_Objects.cs" />
+    <Compile Include="GDI32_Text.cs" />
+    <Compile Include="GDI32_ViewPort.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Types\TOAPI.Types.csproj">
+      <Project>{92AF7146-FA0C-491E-A1CE-E2E242E3ED0D}</Project>
+      <Name>TOAPI.Types</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

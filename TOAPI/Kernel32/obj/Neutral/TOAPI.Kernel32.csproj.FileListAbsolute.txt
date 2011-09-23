@@ -1,0 +1,7 @@
+C:\SVN\TOAPI\Kernel32\bin\Neutral\TOAPI.Kernel32.dll
+C:\SVN\TOAPI\Kernel32\bin\Neutral\TOAPI.Kernel32.pdb
+C:\SVN\TOAPI\Kernel32\bin\Neutral\TOAPI.Types.dll
+C:\SVN\TOAPI\Kernel32\bin\Neutral\TOAPI.Types.pdb
+C:\SVN\TOAPI\Kernel32\obj\Neutral\ResolveAssemblyReference.cache
+C:\SVN\TOAPI\Kernel32\obj\Neutral\TOAPI.Kernel32.dll
+C:\SVN\TOAPI\Kernel32\obj\Neutral\TOAPI.Kernel32.pdb

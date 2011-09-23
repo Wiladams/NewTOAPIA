@@ -1,0 +1,7 @@
+C:\depot\SampleTOAPIA\DeskShare\HumSketch.Core\obj\Debug\ResolveAssemblyReference.cache
+C:\depot\SampleTOAPIA\DeskShare\HumSketch.Core\obj\Debug\DistributedDesktop.HostForm.resources
+C:\depot\SampleTOAPIA\DeskShare\HumSketch.Core\obj\Debug\DD.Common.csproj.GenerateResource.Cache
+C:\depot\SampleTOAPIA\DeskShare\bin\Debug\SnapNShare.dll
+C:\depot\SampleTOAPIA\DeskShare\bin\Debug\SnapNShare.pdb
+C:\depot\SampleTOAPIA\DeskShare\HumSketch.Core\obj\Debug\SnapNShare.dll
+C:\depot\SampleTOAPIA\DeskShare\HumSketch.Core\obj\Debug\SnapNShare.pdb

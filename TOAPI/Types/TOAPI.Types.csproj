@@ -1,0 +1,111 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{92AF7146-FA0C-491E-A1CE-E2E242E3ED0D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>TOAPI.Types</AssemblyName>
+    <RootNamespace>TOAPI.Types</RootNamespace>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Neutral|AnyCPU' ">
+    <OutputPath>bin\Neutral\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BITMAP.cs" />
+    <Compile Include="BLENDFUNCTION.cs" />
+    <Compile Include="CREATESTRUCT.cs" />
+    <Compile Include="CURSORINFO.cs" />
+    <Compile Include="Delegates.cs" />
+    <Compile Include="DEVMODE.cs" />
+    <Compile Include="DIBSECTION.cs" />
+    <Compile Include="DRAWTEXTPARAMS.cs" />
+    <Compile Include="Enums\WinMMEnums.cs" />
+    <Compile Include="FIXED.cs" />
+    <Compile Include="FOURCC.cs" />
+    <Compile Include="GLYPHMETRICS.cs" />
+    <Compile Include="GRADIENT_RECT.cs" />
+    <Compile Include="GRADIENT_TRIANGLE.cs" />
+    <Compile Include="INPUT.cs" />
+    <Compile Include="LOGBRUSH.cs" />
+    <Compile Include="LOGFONT.cs" />
+    <Compile Include="LOGPEN.cs" />
+    <Compile Include="MAT2.cs" />
+    <Compile Include="MIXERCAPS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MIXERCONTROL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MIXERCONTROLDETAILS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MIXERLINE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MIXERLINECONTROLS.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MMTIME.cs" />
+    <Compile Include="MSG.cs" />
+    <Compile Include="OUTLINETEXTMETRIC.cs" />
+    <Compile Include="PAINTSTRUCT.cs" />
+    <Compile Include="PALETTE.cs" />
+    <Compile Include="PANOSE.cs" />
+    <Compile Include="POINT.cs" />
+    <Compile Include="PointDouble.cs" />
+    <Compile Include="POINTFX.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RECT.cs" />
+    <Compile Include="RGNDATA.cs" />
+    <Compile Include="RIFFChunks.cs" />
+    <Compile Include="Rights.cs" />
+    <Compile Include="SECURITY_ATTRIBUTES.cs" />
+    <Compile Include="SIZE.cs" />
+    <Compile Include="Structures.cs" />
+    <Compile Include="TEXTMETRIC.cs" />
+    <Compile Include="TIMECAPS.cs" />
+    <Compile Include="TRACKMOUSEEVENT.cs" />
+    <Compile Include="TRIVERTEX.cs" />
+    <Compile Include="TTPOLYCURVE.cs" />
+    <Compile Include="TTPOLYGONHEADER.cs" />
+    <Compile Include="VideoInfoHeader.cs" />
+    <Compile Include="WAVEFORMAT.cs" />
+    <Compile Include="XFORM.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

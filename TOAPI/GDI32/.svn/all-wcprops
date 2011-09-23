@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 25
+/svn/!svn/ver/12428/GDI32
+END
+GDI32Methods.cs
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/12428/GDI32/GDI32Methods.cs
+END
+GDI32_DeviceContext.cs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/12428/GDI32/GDI32_DeviceContext.cs
+END
+GDI32_Text.cs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/12428/GDI32/GDI32_Text.cs
+END
+GDI32_Metafile.cs
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/12428/GDI32/GDI32_Metafile.cs
+END
+TOAPI.GDI32.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/12428/GDI32/TOAPI.GDI32.csproj
+END
+GDI32Enums.cs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/12428/GDI32/GDI32Enums.cs
+END
+GDI32_Objects.cs
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/12428/GDI32/GDI32_Objects.cs
+END
+GDI32_Drawing.cs
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/12428/GDI32/GDI32_Drawing.cs
+END
+GDI32_Bitmap.cs
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/12428/GDI32/GDI32_Bitmap.cs
+END
+GDI32_ViewPort.cs
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/12428/GDI32/GDI32_ViewPort.cs
+END
+gdi32_dump.txt
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/12428/GDI32/gdi32_dump.txt
+END
+TOAPI.GDI32.sln
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/12428/GDI32/TOAPI.GDI32.sln
+END

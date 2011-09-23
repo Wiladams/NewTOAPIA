@@ -1,0 +1,16 @@
+C:\depot\DirectShowLib_2.0\Samples\Capture\PlayCap\bin\Debug\PlayCap.exe
+C:\depot\DirectShowLib_2.0\Samples\Capture\PlayCap\bin\Debug\PlayCap.pdb
+C:\depot\DirectShowLib_2.0\Samples\Capture\PlayCap\bin\Debug\DirectShowLib-2005.dll
+C:\depot\DirectShowLib_2.0\Samples\Capture\PlayCap\obj\Debug\ResolveAssemblyReference.cache
+C:\depot\DirectShowLib_2.0\Samples\Capture\PlayCap\obj\Debug\DirectShowLib.Samples.Form1.resources
+C:\depot\DirectShowLib_2.0\Samples\Capture\PlayCap\obj\Debug\PlayCap-2005.csproj.GenerateResource.Cache
+C:\depot\DirectShowLib_2.0\Samples\Capture\PlayCap\obj\Debug\PlayCap.exe
+C:\depot\DirectShowLib_2.0\Samples\Capture\PlayCap\obj\Debug\PlayCap.pdb
+C:\depot\codebox\GLSamples\GLVideo\obj\Debug\PlayCap.exe
+C:\depot\codebox\GLSamples\GLVideo\obj\Debug\PlayCap.pdb
+C:\depot\codebox\GLSamples\GLVideo\bin\Debug\PlayCap.exe
+C:\depot\codebox\GLSamples\GLVideo\bin\Debug\PlayCap.pdb
+C:\depot\codebox\GLSamples\GLVideo\bin\Debug\DirectShowLib-2005.dll
+C:\depot\codebox\GLSamples\GLVideo\obj\Debug\ResolveAssemblyReference.cache
+C:\depot\codebox\GLSamples\GLVideo\obj\Debug\DirectShowLib.Samples.Form1.resources
+C:\depot\codebox\GLSamples\GLVideo\obj\Debug\PlayCap-2005.csproj.GenerateResource.Cache

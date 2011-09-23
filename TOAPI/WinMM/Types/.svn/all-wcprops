@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/12428/WinMM/Types
+END
+MIXERCAPS.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/12428/WinMM/Types/MIXERCAPS.cs
+END
+MIXERCONTROLDETAILS.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/12428/WinMM/Types/MIXERCONTROLDETAILS.cs
+END
+MIXERLINE.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/12428/WinMM/Types/MIXERLINE.cs
+END
+MMIOINFO.cs
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/12428/WinMM/Types/MMIOINFO.cs
+END
+MIXERLINECONTROLS.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/12428/WinMM/Types/MIXERLINECONTROLS.cs
+END
+WAVEHDR.cs
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/12428/WinMM/Types/WAVEHDR.cs
+END
+WAVEINCAPS.cs
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/12428/WinMM/Types/WAVEINCAPS.cs
+END
+WAVEOUTCAPS.cs
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/12428/WinMM/Types/WAVEOUTCAPS.cs
+END
+MMCKINFO.cs
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/12428/WinMM/Types/MMCKINFO.cs
+END
+AUXCAPS.cs
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/12428/WinMM/Types/AUXCAPS.cs
+END
+MIXERCONTROL.cs
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/12428/WinMM/Types/MIXERCONTROL.cs
+END
+MIDI_Types.cs
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/12428/WinMM/Types/MIDI_Types.cs
+END

@@ -1,0 +1,5 @@
+C:\depot\TOAPIToppers\bin\Debug\NewTOAPIA.Imaging.dll
+C:\depot\TOAPIToppers\bin\Debug\NewTOAPIA.Imaging.pdb
+C:\depot\TOAPIToppers\NewTOAPIA.Imaging\obj\Debug\ResolveAssemblyReference.cache
+C:\depot\TOAPIToppers\NewTOAPIA.Imaging\obj\Debug\NewTOAPIA.Imaging.dll
+C:\depot\TOAPIToppers\NewTOAPIA.Imaging\obj\Debug\NewTOAPIA.Imaging.pdb

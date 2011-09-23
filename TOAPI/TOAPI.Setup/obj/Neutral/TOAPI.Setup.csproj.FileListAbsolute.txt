@@ -1,0 +1,5 @@
+C:\SVN\TOAPI\TOAPI.Setup\bin\Neutral\TOAPI.Setup.dll
+C:\SVN\TOAPI\TOAPI.Setup\bin\Neutral\TOAPI.Setup.pdb
+C:\SVN\TOAPI\TOAPI.Setup\obj\Neutral\ResolveAssemblyReference.cache
+C:\SVN\TOAPI\TOAPI.Setup\obj\Neutral\TOAPI.Setup.dll
+C:\SVN\TOAPI\TOAPI.Setup\obj\Neutral\TOAPI.Setup.pdb

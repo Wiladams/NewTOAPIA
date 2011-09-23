@@ -1,0 +1,5 @@
+C:\depot\SampleTOAPIA\FAT32\FAT32\bin\Debug\FAT32.dll
+C:\depot\SampleTOAPIA\FAT32\FAT32\bin\Debug\FAT32.pdb
+C:\depot\SampleTOAPIA\FAT32\FAT32\obj\Debug\ResolveAssemblyReference.cache
+C:\depot\SampleTOAPIA\FAT32\FAT32\obj\Debug\FAT32.dll
+C:\depot\SampleTOAPIA\FAT32\FAT32\obj\Debug\FAT32.pdb

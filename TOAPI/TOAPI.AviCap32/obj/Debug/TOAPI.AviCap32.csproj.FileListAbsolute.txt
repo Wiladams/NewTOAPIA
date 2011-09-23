@@ -1,0 +1,5 @@
+C:\SVN\TOAPI\bin\Debug\TOAPI.AviCap32.dll
+C:\SVN\TOAPI\bin\Debug\TOAPI.AviCap32.pdb
+C:\SVN\TOAPI\TOAPI.AviCap32\obj\Debug\ResolveAssemblyReference.cache
+C:\SVN\TOAPI\TOAPI.AviCap32\obj\Debug\TOAPI.AviCap32.dll
+C:\SVN\TOAPI\TOAPI.AviCap32\obj\Debug\TOAPI.AviCap32.pdb

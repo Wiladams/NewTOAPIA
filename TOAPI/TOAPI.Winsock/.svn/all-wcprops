@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/12428/TOAPI.Winsock
+END
+WinInet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/12428/TOAPI.Winsock/WinInet.cs
+END
+dump.txt
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/12428/TOAPI.Winsock/dump.txt
+END
+Winsock_Exports.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/12428/TOAPI.Winsock/Winsock_Exports.cs
+END
+Winsock_Types.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/12428/TOAPI.Winsock/Winsock_Types.cs
+END
+TOAPI.Winsock.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/12428/TOAPI.Winsock/TOAPI.Winsock.csproj
+END
+Winsock_WSA.cs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/12428/TOAPI.Winsock/Winsock_WSA.cs
+END
+Winsock_Constants.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/12428/TOAPI.Winsock/Winsock_Constants.cs
+END

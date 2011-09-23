@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/12428/OpenGL32
+END
+OpenGL32_gl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/12428/OpenGL32/OpenGL32_gl.cs
+END
+OpenGL_GDI32.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/12428/OpenGL32/OpenGL_GDI32.cs
+END
+tips.cs
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/12428/OpenGL32/tips.cs
+END
+GLUConstants.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/12428/OpenGL32/GLUConstants.cs
+END
+WGLConstants.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/12428/OpenGL32/WGLConstants.cs
+END
+DelegatesAll.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/12428/OpenGL32/DelegatesAll.cs
+END
+TOAPI.OpenGL32.sln
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/12428/OpenGL32/TOAPI.OpenGL32.sln
+END
+GLExtensionConstants.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/12428/OpenGL32/GLExtensionConstants.cs
+END
+GLConstants_ATI.cs
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/12428/OpenGL32/GLConstants_ATI.cs
+END
+TOAPI.OpenGL32.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/12428/OpenGL32/TOAPI.OpenGL32.csproj
+END
+GLUEnums.cs
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/12428/OpenGL32/GLUEnums.cs
+END
+GLConstants.cs
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/12428/OpenGL32/GLConstants.cs
+END
+OpenGL32_glu.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/12428/OpenGL32/OpenGL32_glu.cs
+END
+OpenGL32_wgl.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/12428/OpenGL32/OpenGL32_wgl.cs
+END
+glu32.txt
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/12428/OpenGL32/glu32.txt
+END
+opengl32.dump.txt
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/12428/OpenGL32/opengl32.dump.txt
+END
+GLEnums.cs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/12428/OpenGL32/GLEnums.cs
+END

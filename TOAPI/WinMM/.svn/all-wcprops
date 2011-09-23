@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 25
+/svn/!svn/ver/12428/WinMM
+END
+WinMM_Mixer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/12428/WinMM/WinMM_Mixer.cs
+END
+winmmmethods.cs
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/12428/WinMM/winmmmethods.cs
+END
+TOAPI.WinMM.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/12428/WinMM/TOAPI.WinMM.csproj
+END
+WinMM_RIFF.cs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/12428/WinMM/WinMM_RIFF.cs
+END
+Winmm_WaveIn.cs
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/12428/WinMM/Winmm_WaveIn.cs
+END
+WinMM_WaveOut.cs
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/12428/WinMM/WinMM_WaveOut.cs
+END
+WinMM_Constants.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/12428/WinMM/WinMM_Constants.cs
+END
+WinMM_Time.cs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/12428/WinMM/WinMM_Time.cs
+END
+WinMM_Joystick.cs
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/12428/WinMM/WinMM_Joystick.cs
+END
+TOAPI.WinMM.sln
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/12428/WinMM/TOAPI.WinMM.sln
+END
+WinMM_MIDI.cs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/12428/WinMM/WinMM_MIDI.cs
+END

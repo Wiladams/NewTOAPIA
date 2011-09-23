@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0B4DA424-DF88-432D-BD07-2A379413B09D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ShowIt</RootNamespace>
+    <AssemblyName>ShowIt</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NewTOAPIA.Core, Version=1.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.Drawing, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.Drawing.GDI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Drawing.GDI.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.GL, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.GL.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.GLU.Shapes, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.GLU.Shapes.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.Imaging, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Imaging.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.Kernel, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.Media, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Media.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.Media.Capture, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Media.Capture.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.Media.GL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Media.GL.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.Modeling, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Modeling.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.Net, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.Net.Rtp, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Net.Rtp.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.UI, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.UI.GL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.UI.GL.dll</HintPath>
+    </Reference>
+    <Reference Include="PixelShare.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\Debug\PixelShare.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Equipment\AttendeeCamera.cs" />
+    <Compile Include="Equipment\DeskSet.cs" />
+    <Compile Include="Equipment\DesktopCapture.cs" />
+    <Compile Include="Equipment\DisplayMonitor.cs" />
+    <Compile Include="Equipment\DisplaySurface.cs" />
+    <Compile Include="Interfaces\IUIPort.cs" />
+    <Compile Include="Equipment\UIPortDelegate.cs" />
+    <Compile Include="Equipment\Whiteboard.cs" />
+    <Compile Include="Geometry\AABB.cs" />
+    <Compile Include="Interfaces\IReceiveConferenceFrames.cs" />
+    <Compile Include="Room\ConferenceRoom.cs" />
+    <Compile Include="Interfaces\IProjectImages.cs" />
+    <Compile Include="Furniture\PedestalTable.cs" />
+    <Compile Include="Geometry\CylinderSection.cs" />
+    <Compile Include="Geometry\GLAxes.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Interfaces\IHaveTexture.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Geometry\AABBFaceMesh.cs" />
+    <Compile Include="Types\ConferenceAttendee.cs" />
+    <Compile Include="Types\ConferenceSession.cs" />
+    <Compile Include="ShowItModel.cs" />
+    <Compile Include="Equipment\ReceivingTexture.cs" />
+    <Compile Include="Geometry\AABBSurface.cs" />
+    <Compile Include="Equipment\TextureProjector.cs" />
+    <Compile Include="Equipment\WebCamTexture.cs" />
+    <Compile Include="Types\Resolution.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Textures\Carpet_berber_dirt.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Ceiling.tiff">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\SandFloor.tiff">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\TableTop.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Wall.tiff">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Textures\Wood25l.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

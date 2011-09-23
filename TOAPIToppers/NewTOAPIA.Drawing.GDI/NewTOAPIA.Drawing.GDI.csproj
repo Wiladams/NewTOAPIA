@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A212C60B-38FA-4F23-8217-A9D8417EDB3C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NewTOAPIA.Drawing.GDI</RootNamespace>
+    <AssemblyName>NewTOAPIA.Drawing.GDI</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TOAPI.GDI32, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPI\bin\Release\TOAPI.GDI32.dll</HintPath>
+    </Reference>
+    <Reference Include="TOAPI.Types, Version=1.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPI\bin\Release\TOAPI.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="TOAPI.User32, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TOAPI\bin\Release\TOAPI.User32.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bitmap\GDIDDBitmap.cs" />
+    <Compile Include="Bitmap\GDIDIBSection.cs" />
+    <Compile Include="Bitmap\gdipixmap.cs" />
+    <Compile Include="Bitmap\PixelBufferHelper.cs" />
+    <Compile Include="Constants\Enums.cs" />
+    <Compile Include="Context\GDIContext_Objects.cs" />
+    <Compile Include="Context\GDIContext_State.cs" />
+    <Compile Include="Context\GDIDeviceContext.cs" />
+    <Compile Include="Context\GDIDeviceContext_Drawing.cs" />
+    <Compile Include="Context\GDIInfoContext.cs" />
+    <Compile Include="Context\GDIRasterCapabilities.cs" />
+    <Compile Include="Context\GDITextCapabilities.cs" />
+    <Compile Include="Context\GDIView.cs" />
+    <Compile Include="Bitmap\Pixel_Ext.cs" />
+    <Compile Include="IUniqueGDIObject.cs" />
+    <Compile Include="RenderPixelBuffer.cs" />
+    <Compile Include="Types\GDI32Transform.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Types\GDICosmeticPen.cs" />
+    <Compile Include="Types\GDIBrush.cs" />
+    <Compile Include="Bitmap\GDIDIBitmap.cs" />
+    <Compile Include="Types\GDIFont.cs" />
+    <Compile Include="Types\GDIGlyph.cs" />
+    <Compile Include="Types\GDIObject.cs" />
+    <Compile Include="Types\GDIPath.cs" />
+    <Compile Include="Types\GDIPen.cs" />
+    <Compile Include="Types\GDIRegion.cs" />
+    <Compile Include="Renderer\GDIRenderer.cs" />
+    <Compile Include="Types\GDISolidBrush.cs" />
+    <Compile Include="Types\GDIStockObject.cs" />
+    <Compile Include="Types\GlyphRunG.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Types\GradientRect.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NewTOAPIA.Drawing\NewTOAPIA.Drawing.csproj">
+      <Project>{B70180B5-9B35-4538-9F23-A0C614BF27FE}</Project>
+      <Name>NewTOAPIA.Drawing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NewTOAPIA.Graphics\NewTOAPIA.Graphics.csproj">
+      <Project>{74C33FFA-463F-4272-AFAC-64B936A75D01}</Project>
+      <Name>NewTOAPIA.Graphics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NewTOAPIA\NewTOAPIA.Core.csproj">
+      <Project>{E8819E96-D31D-4B4E-9BB7-5BFAF4C5FB91}</Project>
+      <Name>NewTOAPIA.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

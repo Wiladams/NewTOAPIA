@@ -1,0 +1,8 @@
+C:\depot\codebox\HamSketch\HumLog3DViewer\obj\Debug\ResolveAssemblyReference.cache
+C:\depot\codebox\HamSketch\HumLog3DViewer\obj\Debug\HumLogViewer.Properties.Resources.resources
+C:\depot\codebox\HamSketch\HumLog3DViewer\obj\Debug\HumLog3DViewer.csproj.GenerateResource.Cache
+C:\depot\codebox\HamSketch\HumLog3DViewer\obj\Debug\HumLogViewer.exe
+C:\depot\codebox\HamSketch\HumLog3DViewer\obj\Debug\HumLogViewer.pdb
+C:\depot\codebox\HamSketch\bin\Debug\HumLogViewer.exe.config
+C:\depot\codebox\HamSketch\bin\Debug\HumLogViewer.exe
+C:\depot\codebox\HamSketch\bin\Debug\HumLogViewer.pdb

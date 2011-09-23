@@ -1,0 +1,5 @@
+C:\depot\TOAPIToppers\bin\Release\NewTOAPIA.GL.Media.dll
+C:\depot\TOAPIToppers\bin\Release\NewTOAPIA.GL.Media.pdb
+C:\depot\TOAPIToppers\NewTOAPIA.GL.Media\obj\Release\ResolveAssemblyReference.cache
+C:\depot\TOAPIToppers\NewTOAPIA.GL.Media\obj\Release\NewTOAPIA.GL.Media.dll
+C:\depot\TOAPIToppers\NewTOAPIA.GL.Media\obj\Release\NewTOAPIA.GL.Media.pdb

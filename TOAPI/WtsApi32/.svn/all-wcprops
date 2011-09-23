@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/12428/WtsApi32
+END
+wtsapi32_dump.txt
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/12428/WtsApi32/wtsapi32_dump.txt
+END
+WtsAPI32Methods.cs
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/12428/WtsApi32/WtsAPI32Methods.cs
+END
+Wts_Structures.cs
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/12428/WtsApi32/Wts_Structures.cs
+END
+Wts_Enums.cs
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/12428/WtsApi32/Wts_Enums.cs
+END
+WtsApi32.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/12428/WtsApi32/WtsApi32.csproj
+END
+Wts_Constants.cs
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/12428/WtsApi32/Wts_Constants.cs
+END

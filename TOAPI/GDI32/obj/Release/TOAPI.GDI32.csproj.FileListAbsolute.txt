@@ -1,0 +1,10 @@
+C:\SVN\TOAPI\bin\Release\TOAPI.GDI32.dll
+C:\SVN\TOAPI\bin\Release\TOAPI.GDI32.pdb
+C:\SVN\TOAPI\GDI32\obj\Release\ResolveAssemblyReference.cache
+C:\SVN\TOAPI\GDI32\obj\Release\TOAPI.GDI32.dll
+C:\SVN\TOAPI\GDI32\obj\Release\TOAPI.GDI32.pdb
+C:\depot\TOAPI\bin\Release\TOAPI.GDI32.dll
+C:\depot\TOAPI\bin\Release\TOAPI.GDI32.pdb
+C:\depot\TOAPI\GDI32\obj\Release\ResolveAssemblyReference.cache
+C:\depot\TOAPI\GDI32\obj\Release\TOAPI.GDI32.dll
+C:\depot\TOAPI\GDI32\obj\Release\TOAPI.GDI32.pdb

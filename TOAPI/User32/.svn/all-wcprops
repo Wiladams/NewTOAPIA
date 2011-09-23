@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/!svn/ver/12428/User32
+END
+User32_Desktop.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/12428/User32/User32_Desktop.cs
+END
+User32_WindowStation.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/12428/User32/User32_WindowStation.cs
+END
+User32Constants.cs
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/12428/User32/User32Constants.cs
+END
+user32_dump.txt
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/12428/User32/user32_dump.txt
+END
+toapi.user32.sln
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/12428/User32/toapi.user32.sln
+END
+User32_Message.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/12428/User32/User32_Message.cs
+END
+TOAPI.User32.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/12428/User32/TOAPI.User32.csproj
+END
+User32_Monitor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/12428/User32/User32_Monitor.cs
+END
+User32Enums.cs
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/12428/User32/User32Enums.cs
+END
+User32_Drawing.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/12428/User32/User32_Drawing.cs
+END
+User32_Clipboard.cs
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/12428/User32/User32_Clipboard.cs
+END
+User32Methods.cs
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/12428/User32/User32Methods.cs
+END
+User32_UserObject.cs
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/16501/User32/User32_UserObject.cs
+END
+User32_IO.cs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/12428/User32/User32_IO.cs
+END
+User32_Window.cs
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/12428/User32/User32_Window.cs
+END

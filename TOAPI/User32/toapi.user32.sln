@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TOAPI.User32", "TOAPI.User32.csproj", "{D457D8E4-4BDD-4568-B6E7-CCC0CA1632D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D457D8E4-4BDD-4568-B6E7-CCC0CA1632D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D457D8E4-4BDD-4568-B6E7-CCC0CA1632D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D457D8E4-4BDD-4568-B6E7-CCC0CA1632D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D457D8E4-4BDD-4568-B6E7-CCC0CA1632D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

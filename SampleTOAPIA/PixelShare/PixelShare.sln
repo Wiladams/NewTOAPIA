@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelShare", "PixelShare.csproj", "{D0152B51-F420-444E-9D47-6B7E0123F670}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelShareViewer", "HumSketchViewer\PixelShareViewer.csproj", "{2473F210-BF7E-4059-89DE-16FF455DFA77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelShare.Core", "HumSketch.Core\PixelShare.Core.csproj", "{6C87A830-7021-459D-83C4-1623AC5D18F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0152B51-F420-444E-9D47-6B7E0123F670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0152B51-F420-444E-9D47-6B7E0123F670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0152B51-F420-444E-9D47-6B7E0123F670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0152B51-F420-444E-9D47-6B7E0123F670}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2473F210-BF7E-4059-89DE-16FF455DFA77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2473F210-BF7E-4059-89DE-16FF455DFA77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2473F210-BF7E-4059-89DE-16FF455DFA77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2473F210-BF7E-4059-89DE-16FF455DFA77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C87A830-7021-459D-83C4-1623AC5D18F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C87A830-7021-459D-83C4-1623AC5D18F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C87A830-7021-459D-83C4-1623AC5D18F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C87A830-7021-459D-83C4-1623AC5D18F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

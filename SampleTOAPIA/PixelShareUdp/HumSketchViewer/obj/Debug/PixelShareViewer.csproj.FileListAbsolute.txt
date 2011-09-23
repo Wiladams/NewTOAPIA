@@ -1,0 +1,10 @@
+C:\depot\SampleTOAPIA\PixelShare\HumSketchViewer\obj\Debug\ResolveAssemblyReference.cache
+C:\depot\SampleTOAPIA\PixelShare\bin\Debug\SnapNView.exe
+C:\depot\SampleTOAPIA\PixelShare\bin\Debug\SnapNView.pdb
+C:\depot\SampleTOAPIA\PixelShare\HumSketchViewer\obj\Debug\SnapNView.exe
+C:\depot\SampleTOAPIA\PixelShare\HumSketchViewer\obj\Debug\SnapNView.pdb
+C:\depot\SampleTOAPIA\PixelShareUdp\bin\Debug\SnapNView.exe
+C:\depot\SampleTOAPIA\PixelShareUdp\bin\Debug\SnapNView.pdb
+C:\depot\SampleTOAPIA\PixelShareUdp\HumSketchViewer\obj\Debug\ResolveAssemblyReference.cache
+C:\depot\SampleTOAPIA\PixelShareUdp\HumSketchViewer\obj\Debug\SnapNView.exe
+C:\depot\SampleTOAPIA\PixelShareUdp\HumSketchViewer\obj\Debug\SnapNView.pdb

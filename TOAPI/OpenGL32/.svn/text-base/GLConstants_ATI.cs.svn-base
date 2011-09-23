@@ -1,0 +1,86 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace TOAPI.OpenGL
+{
+    class GLConstants_ATI
+    {
+        public const int GL_2X_BIT_ATI = 0x00000001;
+        public const int GL_4X_BIT_ATI = 0x00000002;
+        public const int GL_8X_BIT_ATI = 0x00000004;
+        public const int GL_ADD_ATI = 0x00008963;
+        public const int GL_ALPHA_FLOAT16_ATI = 0x0000881c;
+        public const int GL_ALPHA_FLOAT32_ATI = 0x00008816;
+        public const int GL_ARRAY_OBJECT_BUFFER_ATI = 0x00008766;
+        public const int GL_ARRAY_OBJECT_OFFSET_ATI = 0x00008767;
+        public const int GL_BIAS_BIT_ATI = 0x00000008;
+        public const int GL_BLUE_BIT_ATI = 0x00000004;
+        public const int GL_BUMP_ENVMAP_ATI = 0x0000877b;
+        public const int GL_BUMP_NUM_TEX_UNITS_ATI = 0x00008777;
+        public const int GL_BUMP_ROT_MATRIX_ATI = 0x00008775;
+        public const int GL_BUMP_ROT_MATRIX_SIZE_ATI = 0x00008776;
+        public const int GL_BUMP_TARGET_ATI = 0x0000877c;
+        public const int GL_BUMP_TEX_UNITS_ATI = 0x00008778;
+        public const int GL_CND_ATI = 0x0000896a;
+        public const int GL_CND0_ATI = 0x0000896b;
+        public const int GL_COLOR_ALPHA_PAIRING_ATI = 0x00008975;
+        public const int GL_COLOR_CLEAR_UNCLAMPED_VALUE_ATI = 0x00008835;
+        public const int GL_COMP_BIT_ATI = 0x00000002;
+        public const int GL_CON_0_ATI = 0x00008941;
+        public const int GL_CON_1_ATI = 0x00008942;
+        public const int GL_CON_10_ATI = 0x0000894b;
+        public const int GL_CON_11_ATI = 0x0000894c;
+        public const int GL_CON_12_ATI = 0x0000894d;
+        public const int GL_CON_13_ATI = 0x0000894e;
+        public const int GL_CON_14_ATI = 0x0000894f;
+        public const int GL_CON_15_ATI = 0x00008950;
+        public const int GL_CON_16_ATI = 0x00008951;
+        public const int GL_CON_17_ATI = 0x00008952;
+        public const int GL_CON_18_ATI = 0x00008953;
+        public const int GL_CON_19_ATI = 0x00008954;
+        public const int GL_CON_2_ATI = 0x00008943;
+        public const int GL_CON_20_ATI = 0x00008955;
+        public const int GL_CON_21_ATI = 0x00008956;
+        public const int GL_CON_22_ATI = 0x00008957;
+        public const int GL_CON_23_ATI = 0x00008958;
+        public const int GL_CON_24_ATI = 0x00008959;
+        public const int GL_CON_25_ATI = 0x0000895a;
+        public const int GL_CON_26_ATI = 0x0000895b;
+        public const int GL_CON_27_ATI = 0x0000895c;
+        public const int GL_CON_28_ATI = 0x0000895d;
+        public const int GL_CON_29_ATI = 0x0000895e;
+        public const int GL_CON_3_ATI = 0x00008944;
+        public const int GL_CON_30_ATI = 0x0000895f;
+        public const int GL_CON_31_ATI = 0x00008960;
+        public const int GL_CON_4_ATI = 0x00008945;
+        public const int GL_CON_5_ATI = 0x00008946;
+        public const int GL_CON_6_ATI = 0x00008947;
+        public const int GL_CON_7_ATI = 0x00008948;
+        public const int GL_CON_8_ATI = 0x00008949;
+        public const int GL_CON_9_ATI = 0x0000894a;
+        public const int GL_DISCARD_ATI = 0x00008763;
+        public const int GL_DOT2_ADD_ATI = 0x0000896c;
+        public const int GL_DOT3_ATI = 0x00008966;
+        public const int GL_DOT4_ATI = 0x00008967;
+        public const int GL_DRAW_BUFFER0_ATI = 0x00008825;
+        public const int GL_DRAW_BUFFER1_ATI = 0x00008826;
+        public const int GL_DRAW_BUFFER10_ATI = 0x0000882f;
+        public const int GL_DRAW_BUFFER11_ATI = 0x00008830;
+        public const int GL_DRAW_BUFFER12_ATI = 0x00008831;
+        public const int GL_DRAW_BUFFER13_ATI = 0x00008832;
+        public const int GL_DRAW_BUFFER14_ATI = 0x00008833;
+        public const int GL_DRAW_BUFFER15_ATI = 0x00008834;
+        public const int GL_DRAW_BUFFER2_ATI = 0x00008827;
+        public const int GL_DRAW_BUFFER3_ATI = 0x00008828;
+        public const int GL_DRAW_BUFFER4_ATI = 0x00008829;
+        public const int GL_DRAW_BUFFER5_ATI = 0x0000882a;
+        public const int GL_DRAW_BUFFER6_ATI = 0x0000882b;
+        public const int GL_DRAW_BUFFER7_ATI = 0x0000882c;
+        public const int GL_DRAW_BUFFER8_ATI = 0x0000882d;
+        public const int GL_DRAW_BUFFER9_ATI = 0x0000882e;
+        public const int GL_DU8DV8_ATI = 0x0000877a;
+        public const int GL_DUDV_ATI = 0x00008779;
+        public const int GL_DYNAMIC_ATI = 0x00008761;
+    }
+}

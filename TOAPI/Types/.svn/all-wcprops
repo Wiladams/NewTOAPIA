@@ -1,0 +1,299 @@
+K 25
+svn:wc:ra_dav:version-url
+V 25
+/svn/!svn/ver/12428/Types
+END
+SECURITY_ATTRIBUTES.cs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/12428/Types/SECURITY_ATTRIBUTES.cs
+END
+PAINTSTRUCT.cs
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/12428/Types/PAINTSTRUCT.cs
+END
+MIXERLINECONTROLS.cs
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/12428/Types/MIXERLINECONTROLS.cs
+END
+GRADIENT_TRIANGLE.cs
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/12428/Types/GRADIENT_TRIANGLE.cs
+END
+DIBSECTION.cs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/12428/Types/DIBSECTION.cs
+END
+LOGPEN.cs
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/12428/Types/LOGPEN.cs
+END
+PANOSE.cs
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/12428/Types/PANOSE.cs
+END
+LOGBRUSH.cs
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/12428/Types/LOGBRUSH.cs
+END
+MSG.cs
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/12428/Types/MSG.cs
+END
+pointfx.cs
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/12428/Types/pointfx.cs
+END
+MMTIME.cs
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/12428/Types/MMTIME.cs
+END
+TEXTMETRIC.cs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/12428/Types/TEXTMETRIC.cs
+END
+POINT.cs
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/12428/Types/POINT.cs
+END
+CURSORINFO.cs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/12428/Types/CURSORINFO.cs
+END
+VideoInfoHeader.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/12428/Types/VideoInfoHeader.cs
+END
+PALETTE.cs
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/12428/Types/PALETTE.cs
+END
+INPUT.cs
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/12428/Types/INPUT.cs
+END
+FIXED.cs
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/12428/Types/FIXED.cs
+END
+TTPOLYCURVE.cs
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/12428/Types/TTPOLYCURVE.cs
+END
+Rights.cs
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/12428/Types/Rights.cs
+END
+TOAPI.Types.sln
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/12428/Types/TOAPI.Types.sln
+END
+TTPOLYGONHEADER.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/12428/Types/TTPOLYGONHEADER.cs
+END
+CREATESTRUCT.cs
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/12428/Types/CREATESTRUCT.cs
+END
+size.cs
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/12428/Types/size.cs
+END
+TOAPI.Types.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/12428/Types/TOAPI.Types.csproj
+END
+GRADIENT_RECT.cs
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/12428/Types/GRADIENT_RECT.cs
+END
+GLYPHMETRICS.cs
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/12428/Types/GLYPHMETRICS.cs
+END
+WAVEFORMAT.cs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/12428/Types/WAVEFORMAT.cs
+END
+BITMAP.cs
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/12428/Types/BITMAP.cs
+END
+TRACKMOUSEEVENT.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/12428/Types/TRACKMOUSEEVENT.cs
+END
+RGNDATA.cs
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/12428/Types/RGNDATA.cs
+END
+FOURCC.cs
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/12428/Types/FOURCC.cs
+END
+DEVMODE.cs
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/12428/Types/DEVMODE.cs
+END
+Structures.cs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/12428/Types/Structures.cs
+END
+PointDouble.cs
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/12428/Types/PointDouble.cs
+END
+MIXERCONTROL.cs
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/12428/Types/MIXERCONTROL.cs
+END
+BLENDFUNCTION.cs
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/12428/Types/BLENDFUNCTION.cs
+END
+MIXERCONTROLDETAILS.cs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/12428/Types/MIXERCONTROLDETAILS.cs
+END
+MIXERCAPS.cs
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/12428/Types/MIXERCAPS.cs
+END
+XFORM.cs
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/12428/Types/XFORM.cs
+END
+MIXERLINE.cs
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/12428/Types/MIXERLINE.cs
+END
+TRIVERTEX.cs
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/12428/Types/TRIVERTEX.cs
+END
+RECT.cs
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/12428/Types/RECT.cs
+END
+Delegates.cs
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/16501/Types/Delegates.cs
+END
+RIFFChunks.cs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/12428/Types/RIFFChunks.cs
+END
+mat2.cs
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/12428/Types/mat2.cs
+END
+TIMECAPS.cs
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/12428/Types/TIMECAPS.cs
+END
+DRAWTEXTPARAMS.cs
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/12428/Types/DRAWTEXTPARAMS.cs
+END
+LOGFONT.cs
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/12428/Types/LOGFONT.cs
+END

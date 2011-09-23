@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/12428/User32/Types
+END
+WNDCLASS.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/12428/User32/Types/WNDCLASS.cs
+END
+rawhid.cs
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/12428/User32/Types/rawhid.cs
+END
+RID_DEVICE_INFO_MOUSE.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/12428/User32/Types/RID_DEVICE_INFO_MOUSE.cs
+END
+USEROBJECTFLAGS.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/12428/User32/Types/USEROBJECTFLAGS.cs
+END
+RAWINPUTHEADER.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/12428/User32/Types/RAWINPUTHEADER.cs
+END
+DISPLAY_DEVICE.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/12428/User32/Types/DISPLAY_DEVICE.cs
+END
+RAWINPUTDEVICELIST.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/12428/User32/Types/RAWINPUTDEVICELIST.cs
+END
+RID_DEVICE_INFO_KEYBOARD.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/12428/User32/Types/RID_DEVICE_INFO_KEYBOARD.cs
+END
+RAWINPUTDEVICE.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/12428/User32/Types/RAWINPUTDEVICE.cs
+END
+RID_DEVICE_INFO_HID.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/12428/User32/Types/RID_DEVICE_INFO_HID.cs
+END
+RAWMOUSE.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/12428/User32/Types/RAWMOUSE.cs
+END
+MONITORINFO.cs
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/12428/User32/Types/MONITORINFO.cs
+END
+ICONINFO.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/12428/User32/Types/ICONINFO.cs
+END
+MSHOOKSTRUCT.cs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/12428/User32/Types/MSHOOKSTRUCT.cs
+END
+RID_DEVICE_INFO.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/12428/User32/Types/RID_DEVICE_INFO.cs
+END
+RAWINPUT.cs
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/12428/User32/Types/RAWINPUT.cs
+END
+RAWKEYBOARD.cs
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/12428/User32/Types/RAWKEYBOARD.cs
+END

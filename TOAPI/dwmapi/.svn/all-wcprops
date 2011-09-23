@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/!svn/ver/12428/dwmapi
+END
+Dwm_Types.cs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/12428/dwmapi/Dwm_Types.cs
+END
+DwmApi.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/12428/dwmapi/DwmApi.csproj
+END
+Dwm_Enums.cs
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/12428/dwmapi/Dwm_Enums.cs
+END
+dwmapi_dump.txt
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/12428/dwmapi/dwmapi_dump.txt
+END
+Dwm_Constants.cs
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/12428/dwmapi/Dwm_Constants.cs
+END
+TOAPI.DwmApi.sln
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/12428/dwmapi/TOAPI.DwmApi.sln
+END
+Dwm.cs
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/12428/dwmapi/Dwm.cs
+END

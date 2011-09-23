@@ -1,0 +1,10 @@
+C:\depot\SampleTOAPIA\Sketcher\HumSketchViewer\obj\Debug\ResolveAssemblyReference.cache
+C:\depot\SampleTOAPIA\Sketcher\HumSketchViewer\obj\Debug\HumSketchViewer.Properties.Resources.resources
+C:\depot\SampleTOAPIA\Sketcher\HumSketchViewer\obj\Debug\SketchViewer.csproj.GenerateResource.Cache
+C:\depot\SampleTOAPIA\Sketcher\HumSketchViewer\obj\Debug\SketchViewer.exe
+C:\depot\SampleTOAPIA\Sketcher\HumSketchViewer\obj\Debug\SketchViewer.pdb
+C:\depot\SampleTOAPIA\Sketcher\bin\Debug\SketchViewer.exe
+C:\depot\SampleTOAPIA\Sketcher\bin\Debug\SketchViewer.pdb
+C:\depot\SampleTOAPIA\Sketcher\Viewer\obj\Debug\ResolveAssemblyReference.cache
+C:\depot\SampleTOAPIA\Sketcher\Viewer\obj\Debug\SketchViewer.exe
+C:\depot\SampleTOAPIA\Sketcher\Viewer\obj\Debug\SketchViewer.pdb

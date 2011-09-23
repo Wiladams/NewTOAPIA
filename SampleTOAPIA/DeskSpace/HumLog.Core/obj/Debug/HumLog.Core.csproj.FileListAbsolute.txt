@@ -1,0 +1,6 @@
+C:\depot\codebox\HamSketch\HumLog.Core\obj\Debug\ResolveAssemblyReference.cache
+C:\depot\codebox\HamSketch\bin\Debug\HumLog.Core.dll
+C:\depot\codebox\HamSketch\bin\Debug\HumLog.Core.pdb
+C:\depot\codebox\HamSketch\HumLog.Core\obj\Debug\HumLog.Core.dll
+C:\depot\codebox\HamSketch\HumLog.Core\obj\Debug\HumLog.Core.pdb
+C:\depot\SampleTOAPIA\HamSketch\HumLog.Core\obj\Debug\ResolveAssemblyReference.cache

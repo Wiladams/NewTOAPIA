@@ -1,0 +1,10 @@
+C:\SVN\TOAPI\bin\Release\TOAPI.Kernel32.dll
+C:\SVN\TOAPI\bin\Release\TOAPI.Kernel32.pdb
+C:\SVN\TOAPI\Kernel32\obj\Release\ResolveAssemblyReference.cache
+C:\SVN\TOAPI\Kernel32\obj\Release\TOAPI.Kernel32.dll
+C:\SVN\TOAPI\Kernel32\obj\Release\TOAPI.Kernel32.pdb
+C:\depot\TOAPI\bin\Release\TOAPI.Kernel32.dll
+C:\depot\TOAPI\bin\Release\TOAPI.Kernel32.pdb
+C:\depot\TOAPI\Kernel32\obj\Release\ResolveAssemblyReference.cache
+C:\depot\TOAPI\Kernel32\obj\Release\TOAPI.Kernel32.dll
+C:\depot\TOAPI\Kernel32\obj\Release\TOAPI.Kernel32.pdb

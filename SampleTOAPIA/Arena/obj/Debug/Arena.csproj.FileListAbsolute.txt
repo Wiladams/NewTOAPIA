@@ -1,0 +1,3 @@
+C:\depot\SampleTOAPIA\Arena\obj\Debug\ResolveAssemblyReference.cache
+C:\depot\SampleTOAPIA\Arena\obj\Debug\Arena.Properties.Resources.resources
+C:\depot\SampleTOAPIA\Arena\obj\Debug\Arena.csproj.GenerateResource.Cache

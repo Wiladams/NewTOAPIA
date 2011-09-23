@@ -1,0 +1,1 @@
+C:\depot\SampleTOAPIA\FAT32\Test\obj\Debug\ResolveAssemblyReference.cache
