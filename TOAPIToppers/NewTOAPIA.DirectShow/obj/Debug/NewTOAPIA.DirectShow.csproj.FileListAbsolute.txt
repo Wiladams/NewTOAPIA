@@ -1,6 +1,0 @@
-C:\depot\TOAPIToppers\bin\Debug\NewTOAPIA.DirectShow.dll.config
-C:\depot\TOAPIToppers\bin\Debug\NewTOAPIA.DirectShow.dll
-C:\depot\TOAPIToppers\bin\Debug\NewTOAPIA.DirectShow.pdb
-C:\depot\TOAPIToppers\NewTOAPIA.DirectShow\obj\Debug\ResolveAssemblyReference.cache
-C:\depot\TOAPIToppers\NewTOAPIA.DirectShow\obj\Debug\NewTOAPIA.DirectShow.dll
-C:\depot\TOAPIToppers\NewTOAPIA.DirectShow\obj\Debug\NewTOAPIA.DirectShow.pdb

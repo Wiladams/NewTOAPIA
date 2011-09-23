@@ -1,5 +1,0 @@
-C:\depot\TOAPIToppers\bin\Release\NewTOAPIA.Graphics.Modeling.dll
-C:\depot\TOAPIToppers\bin\Release\NewTOAPIA.Graphics.Modeling.pdb
-C:\depot\TOAPIToppers\NewTOAPIA.Graphics.Modeling\obj\Release\ResolveAssemblyReference.cache
-C:\depot\TOAPIToppers\NewTOAPIA.Graphics.Modeling\obj\Release\NewTOAPIA.Graphics.Modeling.dll
-C:\depot\TOAPIToppers\NewTOAPIA.Graphics.Modeling\obj\Release\NewTOAPIA.Graphics.Modeling.pdb

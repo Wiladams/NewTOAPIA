@@ -1,5 +1,0 @@
-C:\depot\TOAPIToppers\bin\Debug\NewTOAPIA.Kernel.dll
-C:\depot\TOAPIToppers\bin\Debug\NewTOAPIA.Kernel.pdb
-C:\depot\TOAPIToppers\NewTOAPIA.System\obj\Debug\ResolveAssemblyReference.cache
-C:\depot\TOAPIToppers\NewTOAPIA.System\obj\Debug\NewTOAPIA.Kernel.dll
-C:\depot\TOAPIToppers\NewTOAPIA.System\obj\Debug\NewTOAPIA.Kernel.pdb

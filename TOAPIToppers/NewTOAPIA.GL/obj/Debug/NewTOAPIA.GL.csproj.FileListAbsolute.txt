@@ -1,5 +1,0 @@
-C:\depot\TOAPIToppers\bin\Debug\NewTOAPIA.GL.dll
-C:\depot\TOAPIToppers\bin\Debug\NewTOAPIA.GL.pdb
-C:\depot\TOAPIToppers\NewTOAPIA.GL\obj\Debug\ResolveAssemblyReference.cache
-C:\depot\TOAPIToppers\NewTOAPIA.GL\obj\Debug\NewTOAPIA.GL.dll
-C:\depot\TOAPIToppers\NewTOAPIA.GL\obj\Debug\NewTOAPIA.GL.pdb

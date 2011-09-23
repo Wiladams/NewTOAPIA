@@ -1,7 +1,0 @@
-C:\depot\TOAPIToppers\bin\debug\NewTOAPIA.Net.Rtp.dll
-C:\depot\TOAPIToppers\bin\debug\NewTOAPIA.Net.Rtp.pdb
-C:\depot\TOAPIToppers\NewTOAPIA.Net.Rtp\obj\Debug\ResolveAssemblyReference.cache
-C:\depot\TOAPIToppers\NewTOAPIA.Net.Rtp\obj\Debug\NewTOAPIA.Net.Rtp.Strings.resources
-C:\depot\TOAPIToppers\NewTOAPIA.Net.Rtp\obj\Debug\NewTOAPIA.Net.Rtp.csproj.GenerateResource.Cache
-C:\depot\TOAPIToppers\NewTOAPIA.Net.Rtp\obj\Debug\NewTOAPIA.Net.Rtp.dll
-C:\depot\TOAPIToppers\NewTOAPIA.Net.Rtp\obj\Debug\NewTOAPIA.Net.Rtp.pdb

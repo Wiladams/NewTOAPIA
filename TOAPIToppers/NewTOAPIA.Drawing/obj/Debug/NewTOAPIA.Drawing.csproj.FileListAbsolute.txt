@@ -1,5 +1,0 @@
-C:\depot\TOAPIToppers\bin\Debug\NewTOAPIA.Drawing.dll
-C:\depot\TOAPIToppers\bin\Debug\NewTOAPIA.Drawing.pdb
-C:\depot\TOAPIToppers\NewTOAPIA.Drawing\obj\Debug\ResolveAssemblyReference.cache
-C:\depot\TOAPIToppers\NewTOAPIA.Drawing\obj\Debug\NewTOAPIA.Drawing.dll
-C:\depot\TOAPIToppers\NewTOAPIA.Drawing\obj\Debug\NewTOAPIA.Drawing.pdb
