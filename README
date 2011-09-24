@@ -1,1 +1,9 @@
-This repository is for the NewTOAPIA set of libraries
+If you want to program "Classic" Windows using the .net Frameworks, this set of libraries is for you.
+
+Over the years, I have accumulated numerous P/Invoke calls, which are encapsulated in the TOAPI libraries.  It's not all the calls you'd ever need, but it's a substantial number of the most useful ones.
+
+TOAPIToppers are object interfaces to the TOAPI calls.  Whereas the TOAPI library is faithful to the original API calls (if you are coming from 'C', they will be most familiar), the Toppers encapsulate the calls in an object oriented fashion which is much more intuitive and easy to use by a more modern programming language like C#.
+
+The SampleTOAPIA are a set of samples that utilize the TOAPI and TOAPIToppers libraries.  They cover everything from playing with sound, to mapping live video feeds to spinning cubes in OpenGL.
+
+As the samples were developed over time, they have tended to drift out of working state with respect to the ever evolving APIs.  They still serve as good sample code, and in many cases, if they don't already work, require minor tweaks to get them into good working order.
