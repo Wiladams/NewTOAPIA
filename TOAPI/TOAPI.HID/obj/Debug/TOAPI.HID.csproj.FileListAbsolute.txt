@@ -1,5 +1,0 @@
-C:\SVN\TOAPI\TOAPI.HID\bin\Debug\TOAPI.HID.dll
-C:\SVN\TOAPI\TOAPI.HID\bin\Debug\TOAPI.HID.pdb
-C:\SVN\TOAPI\TOAPI.HID\obj\Debug\ResolveAssemblyReference.cache
-C:\SVN\TOAPI\TOAPI.HID\obj\Debug\TOAPI.HID.dll
-C:\SVN\TOAPI\TOAPI.HID\obj\Debug\TOAPI.HID.pdb
