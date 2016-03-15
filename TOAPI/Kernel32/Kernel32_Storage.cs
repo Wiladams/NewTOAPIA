@@ -16,7 +16,7 @@ namespace TOAPI.Kernel32
             ref int lpTotalNumberOfClusters);
         
         //GetDiskFreeSpaceEx Retrieves information about the specified disk, including the amount of free space on the disk. 
-        [DllImport("kernel32.dll", CharSet=CharSet.Auto)]
+        [DllImport("kernel32.dll", CharSet=CharSet.Ansi)]
         [return: MarshalAs(UnmanagedType.Bool)]
         public static extern bool GetDiskFreeSpaceEx([In] string lpDirectoryName, 
             ref ulong lpFreeBytesAvailableToCaller, 

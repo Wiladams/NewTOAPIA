@@ -14,12 +14,12 @@ namespace NewTOAPIA.Graphics
         /// <summary>
         /// Represents the number of pixels that are in each row.
         /// </summary>
-        int Width { get; }
+        //int Width { get; }
 
         /// <summary>
         /// Indicates how many rows there are in the image.
         /// </summary>
-        int Height { get; }
+        //int Height { get; }
 
 
         int BytesPerRow { get; }

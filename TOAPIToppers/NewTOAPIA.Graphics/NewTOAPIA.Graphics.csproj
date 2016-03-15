@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -12,6 +12,11 @@
     <AssemblyName>NewTOAPIA.Graphics</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -104,7 +109,7 @@
     <Compile Include="Types\IBrush.cs" />
     <Compile Include="Types\IFont.cs" />
     <Compile Include="Types\IPen.cs" />
-    <Compile Include="obj\bvec2.cs" />
+    <Compile Include="VectorCalculus\bvec2.cs" />
     <Compile Include="VectorCalculus\bvec3.cs" />
     <Compile Include="VectorCalculus\bvec4.cs" />
     <Compile Include="VectorCalculus\Enums.cs" />
@@ -128,6 +133,9 @@
       <Project>{E8819E96-D31D-4B4E-9BB7-5BFAF4C5FB91}</Project>
       <Name>NewTOAPIA.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

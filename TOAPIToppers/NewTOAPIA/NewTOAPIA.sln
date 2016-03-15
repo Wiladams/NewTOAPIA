@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewTOAPIA.Core", "NewTOAPIA.Core.csproj", "{E8819E96-D31D-4B4E-9BB7-5BFAF4C5FB91}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewTOAPIA.Drawing", "..\NewTOAPIA.Drawing\NewTOAPIA.Drawing.csproj", "{B70180B5-9B35-4538-9F23-A0C614BF27FE}"

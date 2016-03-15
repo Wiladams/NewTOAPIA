@@ -112,7 +112,7 @@ namespace Machiner
             ulong totalBytes=0;
             ulong totalFreeBytes=0;
 
-            Kernel32.GetDiskFreeSpaceExW(aVolume, ref freeBytes, ref totalBytes, ref totalFreeBytes);
+            Kernel32.GetDiskFreeSpaceEx(aVolume, ref freeBytes, ref totalBytes, ref totalFreeBytes);
 
             Console.WriteLine("  Total Bytes: {0}Mb", (totalBytes/1024)/1024);
             Console.WriteLine("  Total Free: {0}Mb", (totalFreeBytes/1024)/1024);

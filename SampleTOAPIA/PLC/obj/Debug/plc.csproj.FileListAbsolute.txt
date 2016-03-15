@@ -1,1 +1,2 @@
 C:\depot\SampleTOAPIA\PLC\obj\Debug\ResolveAssemblyReference.cache
+C:\repos\NewTOAPIA\SampleTOAPIA\PLC\obj\Debug\plc.csprojResolveAssemblyReference.cache

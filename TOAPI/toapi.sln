@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TOAPI.Types", "Types\TOAPI.Types.csproj", "{92AF7146-FA0C-491E-A1CE-E2E242E3ED0D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TOAPI.Kernel32", "Kernel32\TOAPI.Kernel32.csproj", "{E1C2D415-4D72-40A0-867D-383D7F7E55F9}"

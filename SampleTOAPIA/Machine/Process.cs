@@ -5,6 +5,7 @@ using System.Runtime.InteropServices;
 
 using TOAPI.Types;
 using TOAPI.Kernel32;
+using TOAPI.PSAPI;
 
 public enum ProcessRights
 {

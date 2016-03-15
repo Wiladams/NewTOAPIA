@@ -156,4 +156,7 @@
   <data name="UnableToFindLocalRoutingInterface" xml:space="preserve">
     <value>Unable to find a local routing interface, is no network present?</value>
   </data>
+  <data name="ValueMaximumPayload" xml:space="preserve">
+    <value>Number of bytes in payload {0}has exceeded the maximum allowable {1}.</value>
+  </data>
 </root>
