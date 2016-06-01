@@ -18,3 +18,5 @@ C:\Users\William\Downloads\Graphics\Agg\agg-sharp.95Source\agg-sharp.95Source\ex
 C:\Users\William\Downloads\Graphics\Agg\agg-sharp.95Source\agg-sharp.95Source\examples\aa_test\obj\Debug\aa_test.pdb
 C:\depot\SampleTOAPIA\aa_test\obj\Debug\aa_test.exe
 C:\depot\SampleTOAPIA\aa_test\obj\Debug\aa_test.pdb
+D:\repos\NewTOAPIA\SampleTOAPIA\aa_test\obj\Debug\aa_test.exe
+D:\repos\NewTOAPIA\SampleTOAPIA\aa_test\obj\Debug\aa_test.pdb

@@ -35,3 +35,5 @@ C:\depot\SampleTOAPIA\GDIVideo\bin\Debug\TOAPI.WinMM.pdb
 C:\depot\SampleTOAPIA\GDIVideo\bin\Debug\NewTOAPIA.Core.pdb
 C:\depot\SampleTOAPIA\GDIVideo\obj\Debug\GDIVideo.exe
 C:\depot\SampleTOAPIA\GDIVideo\obj\Debug\GDIVideo.pdb
+D:\repos\NewTOAPIA\SampleTOAPIA\GDIVideo\obj\Debug\GDIVideo.exe
+D:\repos\NewTOAPIA\SampleTOAPIA\GDIVideo\obj\Debug\GDIVideo.pdb

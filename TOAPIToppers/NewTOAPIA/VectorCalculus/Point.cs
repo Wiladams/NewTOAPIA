@@ -1,11 +1,11 @@
 ﻿namespace NewTOAPIA
 {
-    public class Point
+    public class GPoint
     {
         private double[] c;
 
         #region Constructors
-        public Point(int dimension)
+        public GPoint(int dimension)
         {
             c = new double[dimension];
         }
@@ -16,7 +16,7 @@
             set { c[where] = value; }
         }
         
-        public Point(double[] realValue)
+        public GPoint(double[] realValue)
         {
             c = new double[realValue.Length];
             for (int i = 0; i < realValue.Length; i++)

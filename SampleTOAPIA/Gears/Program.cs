@@ -11,7 +11,7 @@ using NewTOAPIA.GL;
 
 	static class Program
 	{
-        [STAThread]
+        //[STAThread]
         static void Main()
         {
             GearModel model = new GearModel();

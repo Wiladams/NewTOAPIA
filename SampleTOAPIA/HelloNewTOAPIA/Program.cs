@@ -14,7 +14,7 @@ namespace HelloNewTOAPIA
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
-        [STAThread]
+        //[STAThread]
         static void Main()
         {
             // Create the window that we'll show on the screen

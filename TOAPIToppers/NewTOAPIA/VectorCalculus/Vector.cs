@@ -22,7 +22,7 @@ namespace NewTOAPIA
         {
         }
         
-        public Vector(Point p)
+        public Vector(GPoint p)
         {
             el = new double[p.Coordinate.Length];
             for (int k = 0; k < p.Coordinate.Length; k++)
@@ -30,7 +30,7 @@ namespace NewTOAPIA
             n = p.Coordinate.Length;
         }
 
-        public Vector(Point p, Point q)
+        public Vector(GPoint p, GPoint q)
         {
             el = new double[p.Coordinate.Length];
             for (int k = 0; k < p.Coordinate.Length; k++)

@@ -166,6 +166,16 @@ namespace NewTOAPIA
             return (this == rhs);
         }
 
+        public override bool Equals(object obj)
+        {
+            if (obj == null || GetType()!= obj.GetType())
+            {
+                return false;
+            }
+            float4 rhs = (float4)obj;
+            return this.Equals(rhs);
+        }
+
         public static float4 Crs4(float4 a, float4 b, float4 c)
         {
             return new float4(

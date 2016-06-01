@@ -10,7 +10,7 @@ using NewTOAPIA.UI.GL;
 static class Program
 {
 
-    [STAThread]
+    //[STAThread]
     static void Main()
     {
         VideoScene model = new VideoScene();

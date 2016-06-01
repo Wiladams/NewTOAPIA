@@ -9,7 +9,7 @@ namespace Cloth
 
     static class Program
     {
-        [STAThread]
+        //[STAThread]
         static void Main()
         {
             GLGameApplication glApp = new GLGameApplication("Cloth", new System.Drawing.Rectangle(10,10,640,480), true);

@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aa_test", "aa_test.csproj", "{0CD72C9C-5111-4B90-BFA9-06C5ABC389F6}"
 	ProjectSection(ProjectDependencies) = postProject
 		{657DBC6D-C3EA-4398-A3FA-DDB73C14F71B} = {657DBC6D-C3EA-4398-A3FA-DDB73C14F71B}
