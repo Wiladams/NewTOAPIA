@@ -8,3 +8,7 @@ C:\depot\TOAPI\bin\Release\TOAPI.Dhcpcsvc.pdb
 C:\depot\TOAPI\Dhcpcsvc\obj\Release\ResolveAssemblyReference.cache
 C:\depot\TOAPI\Dhcpcsvc\obj\Release\TOAPI.Dhcpcsvc.dll
 C:\depot\TOAPI\Dhcpcsvc\obj\Release\TOAPI.Dhcpcsvc.pdb
+D:\repos\NewTOAPIA\TOAPI\bin\Release\TOAPI.Dhcpcsvc.dll
+D:\repos\NewTOAPIA\TOAPI\bin\Release\TOAPI.Dhcpcsvc.pdb
+D:\repos\NewTOAPIA\TOAPI\Dhcpcsvc\obj\Release\TOAPI.Dhcpcsvc.dll
+D:\repos\NewTOAPIA\TOAPI\Dhcpcsvc\obj\Release\TOAPI.Dhcpcsvc.pdb

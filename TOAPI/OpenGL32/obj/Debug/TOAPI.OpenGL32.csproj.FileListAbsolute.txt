@@ -3,3 +3,8 @@ C:\SVN\TOAPI\bin\Debug\TOAPI.OpenGL.pdb
 C:\SVN\TOAPI\OpenGL32\obj\Debug\ResolveAssemblyReference.cache
 C:\SVN\TOAPI\OpenGL32\obj\Debug\TOAPI.OpenGL.dll
 C:\SVN\TOAPI\OpenGL32\obj\Debug\TOAPI.OpenGL.pdb
+D:\repos\NewTOAPIA\TOAPI\bin\Debug\TOAPI.OpenGL.dll
+D:\repos\NewTOAPIA\TOAPI\bin\Debug\TOAPI.OpenGL.pdb
+D:\repos\NewTOAPIA\TOAPI\OpenGL32\obj\Debug\TOAPI.OpenGL32.csprojResolveAssemblyReference.cache
+D:\repos\NewTOAPIA\TOAPI\OpenGL32\obj\Debug\TOAPI.OpenGL.dll
+D:\repos\NewTOAPIA\TOAPI\OpenGL32\obj\Debug\TOAPI.OpenGL.pdb

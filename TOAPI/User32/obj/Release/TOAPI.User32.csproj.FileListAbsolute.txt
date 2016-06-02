@@ -8,3 +8,8 @@ C:\depot\TOAPI\bin\Release\TOAPI.User32.pdb
 C:\depot\TOAPI\User32\obj\Release\ResolveAssemblyReference.cache
 C:\depot\TOAPI\User32\obj\Release\TOAPI.User32.dll
 C:\depot\TOAPI\User32\obj\Release\TOAPI.User32.pdb
+D:\repos\NewTOAPIA\TOAPI\bin\Release\TOAPI.User32.dll
+D:\repos\NewTOAPIA\TOAPI\bin\Release\TOAPI.User32.pdb
+D:\repos\NewTOAPIA\TOAPI\User32\obj\Release\TOAPI.User32.csprojResolveAssemblyReference.cache
+D:\repos\NewTOAPIA\TOAPI\User32\obj\Release\TOAPI.User32.dll
+D:\repos\NewTOAPIA\TOAPI\User32\obj\Release\TOAPI.User32.pdb

@@ -8,3 +8,7 @@ C:\depot\TOAPI\bin\Release\TOAPI.Types.pdb
 C:\depot\TOAPI\Types\obj\Release\ResolveAssemblyReference.cache
 C:\depot\TOAPI\Types\obj\Release\TOAPI.Types.dll
 C:\depot\TOAPI\Types\obj\Release\TOAPI.Types.pdb
+D:\repos\NewTOAPIA\TOAPI\bin\Release\TOAPI.Types.dll
+D:\repos\NewTOAPIA\TOAPI\bin\Release\TOAPI.Types.pdb
+D:\repos\NewTOAPIA\TOAPI\Types\obj\Release\TOAPI.Types.dll
+D:\repos\NewTOAPIA\TOAPI\Types\obj\Release\TOAPI.Types.pdb

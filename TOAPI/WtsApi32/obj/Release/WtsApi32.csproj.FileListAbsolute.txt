@@ -8,3 +8,7 @@ C:\depot\TOAPI\bin\Release\TOAPI.WtsApi32.pdb
 C:\depot\TOAPI\WtsApi32\obj\Release\ResolveAssemblyReference.cache
 C:\depot\TOAPI\WtsApi32\obj\Release\TOAPI.WtsApi32.dll
 C:\depot\TOAPI\WtsApi32\obj\Release\TOAPI.WtsApi32.pdb
+D:\repos\NewTOAPIA\TOAPI\bin\Release\TOAPI.WtsApi32.dll
+D:\repos\NewTOAPIA\TOAPI\bin\Release\TOAPI.WtsApi32.pdb
+D:\repos\NewTOAPIA\TOAPI\WtsApi32\obj\Release\TOAPI.WtsApi32.dll
+D:\repos\NewTOAPIA\TOAPI\WtsApi32\obj\Release\TOAPI.WtsApi32.pdb

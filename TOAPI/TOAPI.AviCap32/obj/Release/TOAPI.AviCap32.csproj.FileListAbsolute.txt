@@ -8,3 +8,8 @@ C:\depot\TOAPI\bin\Release\TOAPI.AviCap32.pdb
 C:\depot\TOAPI\TOAPI.AviCap32\obj\Release\ResolveAssemblyReference.cache
 C:\depot\TOAPI\TOAPI.AviCap32\obj\Release\TOAPI.AviCap32.dll
 C:\depot\TOAPI\TOAPI.AviCap32\obj\Release\TOAPI.AviCap32.pdb
+D:\repos\NewTOAPIA\TOAPI\bin\Release\TOAPI.AviCap32.dll
+D:\repos\NewTOAPIA\TOAPI\bin\Release\TOAPI.AviCap32.pdb
+D:\repos\NewTOAPIA\TOAPI\TOAPI.AviCap32\obj\Release\TOAPI.AviCap32.csprojResolveAssemblyReference.cache
+D:\repos\NewTOAPIA\TOAPI\TOAPI.AviCap32\obj\Release\TOAPI.AviCap32.dll
+D:\repos\NewTOAPIA\TOAPI\TOAPI.AviCap32\obj\Release\TOAPI.AviCap32.pdb

@@ -8,3 +8,7 @@ C:\depot\TOAPI\bin\Release\TOAPI.Ole.pdb
 C:\depot\TOAPI\OleAut32\obj\Release\ResolveAssemblyReference.cache
 C:\depot\TOAPI\OleAut32\obj\Release\TOAPI.Ole.dll
 C:\depot\TOAPI\OleAut32\obj\Release\TOAPI.Ole.pdb
+D:\repos\NewTOAPIA\TOAPI\bin\Release\TOAPI.Ole.dll
+D:\repos\NewTOAPIA\TOAPI\bin\Release\TOAPI.Ole.pdb
+D:\repos\NewTOAPIA\TOAPI\OleAut32\obj\Release\TOAPI.Ole.dll
+D:\repos\NewTOAPIA\TOAPI\OleAut32\obj\Release\TOAPI.Ole.pdb

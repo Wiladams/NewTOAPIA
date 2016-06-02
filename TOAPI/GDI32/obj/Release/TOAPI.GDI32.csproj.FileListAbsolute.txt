@@ -8,3 +8,8 @@ C:\depot\TOAPI\bin\Release\TOAPI.GDI32.pdb
 C:\depot\TOAPI\GDI32\obj\Release\ResolveAssemblyReference.cache
 C:\depot\TOAPI\GDI32\obj\Release\TOAPI.GDI32.dll
 C:\depot\TOAPI\GDI32\obj\Release\TOAPI.GDI32.pdb
+D:\repos\NewTOAPIA\TOAPI\bin\Release\TOAPI.GDI32.dll
+D:\repos\NewTOAPIA\TOAPI\bin\Release\TOAPI.GDI32.pdb
+D:\repos\NewTOAPIA\TOAPI\GDI32\obj\Release\TOAPI.GDI32.csprojResolveAssemblyReference.cache
+D:\repos\NewTOAPIA\TOAPI\GDI32\obj\Release\TOAPI.GDI32.dll
+D:\repos\NewTOAPIA\TOAPI\GDI32\obj\Release\TOAPI.GDI32.pdb

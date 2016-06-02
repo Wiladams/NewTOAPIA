@@ -3,3 +3,8 @@ C:\SVN\TOAPI\bin\Debug\TOAPI.WinMM.pdb
 C:\SVN\TOAPI\WinMM\obj\Debug\ResolveAssemblyReference.cache
 C:\SVN\TOAPI\WinMM\obj\Debug\TOAPI.WinMM.dll
 C:\SVN\TOAPI\WinMM\obj\Debug\TOAPI.WinMM.pdb
+D:\repos\NewTOAPIA\TOAPI\bin\Debug\TOAPI.WinMM.dll
+D:\repos\NewTOAPIA\TOAPI\bin\Debug\TOAPI.WinMM.pdb
+D:\repos\NewTOAPIA\TOAPI\WinMM\obj\Debug\TOAPI.WinMM.csprojResolveAssemblyReference.cache
+D:\repos\NewTOAPIA\TOAPI\WinMM\obj\Debug\TOAPI.WinMM.dll
+D:\repos\NewTOAPIA\TOAPI\WinMM\obj\Debug\TOAPI.WinMM.pdb

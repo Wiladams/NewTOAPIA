@@ -10,3 +10,8 @@ C:\depot\TOAPIToppers\NewTOAPIA.Media.Audio\obj\Release\NewTOAPIA.Media.Audio.pd
 \\LS-WXL9E1\share\code\TOAPIToppers\NewTOAPIA.Media.Audio\obj\Release\ResolveAssemblyReference.cache
 \\LS-WXL9E1\share\code\TOAPIToppers\NewTOAPIA.Media.Audio\obj\Release\NewTOAPIA.Media.Audio.dll
 \\LS-WXL9E1\share\code\TOAPIToppers\NewTOAPIA.Media.Audio\obj\Release\NewTOAPIA.Media.Audio.pdb
+D:\repos\NewTOAPIA\TOAPIToppers\bin\Release\NewTOAPIA.Media.Audio.dll
+D:\repos\NewTOAPIA\TOAPIToppers\bin\Release\NewTOAPIA.Media.Audio.pdb
+D:\repos\NewTOAPIA\TOAPIToppers\NewTOAPIA.Media.Audio\obj\Release\NewTOAPIA.Media.Audio.csprojResolveAssemblyReference.cache
+D:\repos\NewTOAPIA\TOAPIToppers\NewTOAPIA.Media.Audio\obj\Release\NewTOAPIA.Media.Audio.dll
+D:\repos\NewTOAPIA\TOAPIToppers\NewTOAPIA.Media.Audio\obj\Release\NewTOAPIA.Media.Audio.pdb

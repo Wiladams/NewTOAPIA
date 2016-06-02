@@ -8,3 +8,8 @@ C:\depot\TOAPIToppers\NewTOAPIA.Media\obj\Release\NewTOAPIA.Media.pdb
 \\LS-WXL9E1\share\code\TOAPIToppers\NewTOAPIA.Media\obj\Release\ResolveAssemblyReference.cache
 \\LS-WXL9E1\share\code\TOAPIToppers\NewTOAPIA.Media\obj\Release\NewTOAPIA.Media.dll
 \\LS-WXL9E1\share\code\TOAPIToppers\NewTOAPIA.Media\obj\Release\NewTOAPIA.Media.pdb
+D:\repos\NewTOAPIA\TOAPIToppers\bin\Release\NewTOAPIA.Media.dll
+D:\repos\NewTOAPIA\TOAPIToppers\bin\Release\NewTOAPIA.Media.pdb
+D:\repos\NewTOAPIA\TOAPIToppers\NewTOAPIA.Media\obj\Release\NewTOAPIA.Media.csprojResolveAssemblyReference.cache
+D:\repos\NewTOAPIA\TOAPIToppers\NewTOAPIA.Media\obj\Release\NewTOAPIA.Media.dll
+D:\repos\NewTOAPIA\TOAPIToppers\NewTOAPIA.Media\obj\Release\NewTOAPIA.Media.pdb
