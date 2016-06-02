@@ -1,15 +1,10 @@
 using System;
 using System.Collections.Generic;
-using System.Drawing;
-using System.IO;
 using System.Runtime.InteropServices;
 using System.Runtime.InteropServices.ComTypes;
-using System.Text;
 using System.Threading;
 
 using TOAPI.Types;
-
-using NewTOAPIA.Media;
 using NewTOAPIA.DirectShow;
 using NewTOAPIA.DirectShow.Core;
 using NewTOAPIA.DirectShow.DES;
@@ -19,10 +14,10 @@ using NewTOAPIA.DirectShow.Quartz;
 namespace NewTOAPIA.Media.Capture
 {
 
-	/// <summary>
-	/// VideoCaptureDevice - capture video from local device
-	/// </summary>
-	public class VideoCaptureDevice : IVideoSource
+    /// <summary>
+    /// VideoCaptureDevice - capture video from local device
+    /// </summary>
+    public class VideoCaptureDevice : IVideoSource
     {
         #region Fields
         private string	source;

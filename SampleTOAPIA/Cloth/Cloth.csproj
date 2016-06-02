@@ -79,23 +79,23 @@
   <ItemGroup>
     <Reference Include="NewTOAPIA.Core, Version=1.6.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Core.dll</HintPath>
+      <HintPath>..\..\TOAPIToppers\bin\Debug\NewTOAPIA.Core.dll</HintPath>
     </Reference>
-    <Reference Include="NewTOAPIA.GL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="NewTOAPIA.GL, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.GL.dll</HintPath>
+      <HintPath>..\..\TOAPIToppers\bin\Debug\NewTOAPIA.GL.dll</HintPath>
     </Reference>
     <Reference Include="NewTOAPIA.Graphics, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Graphics.dll</HintPath>
+      <HintPath>..\..\TOAPIToppers\bin\Debug\NewTOAPIA.Graphics.dll</HintPath>
     </Reference>
     <Reference Include="NewTOAPIA.Media, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Media.dll</HintPath>
+      <HintPath>..\..\TOAPIToppers\bin\Debug\NewTOAPIA.Media.dll</HintPath>
     </Reference>
     <Reference Include="NewTOAPIA.Media.GL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Media.GL.dll</HintPath>
+      <HintPath>..\..\TOAPIToppers\bin\Debug\NewTOAPIA.Media.GL.dll</HintPath>
     </Reference>
     <Reference Include="NewTOAPIA.Media.WinMM, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -107,7 +107,7 @@
     </Reference>
     <Reference Include="NewTOAPIA.UI, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.UI.dll</HintPath>
+      <HintPath>..\..\TOAPIToppers\bin\Debug\NewTOAPIA.UI.dll</HintPath>
     </Reference>
     <Reference Include="NewTOAPIA.UI.GL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -127,11 +127,11 @@
     </Reference>
     <Reference Include="TOAPI.OpenGL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Release\TOAPI.OpenGL.dll</HintPath>
+      <HintPath>..\..\TOAPIToppers\bin\Debug\TOAPI.OpenGL.dll</HintPath>
     </Reference>
     <Reference Include="TOAPI.Types, Version=1.6.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Release\TOAPI.Types.dll</HintPath>
+      <HintPath>..\..\TOAPIToppers\bin\Debug\TOAPI.Types.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

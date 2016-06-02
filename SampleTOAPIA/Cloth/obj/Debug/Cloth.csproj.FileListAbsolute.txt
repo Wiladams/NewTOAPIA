@@ -85,6 +85,5 @@ D:\repos\NewTOAPIA\SampleTOAPIA\Cloth\bin\Debug\TOAPI.Kernel32.pdb
 D:\repos\NewTOAPIA\SampleTOAPIA\Cloth\bin\Debug\NewTOAPIA.DirectShow.pdb
 D:\repos\NewTOAPIA\SampleTOAPIA\Cloth\bin\Debug\TOAPI.GDI32.pdb
 D:\repos\NewTOAPIA\SampleTOAPIA\Cloth\bin\Debug\TOAPI.Ole.pdb
-D:\repos\NewTOAPIA\SampleTOAPIA\Cloth\obj\Debug\Cloth.csprojResolveAssemblyReference.cache
 D:\repos\NewTOAPIA\SampleTOAPIA\Cloth\obj\Debug\Flagger.exe
 D:\repos\NewTOAPIA\SampleTOAPIA\Cloth\obj\Debug\Flagger.pdb

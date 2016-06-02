@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Drawing;
-using System.Runtime.InteropServices;
 
 using TOAPI.GDI32;
 
 namespace NewTOAPIA.Drawing.GDI
 {
-    using NewTOAPIA.Drawing;
-
     public class GDIDDBitmap : GDIPixmap
     {
         public GDIDDBitmap(int width, int height)

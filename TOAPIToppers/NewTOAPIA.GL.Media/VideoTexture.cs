@@ -1,9 +1,5 @@
 ﻿using System;
-
-using NewTOAPIA;
-using NewTOAPIA.Media;
 using NewTOAPIA.GL;
-using NewTOAPIA.DirectShow;
 using NewTOAPIA.Graphics;
 using NewTOAPIA.Media.Capture;
 

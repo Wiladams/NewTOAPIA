@@ -116,7 +116,7 @@
       <Name>NewTOAPIA.Graphics</Name>
     </ProjectReference>
     <ProjectReference Include="..\NewTOAPIA\NewTOAPIA.Core.csproj">
-      <Project>{E8819E96-D31D-4B4E-9BB7-5BFAF4C5FB91}</Project>
+      <Project>{e8819e96-d31d-4b4e-9bb7-5bfaf4c5fb91}</Project>
       <Name>NewTOAPIA.Core</Name>
     </ProjectReference>
   </ItemGroup>
