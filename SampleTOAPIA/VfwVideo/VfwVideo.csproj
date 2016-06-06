@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -10,8 +10,29 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>GDIVideo</RootNamespace>
     <AssemblyName>GDIVideo</AssemblyName>
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -33,51 +54,43 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="NewTOAPIA.Core, Version=1.6.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\libraries\NewTOAPIA.Core.dll</HintPath>
+    <Reference Include="NewTOAPIA.Core">
+      <HintPath>..\..\bin\Debug\NewTOAPIA.Core.dll</HintPath>
     </Reference>
-    <Reference Include="NewTOAPIA.Drawing, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\libraries\NewTOAPIA.Drawing.dll</HintPath>
+    <Reference Include="NewTOAPIA.Drawing">
+      <HintPath>..\..\bin\Debug\NewTOAPIA.Drawing.dll</HintPath>
     </Reference>
-    <Reference Include="NewTOAPIA.Imaging, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\libraries\NewTOAPIA.Imaging.dll</HintPath>
+    <Reference Include="NewTOAPIA.Drawing.GDI">
+      <HintPath>..\..\bin\Debug\NewTOAPIA.Drawing.GDI.dll</HintPath>
     </Reference>
-    <Reference Include="NewTOAPIA.Kernel, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\libraries\NewTOAPIA.Kernel.dll</HintPath>
+    <Reference Include="NewTOAPIA.Graphics">
+      <HintPath>..\..\bin\Debug\NewTOAPIA.Graphics.dll</HintPath>
     </Reference>
-    <Reference Include="NewTOAPIA.Media, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\libraries\NewTOAPIA.Media.dll</HintPath>
+    <Reference Include="NewTOAPIA.Imaging">
+      <HintPath>..\..\bin\Debug\NewTOAPIA.Imaging.dll</HintPath>
     </Reference>
-    <Reference Include="NewTOAPIA.UI, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\libraries\NewTOAPIA.UI.dll</HintPath>
+    <Reference Include="NewTOAPIA.Kernel">
+      <HintPath>..\..\bin\Debug\NewTOAPIA.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.Media.Vfw">
+      <HintPath>..\..\bin\Debug\NewTOAPIA.Media.Vfw.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.UI">
+      <HintPath>..\..\bin\Debug\NewTOAPIA.UI.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
-    <Reference Include="TOAPI.AviCap32, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\libraries\TOAPI.AviCap32.dll</HintPath>
+    <Reference Include="TOAPI.AviCap32">
+      <HintPath>..\..\bin\Debug\TOAPI.AviCap32.dll</HintPath>
     </Reference>
-    <Reference Include="TOAPI.GDI32, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\libraries\TOAPI.GDI32.dll</HintPath>
+    <Reference Include="TOAPI.GDI32">
+      <HintPath>..\..\bin\Debug\TOAPI.GDI32.dll</HintPath>
     </Reference>
-    <Reference Include="TOAPI.Kernel32, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\libraries\TOAPI.Kernel32.dll</HintPath>
+    <Reference Include="TOAPI.Types">
+      <HintPath>..\..\bin\Debug\TOAPI.Types.dll</HintPath>
     </Reference>
-    <Reference Include="TOAPI.Types, Version=1.6.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\libraries\TOAPI.Types.dll</HintPath>
-    </Reference>
-    <Reference Include="TOAPI.User32, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\libraries\TOAPI.User32.dll</HintPath>
+    <Reference Include="TOAPI.User32">
+      <HintPath>..\..\bin\Debug\TOAPI.User32.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -92,7 +105,18 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

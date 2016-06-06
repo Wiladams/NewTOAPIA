@@ -22,7 +22,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\bin\Debug\</OutputPath>
+    <OutputPath>..\..\bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -47,27 +47,23 @@
     <Reference Include="System.Xml" />
     <Reference Include="TOAPI.GDI32, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPI\bin\Release\TOAPI.GDI32.dll</HintPath>
+      <HintPath>..\..\bin\Debug\TOAPI.GDI32.dll</HintPath>
     </Reference>
     <Reference Include="TOAPI.Kernel32, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPI\bin\Release\TOAPI.Kernel32.dll</HintPath>
-    </Reference>
-    <Reference Include="TOAPI.OpenGL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPI\bin\Release\TOAPI.OpenGL.dll</HintPath>
+      <HintPath>..\..\bin\Debug\TOAPI.Kernel32.dll</HintPath>
     </Reference>
     <Reference Include="TOAPI.Types, Version=1.6.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPI\bin\Release\TOAPI.Types.dll</HintPath>
+      <HintPath>..\..\bin\Debug\TOAPI.Types.dll</HintPath>
     </Reference>
     <Reference Include="TOAPI.User32, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPI\bin\Release\TOAPI.User32.dll</HintPath>
+      <HintPath>..\..\bin\Debug\TOAPI.User32.dll</HintPath>
     </Reference>
     <Reference Include="TOAPI.WinMM, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPI\bin\Release\TOAPI.WinMM.dll</HintPath>
+      <HintPath>..\..\bin\Debug\TOAPI.WinMM.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

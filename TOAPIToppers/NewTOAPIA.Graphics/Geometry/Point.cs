@@ -1,16 +1,18 @@
 ﻿namespace NewTOAPIA.Graphics
 {
-    public class Point
+    #region unused
+    // A point set with multiple dimensions
+    public class XDPoint
     {
         private double[] c;
 
         #region Constructors
-        public Point(int dimension)
+        public XDPoint(int dimension)
         {
             c = new double[dimension];
         }
                 
-        public Point(double[] realValue)
+        public XDPoint(double[] realValue)
         {
             c = new double[realValue.Length];
             for (int i = 0; i < realValue.Length; i++)
@@ -30,4 +32,6 @@
             set { c = value; }
         }
     }
+
+    #endregion
 }

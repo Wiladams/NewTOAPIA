@@ -1,29 +1,29 @@
 ﻿using System;
 using System.Drawing;
 using System.IO;
-using System.Text;
 using System.Runtime.InteropServices;
-
-using NewTOAPIA;
-using NewTOAPIA.Drawing;
-using NewTOAPIA.Imaging;
-using NewTOAPIA.UI;
-using NewTOAPIA.Media;
-using NewTOAPIA.Kernel;
 
 using TOAPI.Types;
 using TOAPI.GDI32;
 using TOAPI.AviCap32;
 using TOAPI.User32;
 
-namespace GDIVideo
+using NewTOAPIA.Drawing.GDI;
+using NewTOAPIA.Kernel;
+using NewTOAPIA.UI;
+using NewTOAPIA.Media;
+
+
+
+
+namespace VfwVideo
 {
     public partial class Form1 : Window
     {
         VfwCameraDevice fCamera;
-        GDIContext fScreenContext;
+        NewTOAPIA.Drawing.GDI.GDIContext fScreenContext;
         BITMAPINFO fBitmapInfo;
-        PixelBuffer24 fPixelBuffer;
+        //PixelBuffer24 fPixelBuffer;
         VfwDeCompressor fDecompressor;
 
         TimedDispatcher fCaptureDispatcher;
@@ -41,7 +41,7 @@ namespace GDIVideo
             fDecompressor = VfwDeCompressor.Create(Vfw.ICTYPE_VIDEO);
 
             // Allocate a pixel buffer to receive decompressed bits
-            fPixelBuffer = new PixelBuffer24(fCamera.Width, fCamera.Height);
+            //fPixelBuffer = new PixelBuffer24(fCamera.Width, fCamera.Height);
 
             //fCamera.StartStreaming();
             fCamera.PreviewRate = 33;
@@ -96,12 +96,12 @@ namespace GDIVideo
                 case GDI32.BI_RGB:
                     {
                         //Console.WriteLine("RGB");
-                        PixelAccessorBGRb accessor = new PixelAccessorBGRb(fCamera.Width, fCamera.Height, PixmapOrientation.BottomToTop, hdr.lpData);
-                        SourceCopy srcCopy = new SourceCopy();
+                        //PixelAccessorBGRb accessor = new PixelAccessorBGRb(fCamera.Width, fCamera.Height, PixmapOrientation.BottomToTop, hdr.lpData);
+                        //SourceCopy srcCopy = new SourceCopy();
 
-                        fPixelBuffer.ApplyBinaryColorOperator(srcCopy, accessor);
-                        Rectangle srcRect = new Rectangle(0, 0, fCamera.Width, fCamera.Height);
-                        bool success = DeviceContextClientArea.AlphaBlend(fPixelBuffer.DeviceContext, srcRect, srcRect, 255);
+                        //fPixelBuffer.ApplyBinaryColorOperator(srcCopy, accessor);
+                        //Rectangle srcRect = new Rectangle(0, 0, fCamera.Width, fCamera.Height);
+                        //bool success = DeviceContextClientArea.AlphaBlend(fPixelBuffer.DeviceContext, srcRect, srcRect, 255);
                     }
                     break;
 
@@ -140,11 +140,15 @@ namespace GDIVideo
                         UInt32 vcap = FOURCC.MakeFourCC('v', 'c', 'a','p');
                         UInt32 VIDC = FOURCC.MakeFourCC('V', 'I', 'D', 'C');
 
+                        #region temporarily off
+                        /*
                         BITMAPINFOHEADER bmihIn = fPixelBuffer.BitmapInfo.bmiHeader;
                         BITMAPINFOHEADER bmihOut = new BITMAPINFOHEADER();
                         bmihOut.Init();
                         IntPtr handle = Vfw.ICLocate(VIDC, 0, ref bmihIn, ref bmihOut, 0);
                         Console.WriteLine("Handle: {0}", handle);
+    */                    
+    #endregion
 
                         //// Try to load it using the Image class
                         //Bitmap bm = (Bitmap)Image.FromStream(ms);

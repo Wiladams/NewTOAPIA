@@ -20,7 +20,7 @@ namespace NewTOAPIA.UI
 
         protected bool fTracking;
         protected bool fIsDepressed;
-        protected Point fLastMouse;
+        protected Point2I fLastMouse;
         #endregion
 
         #region Constructors

@@ -35,25 +35,20 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="NewTOAPIA.Core, Version=1.6.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Core.dll</HintPath>
+    <Reference Include="NewTOAPIA.Core">
+      <HintPath>..\..\bin\Debug\NewTOAPIA.Core.dll</HintPath>
     </Reference>
-    <Reference Include="NewTOAPIA.Drawing, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Drawing.dll</HintPath>
+    <Reference Include="NewTOAPIA.Drawing">
+      <HintPath>..\..\bin\Debug\NewTOAPIA.Drawing.dll</HintPath>
     </Reference>
-    <Reference Include="NewTOAPIA.Drawing.GDI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Drawing.GDI.dll</HintPath>
+    <Reference Include="NewTOAPIA.Drawing.GDI">
+      <HintPath>..\..\bin\Debug\NewTOAPIA.Drawing.GDI.dll</HintPath>
     </Reference>
-    <Reference Include="NewTOAPIA.Graphics, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Graphics.dll</HintPath>
+    <Reference Include="NewTOAPIA.Graphics">
+      <HintPath>..\..\bin\Debug\NewTOAPIA.Graphics.dll</HintPath>
     </Reference>
-    <Reference Include="NewTOAPIA.UI, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.UI.dll</HintPath>
+    <Reference Include="NewTOAPIA.UI">
+      <HintPath>..\..\bin\Debug\NewTOAPIA.UI.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
@@ -63,9 +58,8 @@
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
-    <Reference Include="TOAPI.Types, Version=1.6.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Release\TOAPI.Types.dll</HintPath>
+    <Reference Include="TOAPI.Types">
+      <HintPath>..\..\bin\Debug\TOAPI.Types.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -11,8 +11,8 @@ namespace NewTOAPIA.Drawing
     public delegate void SetPixel(int x, int y, ColorRGBA colorref);
 
     // Drawing Lines
-    public delegate void DrawLine(IPen aPen, Point startPoint, Point endPoint);
-    public delegate void DrawLines(IPen aPen, Point[] points);
+    public delegate void DrawLine(IPen aPen, Point2I startPoint, Point2I endPoint);
+    public delegate void DrawLines(IPen aPen, Point2I[] points);
 
 
     // Drawing Rectangles
@@ -32,13 +32,13 @@ namespace NewTOAPIA.Drawing
 
 
     // Drawing Bezier
-    public delegate void DrawBezier(IPen aPen, Point startPoint, Point control1, Point control2, Point endPoint);
-    public delegate void DrawBeziers(IPen aPen, Point[] points);
+    public delegate void DrawBezier(IPen aPen, Point2I startPoint, Point2I control1, Point2I control2, Point2I endPoint);
+    public delegate void DrawBeziers(IPen aPen, Point2I[] points);
 
     // Drawing Polygon
-    public delegate void DrawPolygon(IPen aPen, Point[] points);
-    public delegate void FillPolygon(IBrush aBrush, Point[] points);
-    public delegate void Polygon(Point[] points);
+    public delegate void DrawPolygon(IPen aPen, Point2I[] points);
+    public delegate void FillPolygon(IBrush aBrush, Point2I[] points);
+    public delegate void Polygon(Point2I[] points);
 
     // Drawing Paths
     public delegate void DrawPath(IPen aPen, GPath aPath);

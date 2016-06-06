@@ -31,7 +31,7 @@ public enum StringAlignment
 		private String fString;
 		private uint fTextColor;
 		private uint fBackColor;
-        Point fTextOrigin;
+        Point2I fTextOrigin;
 
         StringAlignment fHAlignment;
         StringAlignment fVAlignment;

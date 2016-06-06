@@ -2,10 +2,9 @@
 
 namespace NewTOAPIA.Graphics
 {
-using System;
-using System.Collections.Generic;
-using System.Runtime.InteropServices;
-    
+    using System;
+    using System.Runtime.InteropServices;
+
     #region BGRb
     unsafe public class PixelAccessorBGRb : PixelAccessor
     {

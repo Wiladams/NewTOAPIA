@@ -5,6 +5,8 @@ C:\SVN\TOAPI\TOAPI.Winsock\obj\Debug\TOAPI.Winsock.dll
 C:\SVN\TOAPI\TOAPI.Winsock\obj\Debug\TOAPI.Winsock.pdb
 D:\repos\NewTOAPIA\TOAPI\bin\Debug\TOAPI.Winsock.dll
 D:\repos\NewTOAPIA\TOAPI\bin\Debug\TOAPI.Winsock.pdb
+D:\repos\NewTOAPIA\bin\Debug\TOAPI.Winsock.dll
+D:\repos\NewTOAPIA\bin\Debug\TOAPI.Winsock.pdb
 D:\repos\NewTOAPIA\TOAPI\TOAPI.Winsock\obj\Debug\TOAPI.Winsock.csprojResolveAssemblyReference.cache
 D:\repos\NewTOAPIA\TOAPI\TOAPI.Winsock\obj\Debug\TOAPI.Winsock.dll
 D:\repos\NewTOAPIA\TOAPI\TOAPI.Winsock\obj\Debug\TOAPI.Winsock.pdb

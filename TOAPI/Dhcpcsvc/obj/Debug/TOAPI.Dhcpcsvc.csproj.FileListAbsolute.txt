@@ -5,6 +5,8 @@ C:\SVN\TOAPI\Dhcpcsvc\obj\Debug\TOAPI.Dhcpcsvc.dll
 C:\SVN\TOAPI\Dhcpcsvc\obj\Debug\TOAPI.Dhcpcsvc.pdb
 D:\repos\NewTOAPIA\TOAPI\bin\Debug\TOAPI.Dhcpcsvc.dll
 D:\repos\NewTOAPIA\TOAPI\bin\Debug\TOAPI.Dhcpcsvc.pdb
+D:\repos\NewTOAPIA\bin\Debug\TOAPI.Dhcpcsvc.dll
+D:\repos\NewTOAPIA\bin\Debug\TOAPI.Dhcpcsvc.pdb
 D:\repos\NewTOAPIA\TOAPI\Dhcpcsvc\obj\Debug\TOAPI.Dhcpcsvc.csprojResolveAssemblyReference.cache
 D:\repos\NewTOAPIA\TOAPI\Dhcpcsvc\obj\Debug\TOAPI.Dhcpcsvc.dll
 D:\repos\NewTOAPIA\TOAPI\Dhcpcsvc\obj\Debug\TOAPI.Dhcpcsvc.pdb

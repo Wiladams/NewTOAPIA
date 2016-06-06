@@ -1,19 +1,12 @@
-﻿using System;
+﻿using NewTOAPIA.UI;
 
-using TOAPI.User32;
-using TOAPI.Types;
-using NewTOAPIA.UI;
-
-using NewTOAPIA.Media;
-
-namespace GDIVideo
+namespace VfwVideo
 {
     static class Program
     {
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
-        //[STAThread]
         static void Main()
         {
             Form1 form = new Form1();

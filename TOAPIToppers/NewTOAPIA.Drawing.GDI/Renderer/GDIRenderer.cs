@@ -614,6 +614,9 @@ namespace NewTOAPIA.Drawing.GDI
         {
             // 1. Check to see if the brush object already exists in our
             // list of objects
+            // fail safe
+            if (aBrush == null) { return; }
+
             bool containsObject = fObjectDictionary.ContainsKey(aBrush.UniqueID);
             
             // 2. If the object is already in the dictionary, then select

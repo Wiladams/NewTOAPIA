@@ -5,6 +5,8 @@ C:\SVN\TOAPI\Kernel32\obj\Debug\TOAPI.Kernel32.dll
 C:\SVN\TOAPI\Kernel32\obj\Debug\TOAPI.Kernel32.pdb
 D:\repos\NewTOAPIA\TOAPI\bin\Debug\TOAPI.Kernel32.dll
 D:\repos\NewTOAPIA\TOAPI\bin\Debug\TOAPI.Kernel32.pdb
+D:\repos\NewTOAPIA\bin\Debug\TOAPI.Kernel32.dll
+D:\repos\NewTOAPIA\bin\Debug\TOAPI.Kernel32.pdb
 D:\repos\NewTOAPIA\TOAPI\Kernel32\obj\Debug\TOAPI.Kernel32.csprojResolveAssemblyReference.cache
 D:\repos\NewTOAPIA\TOAPI\Kernel32\obj\Debug\TOAPI.Kernel32.dll
 D:\repos\NewTOAPIA\TOAPI\Kernel32\obj\Debug\TOAPI.Kernel32.pdb

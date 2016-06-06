@@ -5,6 +5,8 @@ C:\SVN\TOAPI\OleAut32\obj\Debug\TOAPI.Ole.dll
 C:\SVN\TOAPI\OleAut32\obj\Debug\TOAPI.Ole.pdb
 D:\repos\NewTOAPIA\TOAPI\bin\Debug\TOAPI.Ole.dll
 D:\repos\NewTOAPIA\TOAPI\bin\Debug\TOAPI.Ole.pdb
+D:\repos\NewTOAPIA\bin\Debug\TOAPI.Ole.dll
+D:\repos\NewTOAPIA\bin\Debug\TOAPI.Ole.pdb
 D:\repos\NewTOAPIA\TOAPI\OleAut32\obj\Debug\TOAPI.OleaAut32.csprojResolveAssemblyReference.cache
 D:\repos\NewTOAPIA\TOAPI\OleAut32\obj\Debug\TOAPI.Ole.dll
 D:\repos\NewTOAPIA\TOAPI\OleAut32\obj\Debug\TOAPI.Ole.pdb

@@ -180,7 +180,7 @@ namespace NewTOAPIA.UI
 		static extern uint GetCaretBlinkTime();
 		
 		[DllImport("user32.dll",  CharSet=CharSet.Auto)]
-		static extern bool GetCaretPos(ref Point aPoint);
+		static extern bool GetCaretPos(ref Point2I aPoint);
 
 		[DllImport("user32.dll",  CharSet=CharSet.Auto)]
 		static extern bool HideCaret(IntPtr hWnd);
