@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace TOAPI.Kernel32
+﻿namespace TOAPI.Kernel32
 {
     public partial class Kernel32
     {

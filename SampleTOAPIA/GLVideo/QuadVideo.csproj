@@ -76,45 +76,29 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="NewTOAPIA.Core, Version=1.6.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Core.dll</HintPath>
+    <Reference Include="NewTOAPIA.Core">
+      <HintPath>..\..\bin\Debug\NewTOAPIA.Core.dll</HintPath>
     </Reference>
-    <Reference Include="NewTOAPIA.GL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.GL.dll</HintPath>
+    <Reference Include="NewTOAPIA.GL">
+      <HintPath>..\..\bin\Debug\NewTOAPIA.GL.dll</HintPath>
     </Reference>
-    <Reference Include="NewTOAPIA.GL.Media, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.GL.Media.dll</HintPath>
+    <Reference Include="NewTOAPIA.Graphics">
+      <HintPath>..\..\bin\Debug\NewTOAPIA.Graphics.dll</HintPath>
     </Reference>
-    <Reference Include="NewTOAPIA.Graphics, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Graphics.dll</HintPath>
+    <Reference Include="NewTOAPIA.Media.Capture">
+      <HintPath>..\..\bin\Debug\NewTOAPIA.Media.Capture.dll</HintPath>
     </Reference>
-    <Reference Include="NewTOAPIA.Media, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Media.dll</HintPath>
+    <Reference Include="NewTOAPIA.Media.GL">
+      <HintPath>..\..\bin\Debug\NewTOAPIA.Media.GL.dll</HintPath>
     </Reference>
-    <Reference Include="NewTOAPIA.Media.Capture, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Media.Capture.dll</HintPath>
+    <Reference Include="NewTOAPIA.Modeling">
+      <HintPath>..\..\bin\Debug\NewTOAPIA.Modeling.dll</HintPath>
     </Reference>
-    <Reference Include="NewTOAPIA.Media.GL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Media.GL.dll</HintPath>
+    <Reference Include="NewTOAPIA.UI">
+      <HintPath>..\..\bin\Debug\NewTOAPIA.UI.dll</HintPath>
     </Reference>
-    <Reference Include="NewTOAPIA.Modeling, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Modeling.dll</HintPath>
-    </Reference>
-    <Reference Include="NewTOAPIA.UI, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="NewTOAPIA.UI.GL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.UI.GL.dll</HintPath>
+    <Reference Include="NewTOAPIA.UI.GL">
+      <HintPath>..\..\bin\Debug\NewTOAPIA.UI.GL.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <Name>System</Name>
@@ -130,13 +114,11 @@
       <Name>System.Windows.Forms</Name>
     </Reference>
     <Reference Include="System.Xml" />
-    <Reference Include="TOAPI.Types, Version=1.6.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Release\TOAPI.Types.dll</HintPath>
+    <Reference Include="TOAPI.Types">
+      <HintPath>..\..\bin\Debug\TOAPI.Types.dll</HintPath>
     </Reference>
-    <Reference Include="TOAPI.User32, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Release\TOAPI.User32.dll</HintPath>
+    <Reference Include="TOAPI.User32">
+      <HintPath>..\..\bin\Debug\TOAPI.User32.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

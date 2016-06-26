@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TOAPI.Kernel32
 {
-    partial class Kernel32
+    public partial class Kernel32
     {
         // IsWow64Message - User32
 

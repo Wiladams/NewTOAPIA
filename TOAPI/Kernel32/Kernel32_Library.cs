@@ -5,7 +5,7 @@ using TOAPI.Types;
 
 namespace TOAPI.Kernel32
 {
-    partial class Kernel32
+    public partial class Kernel32
     {
         // Dynamic linking
         //

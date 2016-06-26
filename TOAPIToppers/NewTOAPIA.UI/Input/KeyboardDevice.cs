@@ -41,8 +41,10 @@ namespace NewTOAPIA.UI
 
             fRIDRegister = new RAWINPUTDEVICE();
 
-            fIsPhysical = ClassName.ToUpper() == "KEYBOARD";
-
+            if (ClassName != null)
+            {
+                fIsPhysical = ClassName.ToUpper() == "KEYBOARD";
+            }
         }
 
         public override bool IsPhysical

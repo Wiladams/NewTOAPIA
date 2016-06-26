@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿
 using WORD = System.Int16;
 
 namespace TOAPI.WinMM

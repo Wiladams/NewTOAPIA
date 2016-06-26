@@ -1,9 +1,9 @@
 ﻿
+using System;
+using System.Runtime.InteropServices;
 
 namespace TOAPI.Winsock
 {
-    using System;
-    using System.Runtime.InteropServices;
     
     public class WinInet
     {

@@ -9,7 +9,7 @@ namespace TOAPI.Kernel32
     //public delegate void FiberProc(IntPtr parameter);
     public delegate void PFLS_CALLBACK_FUNCTION(IntPtr lpFlsData);
 
-    partial class Kernel32
+    public partial class Kernel32
     {
         // ConvertFiberToThread
         [DllImport("kernel32.dll", EntryPoint = "ConvertFiberToThread")]

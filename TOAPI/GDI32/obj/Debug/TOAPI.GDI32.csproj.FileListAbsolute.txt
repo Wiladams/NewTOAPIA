@@ -5,8 +5,3 @@ C:\SVN\TOAPI\GDI32\obj\Debug\TOAPI.GDI32.dll
 C:\SVN\TOAPI\GDI32\obj\Debug\TOAPI.GDI32.pdb
 D:\repos\NewTOAPIA\TOAPI\bin\Debug\TOAPI.GDI32.dll
 D:\repos\NewTOAPIA\TOAPI\bin\Debug\TOAPI.GDI32.pdb
-D:\repos\NewTOAPIA\bin\Debug\TOAPI.GDI32.dll
-D:\repos\NewTOAPIA\bin\Debug\TOAPI.GDI32.pdb
-D:\repos\NewTOAPIA\TOAPI\GDI32\obj\Debug\TOAPI.GDI32.csprojResolveAssemblyReference.cache
-D:\repos\NewTOAPIA\TOAPI\GDI32\obj\Debug\TOAPI.GDI32.dll
-D:\repos\NewTOAPIA\TOAPI\GDI32\obj\Debug\TOAPI.GDI32.pdb

@@ -3,7 +3,7 @@ using System.Security;
 
 namespace TOAPI.Kernel32
 {
-    partial class Kernel32
+    public partial class Kernel32
     {
         // Time Functions
         // Using SYSTEMTIME

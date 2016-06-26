@@ -5,8 +5,3 @@ C:\SVN\TOAPI\Types\obj\Debug\TOAPI.Types.dll
 C:\SVN\TOAPI\Types\obj\Debug\TOAPI.Types.pdb
 D:\repos\NewTOAPIA\TOAPI\bin\Debug\TOAPI.Types.dll
 D:\repos\NewTOAPIA\TOAPI\bin\Debug\TOAPI.Types.pdb
-D:\repos\NewTOAPIA\bin\Debug\TOAPI.Types.dll
-D:\repos\NewTOAPIA\bin\Debug\TOAPI.Types.pdb
-D:\repos\NewTOAPIA\TOAPI\Types\obj\Debug\TOAPI.Types.csprojResolveAssemblyReference.cache
-D:\repos\NewTOAPIA\TOAPI\Types\obj\Debug\TOAPI.Types.dll
-D:\repos\NewTOAPIA\TOAPI\Types\obj\Debug\TOAPI.Types.pdb

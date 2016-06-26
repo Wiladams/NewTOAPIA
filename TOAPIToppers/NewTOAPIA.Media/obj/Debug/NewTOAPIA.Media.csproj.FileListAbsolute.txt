@@ -5,8 +5,4 @@ C:\depot\TOAPIToppers\NewTOAPIA.Media\obj\Debug\NewTOAPIA.Media.dll
 C:\depot\TOAPIToppers\NewTOAPIA.Media\obj\Debug\NewTOAPIA.Media.pdb
 D:\repos\NewTOAPIA\TOAPIToppers\bin\Debug\NewTOAPIA.Media.dll
 D:\repos\NewTOAPIA\TOAPIToppers\bin\Debug\NewTOAPIA.Media.pdb
-D:\repos\NewTOAPIA\bin\Debug\NewTOAPIA.Media.dll
-D:\repos\NewTOAPIA\bin\Debug\NewTOAPIA.Media.pdb
 D:\repos\NewTOAPIA\TOAPIToppers\NewTOAPIA.Media\obj\Debug\NewTOAPIA.Media.csprojResolveAssemblyReference.cache
-D:\repos\NewTOAPIA\TOAPIToppers\NewTOAPIA.Media\obj\Debug\NewTOAPIA.Media.dll
-D:\repos\NewTOAPIA\TOAPIToppers\NewTOAPIA.Media\obj\Debug\NewTOAPIA.Media.pdb

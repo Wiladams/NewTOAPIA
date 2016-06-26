@@ -10,7 +10,7 @@ namespace Autometaii
     public class PolygonTest : Autometus
     {
         Size fSize;
-        Point[] fFigure;
+        Point2I[] fFigure;
 
         public PolygonTest(Size aSize)
         {

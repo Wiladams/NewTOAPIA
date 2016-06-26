@@ -1,10 +1,11 @@
-﻿
+﻿using System;
+using System.Runtime.InteropServices;
+
+using TOAPI.Kernel32;
+
+
 namespace TOAPI.Winsock
 {
-    using System;
-    using System.Runtime.InteropServices;
-
-    using TOAPI.Kernel32;
 
     public partial class Winsock
     {
@@ -100,7 +101,7 @@ namespace TOAPI.Winsock
             IntPtr lpvOutBuffer, int cbOutBuffer, 
             [Out] out int lpcbBytesReturned,
             [In] ref OVERLAPPED lpOverlapped,
-            [In] Kernel32.FileIOCompletionRoutine lpCompletionRoutine);
+            [In] FileIOCompletionRoutine lpCompletionRoutine);
 
         
         // 75   38 0001BB04 WSAJoinLeaf

@@ -47,9 +47,10 @@ namespace NewTOAPIA.UI
 
             fRIDRegister = new RAWINPUTDEVICE();
 
-
-            IsPhysical = ClassName.ToUpper() == "HIDCLASS";
-
+            if (ClassName != null)
+            {
+                IsPhysical = ClassName.ToUpper() == "HIDCLASS";
+            }
         }
         #endregion
 

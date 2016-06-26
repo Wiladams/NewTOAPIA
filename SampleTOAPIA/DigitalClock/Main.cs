@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-class DigitalClockMain
+﻿class DigitalClockMain
 {
 
     public static void Main(string[] args)

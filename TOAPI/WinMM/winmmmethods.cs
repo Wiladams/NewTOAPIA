@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Text;
 using System.Runtime.InteropServices;
-
-using TOAPI.Types;
 
 namespace TOAPI.WinMM
 {

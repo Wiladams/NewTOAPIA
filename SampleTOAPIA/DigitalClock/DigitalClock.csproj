@@ -58,9 +58,6 @@
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
-    <Reference Include="TOAPI.Types">
-      <HintPath>..\..\bin\Debug\TOAPI.Types.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DigitalClockDisplay.cs" />

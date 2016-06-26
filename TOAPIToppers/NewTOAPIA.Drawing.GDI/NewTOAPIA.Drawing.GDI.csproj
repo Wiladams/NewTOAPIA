@@ -42,18 +42,6 @@
     </Reference>
     <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
-    <Reference Include="TOAPI.GDI32, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPI\bin\Release\TOAPI.GDI32.dll</HintPath>
-    </Reference>
-    <Reference Include="TOAPI.Types, Version=1.6.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPI\bin\Release\TOAPI.Types.dll</HintPath>
-    </Reference>
-    <Reference Include="TOAPI.User32, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPI\bin\Release\TOAPI.User32.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bitmap\GDIDDBitmap.cs" />

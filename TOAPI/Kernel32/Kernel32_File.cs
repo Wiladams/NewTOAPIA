@@ -6,6 +6,32 @@ using TOAPI.Types;
 
 namespace TOAPI.Kernel32
 {
+    //FileIOCompletionRoutine Callback function used with the ReadFileEx and WriteFileEx functions, called when the asynchronous input and output (I/O) operation is completed or canceled. 
+    public delegate void FileIOCompletionRoutine(uint dwErrorCode, uint dwNumberOfBytesTransfered, ref OVERLAPPED lpOverlapped);
+
+    //The following callback functions are used in file I/O.Function Description 
+    // Delegates used in file manipulation
+    /// <summary>
+    /// Callback function used with the CopyFileEx and MoveFileWithProgress functions, called when a portion of a copy or move operation is completed.  
+    /// </summary>
+    /// <param name="TotalFileSize"></param>
+    /// <param name="TotalBytesTransferred"></param>
+    /// <param name="StreamSize"></param>
+    /// <param name="StreamBytesTransferred"></param>
+    /// <param name="dwStreamNumber"></param>
+    /// <param name="dwCallbackReason"></param>
+    /// <param name="hSourceFile"></param>
+    /// <param name="hDestinationFile"></param>
+    /// <param name="lpData"></param>
+    /// <returns></returns>
+    public delegate uint CopyProgressRoutine(long TotalFileSize, long TotalBytesTransferred,
+        long StreamSize, long StreamBytesTransferred, uint dwStreamNumber,
+        uint dwCallbackReason,
+        IntPtr hSourceFile,
+        IntPtr hDestinationFile,
+        IntPtr lpData);
+
+
     public partial class Kernel32
     {
         public const Int16 FILE_SHARE_READ = 0X1;
@@ -55,30 +81,8 @@ namespace TOAPI.Kernel32
         /// <summary>Simple representation of the handle returned when CreateFile fails.</summary>
         protected static IntPtr InvalidHandleValue = new IntPtr(-1);
 
-        //The following callback functions are used in file I/O.Function Description 
-        // Delegates used in file manipulation
-        /// <summary>
-        /// Callback function used with the CopyFileEx and MoveFileWithProgress functions, called when a portion of a copy or move operation is completed.  
-        /// </summary>
-        /// <param name="TotalFileSize"></param>
-        /// <param name="TotalBytesTransferred"></param>
-        /// <param name="StreamSize"></param>
-        /// <param name="StreamBytesTransferred"></param>
-        /// <param name="dwStreamNumber"></param>
-        /// <param name="dwCallbackReason"></param>
-        /// <param name="hSourceFile"></param>
-        /// <param name="hDestinationFile"></param>
-        /// <param name="lpData"></param>
-        /// <returns></returns>
-        public delegate uint CopyProgressRoutine(long TotalFileSize, long TotalBytesTransferred,
-            long StreamSize, long StreamBytesTransferred, uint dwStreamNumber,
-            uint dwCallbackReason, 
-            IntPtr hSourceFile, 
-            IntPtr hDestinationFile, 
-            IntPtr lpData);
 
-        //FileIOCompletionRoutine Callback function used with the ReadFileEx and WriteFileEx functions, called when the asynchronous input and output (I/O) operation is completed or canceled. 
-        public delegate void FileIOCompletionRoutine(uint dwErrorCode, uint dwNumberOfBytesTransfered, ref OVERLAPPED lpOverlapped);
+
 
 
         //ExportCallback Callback function used with ReadEncryptedFileRaw, called one or more times, each time with a block of the encrypted file's data, until it has received all of the file data.  

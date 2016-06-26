@@ -5,8 +5,3 @@ C:\SVN\TOAPI\TOAPI.Setup\obj\Debug\TOAPI.Setup.dll
 C:\SVN\TOAPI\TOAPI.Setup\obj\Debug\TOAPI.Setup.pdb
 D:\repos\NewTOAPIA\TOAPI\bin\Debug\TOAPI.Setup.dll
 D:\repos\NewTOAPIA\TOAPI\bin\Debug\TOAPI.Setup.pdb
-D:\repos\NewTOAPIA\bin\Debug\TOAPI.Setup.dll
-D:\repos\NewTOAPIA\bin\Debug\TOAPI.Setup.pdb
-D:\repos\NewTOAPIA\TOAPI\TOAPI.Setup\obj\Debug\TOAPI.Setup.csprojResolveAssemblyReference.cache
-D:\repos\NewTOAPIA\TOAPI\TOAPI.Setup\obj\Debug\TOAPI.Setup.dll
-D:\repos\NewTOAPIA\TOAPI\TOAPI.Setup\obj\Debug\TOAPI.Setup.pdb

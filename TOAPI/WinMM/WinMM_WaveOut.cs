@@ -1,13 +1,12 @@
 ﻿
+using System;
+using System.Text;
+using System.Runtime.InteropServices;
+using System.Security;
 
 namespace TOAPI.WinMM
 {
-    using System;
-    using System.Text;
-    using System.Runtime.InteropServices;
-    using System.Security;
-
-    using TOAPI.Types;
+    using Types;
 
     public partial class winmm
     {

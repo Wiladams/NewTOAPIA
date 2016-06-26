@@ -41,9 +41,10 @@ namespace NewTOAPIA.UI
 
             fRIDRegister = new RAWINPUTDEVICE();
 
-
-            IsPhysical = ClassName.ToUpper() == "MOUSE";
-
+            if (ClassName != null)
+            {
+                IsPhysical = ClassName.ToUpper() == "MOUSE";
+            }
         }
         #endregion
 

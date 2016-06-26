@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace TOAPI.Winsock
+﻿namespace TOAPI.Winsock
 {
     public partial class Winsock
     {
