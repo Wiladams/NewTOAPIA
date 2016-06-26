@@ -1,0 +1,10 @@
+*.dll
+*.pdb
+*.cache
+*.exe
+*.sln
+**/bin
+**/obj
+**/.vs
+**/Backup
+UpgradeLog.htm
