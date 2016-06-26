@@ -1,5 +1,0 @@
-C:\SVN\TOAPI\OleAut32\bin\Neutral\TOAPI.Ole.dll
-C:\SVN\TOAPI\OleAut32\bin\Neutral\TOAPI.Ole.pdb
-C:\SVN\TOAPI\OleAut32\obj\Neutral\ResolveAssemblyReference.cache
-C:\SVN\TOAPI\OleAut32\obj\Neutral\TOAPI.Ole.dll
-C:\SVN\TOAPI\OleAut32\obj\Neutral\TOAPI.Ole.pdb

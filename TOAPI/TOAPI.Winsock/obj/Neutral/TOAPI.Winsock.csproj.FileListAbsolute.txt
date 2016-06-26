@@ -1,9 +1,0 @@
-C:\SVN\TOAPI\TOAPI.Winsock\bin\Neutral\TOAPI.Winsock.dll
-C:\SVN\TOAPI\TOAPI.Winsock\bin\Neutral\TOAPI.Winsock.pdb
-C:\SVN\TOAPI\TOAPI.Winsock\bin\Neutral\TOAPI.Kernel32.dll
-C:\SVN\TOAPI\TOAPI.Winsock\bin\Neutral\TOAPI.Types.dll
-C:\SVN\TOAPI\TOAPI.Winsock\bin\Neutral\TOAPI.Kernel32.pdb
-C:\SVN\TOAPI\TOAPI.Winsock\bin\Neutral\TOAPI.Types.pdb
-C:\SVN\TOAPI\TOAPI.Winsock\obj\Neutral\ResolveAssemblyReference.cache
-C:\SVN\TOAPI\TOAPI.Winsock\obj\Neutral\TOAPI.Winsock.dll
-C:\SVN\TOAPI\TOAPI.Winsock\obj\Neutral\TOAPI.Winsock.pdb
