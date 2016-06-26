@@ -4,6 +4,7 @@ using System.Runtime.InteropServices;
 using TOAPI.Kernel32;
 
 
+
 namespace TOAPI.Winsock
 {
 
@@ -135,7 +136,7 @@ namespace TOAPI.Winsock
             [Out] out int lpNumberOfBytesSent, 
             int dwFlags, 
             [In] ref OVERLAPPED lpOverlapped, 
-            [In] Kernel32.FileIOCompletionRoutine lpCompletionRoutine);
+            [In] FileIOCompletionRoutine lpCompletionRoutine);
 
         // 93   4A 0001A381 WSASendDisconnect
         [DllImport("ws2_32.dll", EntryPoint = "WSASendDisconnect", CallingConvention = CallingConvention.StdCall)]

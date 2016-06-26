@@ -111,7 +111,7 @@ namespace TOAPI.User32
             // We need to SetLastError(0) to ensure we are not detecting on older error condition (from another function).
 
             IntPtr retval = IntPtr.Zero;
-            TOAPI.Kernel32.Kernel32.SetLastError(0);
+            Kernel32.Kernel32.SetLastError(0);
 
             if (IntPtr.Size == 4)
                 retval = new IntPtr(SetWindowLong(handle, item, newValue.ToInt32()));

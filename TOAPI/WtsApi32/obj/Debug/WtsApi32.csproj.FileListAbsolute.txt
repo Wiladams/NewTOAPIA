@@ -5,3 +5,7 @@ C:\SVN\TOAPI\WtsApi32\obj\Debug\TOAPI.WtsApi32.dll
 C:\SVN\TOAPI\WtsApi32\obj\Debug\TOAPI.WtsApi32.pdb
 D:\repos\NewTOAPIA\TOAPI\bin\Debug\TOAPI.WtsApi32.dll
 D:\repos\NewTOAPIA\TOAPI\bin\Debug\TOAPI.WtsApi32.pdb
+D:\repos\NewTOAPIA\bin\Debug\TOAPI.WtsApi32.dll
+D:\repos\NewTOAPIA\bin\Debug\TOAPI.WtsApi32.pdb
+D:\repos\NewTOAPIA\TOAPI\WtsApi32\obj\Debug\TOAPI.WtsApi32.dll
+D:\repos\NewTOAPIA\TOAPI\WtsApi32\obj\Debug\TOAPI.WtsApi32.pdb
