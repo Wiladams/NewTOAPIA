@@ -1,7 +1,0 @@
-C:\SVN\TOAPI\WinMM\bin\Neutral\TOAPI.WinMM.dll
-C:\SVN\TOAPI\WinMM\bin\Neutral\TOAPI.WinMM.pdb
-C:\SVN\TOAPI\WinMM\bin\Neutral\TOAPI.Types.dll
-C:\SVN\TOAPI\WinMM\bin\Neutral\TOAPI.Types.pdb
-C:\SVN\TOAPI\WinMM\obj\Neutral\ResolveAssemblyReference.cache
-C:\SVN\TOAPI\WinMM\obj\Neutral\TOAPI.WinMM.dll
-C:\SVN\TOAPI\WinMM\obj\Neutral\TOAPI.WinMM.pdb

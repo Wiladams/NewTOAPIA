@@ -1,5 +1,0 @@
-C:\SVN\TOAPI\Types\bin\Neutral\TOAPI.Types.dll
-C:\SVN\TOAPI\Types\bin\Neutral\TOAPI.Types.pdb
-C:\SVN\TOAPI\Types\obj\Neutral\ResolveAssemblyReference.cache
-C:\SVN\TOAPI\Types\obj\Neutral\TOAPI.Types.dll
-C:\SVN\TOAPI\Types\obj\Neutral\TOAPI.Types.pdb
