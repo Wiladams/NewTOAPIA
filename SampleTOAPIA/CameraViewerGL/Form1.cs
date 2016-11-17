@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Drawing;
 
-using NewTOAPIA.Drawing;
 using NewTOAPIA.DirectShow;
+using NewTOAPIA.Graphics;
 using NewTOAPIA.Kernel;
 using NewTOAPIA.Media;
 using NewTOAPIA.Media.Capture;
@@ -97,7 +96,7 @@ namespace GDIVideo
             }
         }
 
-        public override IntPtr OnKeyDown(KeyboardActivityArgs ke)
+        public override void OnKeyDown(KeyboardActivityArgs ke)
         {
             int min = int.MinValue;
             int max = int.MaxValue;
@@ -192,17 +191,17 @@ namespace GDIVideo
 
             }
 
-            return IntPtr.Zero;
+            //return IntPtr.Zero;
         }
 
-        public override IntPtr OnKeyUp(KeyboardActivityArgs ke)
+        public override void OnKeyUp(KeyboardActivityArgs ke)
         {
-            int min = int.MinValue;
-            int max = int.MaxValue;
-            int step = 0;
-            int defaultValue = 0;
-            int currentValue = 0;
-            CameraControlFlags camFlags = CameraControlFlags.None;
+            //int min = int.MinValue;
+            //int max = int.MaxValue;
+            //int step = 0;
+            //int defaultValue = 0;
+            //int currentValue = 0;
+            //CameraControlFlags camFlags = CameraControlFlags.None;
             IAMCameraControl camControl = m_CaptureDevice.GetCameraControl();
 
             switch (ke.VirtualKeyCode)
@@ -224,7 +223,7 @@ namespace GDIVideo
                     break;
             }
 
-            return IntPtr.Zero;
+            //return IntPtr.Zero;
         }
 
         void ResetCamera()
@@ -257,8 +256,8 @@ namespace GDIVideo
         /// <param name="camEvent">Event containing video frame information</param>
         void OnFrameReceived(object sender, CameraEventArgs camEvent)
         {
-            Rectangle srcRect = new Rectangle(0, 0, camEvent.Width, camEvent.Height);
-            Rectangle dstRect = srcRect;
+            RectangleI srcRect = new RectangleI(0, 0, camEvent.Width, camEvent.Height);
+            RectangleI dstRect = srcRect;
 
 
             if (fUseScaling)

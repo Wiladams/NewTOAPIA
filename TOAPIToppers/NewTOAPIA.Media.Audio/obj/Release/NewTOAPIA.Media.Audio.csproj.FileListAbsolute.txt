@@ -15,3 +15,8 @@ D:\repos\NewTOAPIA\TOAPIToppers\bin\Release\NewTOAPIA.Media.Audio.pdb
 D:\repos\NewTOAPIA\TOAPIToppers\NewTOAPIA.Media.Audio\obj\Release\NewTOAPIA.Media.Audio.csprojResolveAssemblyReference.cache
 D:\repos\NewTOAPIA\TOAPIToppers\NewTOAPIA.Media.Audio\obj\Release\NewTOAPIA.Media.Audio.dll
 D:\repos\NewTOAPIA\TOAPIToppers\NewTOAPIA.Media.Audio\obj\Release\NewTOAPIA.Media.Audio.pdb
+C:\repos\NewTOAPIA\TOAPIToppers\bin\Release\NewTOAPIA.Media.Audio.dll
+C:\repos\NewTOAPIA\TOAPIToppers\bin\Release\NewTOAPIA.Media.Audio.pdb
+C:\repos\NewTOAPIA\TOAPIToppers\NewTOAPIA.Media.Audio\obj\Release\NewTOAPIA.Media.Audio.csprojResolveAssemblyReference.cache
+C:\repos\NewTOAPIA\TOAPIToppers\NewTOAPIA.Media.Audio\obj\Release\NewTOAPIA.Media.Audio.dll
+C:\repos\NewTOAPIA\TOAPIToppers\NewTOAPIA.Media.Audio\obj\Release\NewTOAPIA.Media.Audio.pdb

@@ -1,4 +1,5 @@
-﻿<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ProjectType>Local</ProjectType>
     <ProductVersion>9.0.21022</ProductVersion>
@@ -26,7 +27,23 @@
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
-    <OldToolsVersion>0.0</OldToolsVersion>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\Debug\</OutputPath>
@@ -75,45 +92,8 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="NewTOAPIA.Core, Version=1.6.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\libraries\NewTOAPIA.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="NewTOAPIA.DirectShow, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\libraries\NewTOAPIA.DirectShow.dll</HintPath>
-    </Reference>
-    <Reference Include="NewTOAPIA.Drawing, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\libraries\NewTOAPIA.Drawing.dll</HintPath>
-    </Reference>
-    <Reference Include="NewTOAPIA.GL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\libraries\NewTOAPIA.GL.dll</HintPath>
-    </Reference>
-    <Reference Include="NewTOAPIA.Imaging, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\libraries\NewTOAPIA.Imaging.dll</HintPath>
-    </Reference>
-    <Reference Include="NewTOAPIA.Kernel, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\libraries\NewTOAPIA.Kernel.dll</HintPath>
-    </Reference>
-    <Reference Include="NewTOAPIA.Media, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\libraries\NewTOAPIA.Media.dll</HintPath>
-    </Reference>
-    <Reference Include="NewTOAPIA.Net, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\libraries\NewTOAPIA.Net.dll</HintPath>
-    </Reference>
-    <Reference Include="NewTOAPIA.Net.Rtp, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\libraries\NewTOAPIA.Net.Rtp.dll</HintPath>
-    </Reference>
-    <Reference Include="NewTOAPIA.UI, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\libraries\NewTOAPIA.UI.dll</HintPath>
+    <Reference Include="NewTOAPIA.GL">
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.GL.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <Name>System</Name>
@@ -124,33 +104,8 @@
     <Reference Include="System.Windows.Forms">
       <Name>System.Windows.Forms</Name>
     </Reference>
-    <Reference Include="TOAPI.AviCap32, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\libraries\TOAPI.AviCap32.dll</HintPath>
-    </Reference>
-    <Reference Include="TOAPI.GDI32, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\libraries\TOAPI.GDI32.dll</HintPath>
-    </Reference>
-    <Reference Include="TOAPI.Kernel32, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\libraries\TOAPI.Kernel32.dll</HintPath>
-    </Reference>
-    <Reference Include="TOAPI.Ole, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\libraries\TOAPI.Ole.dll</HintPath>
-    </Reference>
-    <Reference Include="TOAPI.OpenGL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\libraries\TOAPI.OpenGL.dll</HintPath>
-    </Reference>
-    <Reference Include="TOAPI.Types, Version=1.6.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\libraries\TOAPI.Types.dll</HintPath>
-    </Reference>
-    <Reference Include="TOAPI.User32, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\libraries\TOAPI.User32.dll</HintPath>
+    <Reference Include="TOAPI.OpenGL">
+      <HintPath>..\..\TOAPIToppers\bin\Release\TOAPI.OpenGL.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -164,6 +119,13 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Types.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

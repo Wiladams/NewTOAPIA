@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TOAPI.Types", "Types\TOAPI.Types.csproj", "{92AF7146-FA0C-491E-A1CE-E2E242E3ED0D}"
 EndProject
@@ -23,6 +23,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TOAPI.AviCap32", "TOAPI.AviCap32\TOAPI.AviCap32.csproj", "{F1C21A73-40AA-4A41-AE28-F1AB2158323A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TOAPI.Winsock", "TOAPI.Winsock\TOAPI.Winsock.csproj", "{67D66596-BD36-40D6-92B6-9B4FA698C895}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E1C2D415-4D72-40A0-867D-383D7F7E55F9} = {E1C2D415-4D72-40A0-867D-383D7F7E55F9}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TOAPI.OleaAut32", "OleAut32\TOAPI.OleaAut32.csproj", "{C92D4986-7369-4758-9CD5-C76FC1732712}"
 EndProject
