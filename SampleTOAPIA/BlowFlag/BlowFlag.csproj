@@ -92,8 +92,23 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="NewTOAPIA.Core">
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.Drawing">
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Drawing.dll</HintPath>
+    </Reference>
     <Reference Include="NewTOAPIA.GL">
       <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.GL.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.Graphics">
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Graphics.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.Modeling">
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Modeling.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.UI.GL">
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.UI.GL.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <Name>System</Name>

@@ -1,6 +1,7 @@
 ﻿using System;
 
-using NewTOAPIA.GL;
+//using NewTOAPIA.GL;
+using NewTOAPIA.UI.GL;
 
 static class Program
 {

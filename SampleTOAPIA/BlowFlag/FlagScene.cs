@@ -6,11 +6,11 @@ using System.Drawing.Imaging;
 
 using NewTOAPIA;
 using NewTOAPIA.GL;
-using NewTOAPIA.UI;
-using NewTOAPIA.Drawing;
+using NewTOAPIA.UI.GL;
+using NewTOAPIA.Graphics;
 
 using TOAPI.OpenGL;
-using TOAPI.Types;
+//using TOAPI.Types;
 
 public enum DrawModes
 {
