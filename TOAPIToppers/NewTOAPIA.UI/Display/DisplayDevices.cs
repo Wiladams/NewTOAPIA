@@ -27,18 +27,6 @@ namespace NewTOAPIA.UI
         public bool IsRemote { get { return ((fDevice.StateFlags & User32.DISPLAY_DEVICE_REMOTE) > 0); } }
         public bool IsDisconnected { get { return ((fDevice.StateFlags & User32.DISPLAY_DEVICE_DISCONNECT) > 0); } }
 
-        // These are the state flags
-        //public const int
-        //DISPLAY_DEVICE_ATTACHED_TO_DESKTOP  = 0x00000001,
-        //DISPLAY_DEVICE_MULTI_DRIVER         = 0x00000002,
-        //DISPLAY_DEVICE_PRIMARY_DEVICE       = 0x00000004,
-        //DISPLAY_DEVICE_MIRRORING_DRIVER     = 0x00000008,
-        //DISPLAY_DEVICE_VGA_COMPATIBLE       = 0x00000010,
-        //DISPLAY_DEVICE_REMOVABLE            = 0x00000020,
-        //DISPLAY_DEVICE_DISCONNECT           = 0x02000000,
-        //DISPLAY_DEVICE_REMOTE               = 0x04000000,
-        //DISPLAY_DEVICE_MODESPRUNED          = 0x08000000;
-
 
         // Child device state
         //public const int
