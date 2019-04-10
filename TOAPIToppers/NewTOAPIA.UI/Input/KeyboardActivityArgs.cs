@@ -61,7 +61,7 @@ namespace NewTOAPIA.UI
         internal int m_OEMScanCode;
         internal int fRepeatCount;
         internal bool fIsExtended;
-        internal bool fKeyWasPreviouslyDown;
+        //internal bool fKeyWasPreviouslyDown;
         #endregion
 
         #region Constructor

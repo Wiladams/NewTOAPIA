@@ -59,7 +59,8 @@ namespace NewTOAPIA.Modeling
         // vector is unit length, the vectors are mutually perpendicular, and
         // R = Cross(D,U).
         Point3D fPosition;
-        Vector3D DVector, UVector, RVector;
+        Vector3D DVector; 
+        //Vector3D UVector, RVector;
 
         #region Constructor
         public Light(LightType aType)

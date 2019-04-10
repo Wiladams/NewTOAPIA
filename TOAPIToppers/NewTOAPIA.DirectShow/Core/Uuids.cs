@@ -375,7 +375,7 @@ namespace NewTOAPIA.DirectShow.Core
 
         public static string GetMediaTypeString(Guid aGuid)
         {
-            string retStr = "Unknown";
+            //string retStr = "Unknown";
 
             if (gMediaTypeStrings.ContainsKey(aGuid))
                 return gMediaTypeStrings[aGuid];

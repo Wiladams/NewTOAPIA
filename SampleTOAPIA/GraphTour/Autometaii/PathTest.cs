@@ -1,19 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
 
-using NewTOAPIA;
 using NewTOAPIA.Drawing;
 using NewTOAPIA.Drawing.GDI;
+using NewTOAPIA.Graphics;
 
 namespace Autometaii
 {
     [Serializable]
     public class PathTest : Autometus
     {
-        Size fSize;
+        Size2I fSize;
 
-        public PathTest(Size aSize)
+        public PathTest(Size2I aSize)
         {
             fSize = aSize;
         }
@@ -34,21 +32,21 @@ namespace Autometaii
             aPath.LineTo(100, 100, true);
             aPath.End();
 
-            GDIBrush pathBrush = new GDIBrush(BrushStyle.Solid, HatchStyle.BDiagonal, RGBColor.Cyan, Guid.NewGuid());
+            GDIBrush pathBrush = new GDIBrush(BrushStyle.Solid, HatchStyle.BDiagonal, Colorrefs.Cyan, Guid.NewGuid());
             aPort.FillPath(pathBrush, aPath);
 
             GDIPen pathPen = new GDIPen(PenType.Geometric, 
                 PenStyle.Solid, 
                 PenJoinStyle.Round, 
                 PenEndCap.Round, 
-                RGBColor.Black, 
+                Colorrefs.Black, 
                 10, 
                 Guid.NewGuid());
             //aPort.DrawPath(pathPen, aPath);
 
             // Now use a GDIPath
             aPort.SetBkMode((int)BackgroundMixMode.Transparent);
-            aPort.SetTextColor(RGBColor.Black);
+            aPort.SetTextColor(Colorrefs.Black);
 
             GDIFont aFont = new GDIFont("Impact", 96, Guid.NewGuid());
 
@@ -68,7 +66,7 @@ namespace Autometaii
                 PenStyle.Solid,
                 PenJoinStyle.Round,
                 PenEndCap.Round,
-                RGBColor.Black,
+                Colorrefs.Black,
                 2,
                 Guid.NewGuid());
             aPort.DrawPath(textPen, gdipath);

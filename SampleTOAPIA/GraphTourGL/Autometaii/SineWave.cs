@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Drawing;
 
-using NewTOAPIA;
+
 using NewTOAPIA.Drawing;
+using NewTOAPIA.Graphics;
 
 namespace Autometaii
 {
@@ -22,8 +23,8 @@ namespace Autometaii
         {
             fNumSegments = nSegments;
             fSize = aSize;
-            redPen = new GPen(RGBColor.Red);
-            linePen = new GPen(RGBColor.Cyan);
+            redPen = new GPen(Colorrefs.Red);
+            linePen = new GPen(Colorrefs.Cyan);
 
         }
 
@@ -43,16 +44,16 @@ namespace Autometaii
             int i;
             int cxClient = fSize.Width;
             int cyClient = fSize.Height;
-            Point[] points = new Point[fNumSegments];
+            Point2I[] points = new Point2I[fNumSegments];
 
             //aPort.SaveState();
 
-            aPort.DrawLine(redPen, new Point(0, cyClient/2), new Point(cxClient, cyClient / 2));
+            aPort.DrawLine(redPen, new Point2I(0, cyClient/2), new Point2I(cxClient, cyClient / 2));
 
             for (i = 0; i < fNumSegments; i++)
             {
-                points[i].X = i * cxClient / fNumSegments;
-                points[i].Y = (int)(((double)cyClient/2.0f)*(1.0f-Math.Sin(Math.PI*2.0f*(double)i/(double)fNumSegments)));
+                points[i].x = i * cxClient / fNumSegments;
+                points[i].y = (int)(((double)cyClient/2.0f)*(1.0f-Math.Sin(Math.PI*2.0f*(double)i/(double)fNumSegments)));
             }
 
             aPort.DrawLines(linePen, points);

@@ -30,7 +30,7 @@ namespace NewTOAPIA.Graphics
         }
         #endregion
 
-        public int Dimension { get { return PixelInformation.GetComponentsPerLayout(Layout); } }
+        //public int Dimension { get { return PixelInformation.GetComponentsPerLayout(Layout); } }
 
         public byte[] PixelBytes
         {

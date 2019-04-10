@@ -3,6 +3,7 @@ using System.Drawing;
 
 //using TOAPI.Types;
 using NewTOAPIA.Drawing;
+using NewTOAPIA.Graphics;
 
 namespace NewTOAPIA.UI
 {
@@ -12,9 +13,9 @@ namespace NewTOAPIA.UI
     public class DrawEvent
     {
         IGraphPort fDevice;
-        Rectangle fClipRect;
+        RectangleI fClipRect;
 
-        public DrawEvent(IGraphPort device, Rectangle clipRect)
+        public DrawEvent(IGraphPort device, RectangleI clipRect)
         {
             fClipRect = clipRect;
             fDevice = device;
@@ -25,7 +26,7 @@ namespace NewTOAPIA.UI
             get { return fDevice; }
         }
 
-        public Rectangle ClipRect
+        public RectangleI ClipRect
         {
             get { return fClipRect; }
         }

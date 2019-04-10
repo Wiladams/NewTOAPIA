@@ -15,6 +15,8 @@ D:\repos\NewTOAPIA\TOAPIToppers\NewTOAPIA.Media\obj\Release\NewTOAPIA.Media.dll
 D:\repos\NewTOAPIA\TOAPIToppers\NewTOAPIA.Media\obj\Release\NewTOAPIA.Media.pdb
 C:\repos\NewTOAPIA\TOAPIToppers\bin\Release\NewTOAPIA.Media.dll
 C:\repos\NewTOAPIA\TOAPIToppers\bin\Release\NewTOAPIA.Media.pdb
-C:\repos\NewTOAPIA\TOAPIToppers\NewTOAPIA.Media\obj\Release\NewTOAPIA.Media.csprojResolveAssemblyReference.cache
+C:\repos\NewTOAPIA\TOAPIToppers\NewTOAPIA.Media\obj\Release\NewTOAPIA.Media.csprojAssemblyReference.cache
+C:\repos\NewTOAPIA\TOAPIToppers\NewTOAPIA.Media\obj\Release\NewTOAPIA.Media.csproj.CoreCompileInputs.cache
+C:\repos\NewTOAPIA\TOAPIToppers\NewTOAPIA.Media\obj\Release\NewTOAPIA.Media.csproj.CopyComplete
 C:\repos\NewTOAPIA\TOAPIToppers\NewTOAPIA.Media\obj\Release\NewTOAPIA.Media.dll
 C:\repos\NewTOAPIA\TOAPIToppers\NewTOAPIA.Media\obj\Release\NewTOAPIA.Media.pdb

@@ -83,6 +83,7 @@ namespace NewTOAPIA.UI
             fForeground = (Colorref)Colorrefs.LtGray;
             fTextBackground = fBaseColor;
             fBottomShadow = GUIStyle.darker(fForeground); // 0x00616161;
+            fBottomShadowBottomLiner = fBottomShadow;
             fBottomShadowTopLiner = GUIStyle.brighter(fBottomShadow); //fForeground;
             fTopShadow = GUIStyle.brighter(fForeground);  // 0x00cbcbcb;
 

@@ -1,3 +1,8 @@
 ﻿Microsoft RoundTable Audio
 Microsoft RoundTable Panoramic Video
 Microsoft RoundTable Active Speaker Video
+
+Polycom CX5000 Panoramic Video
+Polycom CX5000 Speaker Video
+
+

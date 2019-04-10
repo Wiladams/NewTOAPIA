@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+
 
 namespace GraphTour
 {
@@ -66,7 +65,7 @@ namespace GraphTour
             fDemos.Add(graphTest);
         }
 
-        public override IntPtr OnKeyboardActivity(object sender, KeyboardActivityArgs kbde)
+        public IntPtr OnKeyboardActivity(object sender, KeyboardActivityArgs kbde)
         {
             if (kbde.AcitivityType == KeyActivityType.KeyUp)
             {

@@ -1,7 +1,9 @@
 ﻿
+using NewTOAPIA.GL;
+
 namespace RingCamView
 {
-    using NewTOAPIA.GL;
+
 
     class WallCylinder : MasterCylinder
     {

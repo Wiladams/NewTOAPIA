@@ -1,14 +1,7 @@
 ﻿using System;
 using System.Drawing;
-using System.Runtime.InteropServices;
 
-using TOAPI.Kernel32;     // GetModuleHandle
-using TOAPI.OpenGL;
-using TOAPI.Types;
 using TOAPI.User32;
-
-using NewTOAPIA;
-using NewTOAPIA.Drawing;
 
 namespace NewTOAPIA.UI.GL
 {

@@ -1,12 +1,8 @@
-﻿using System;
-
-namespace GraphTour
+﻿namespace GraphTour
 {
-    using NewTOAPIA;
-    using NewTOAPIA.Drawing;
     using NewTOAPIA.GL;
-    using NewTOAPIA.UI;
     using NewTOAPIA.UI.GL;
+    using NewTOAPIA.Graphics;
 
     using Autometaii;
 
@@ -34,7 +30,7 @@ namespace GraphTour
             GI.Ortho(0, ViewportWidth, 0, ViewportHeight, ViewportWidth / 2, -(ViewportWidth / 2));
 
             // Clear our buffers
-            GI.Buffers.ColorBuffer.Color = ColorRGBA.White;
+            GI.Buffers.ColorBuffer.Color = new ColorRGBA(Colorrefs.White);
             GI.Buffers.ColorBuffer.Clear();
             GI.Buffers.DepthBuffer.Clear();
         }

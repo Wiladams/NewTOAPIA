@@ -1,16 +1,13 @@
-﻿
+﻿using System;
+
+using NewTOAPIA;
+using NewTOAPIA.GL;
+using NewTOAPIA.GL.Media;
+using NewTOAPIA.UI;
 
 namespace RingCamView
 {
-    using System;
-    using System.Drawing;
-    using System.Collections.Generic;
 
-    using NewTOAPIA;
-    using NewTOAPIA.GL;
-    using NewTOAPIA.GL.Media;
-    using NewTOAPIA.UI;
-    using NewTOAPIA.Drawing;
 
     public class VideoDromeScene : GLModel
     {
@@ -76,8 +73,10 @@ namespace RingCamView
             GI.Material(GLFace.FrontAndBack, MaterialParameter.Shininess, 128);
 
 
-            string PanoramicName = "Microsoft RoundTable Panoramic Video";
-            string SpeakerName = "Microsoft RoundTable Active Speaker Video";
+            //string PanoramicName = "Microsoft RoundTable Panoramic Video";
+            string SpeakerName = "Polycom CX5000 Active Speaker Video";
+
+            string PanoramicName = "Polycom CX5000 Panoramic Video";
 
             fWallTexture = VideoTexture.CreateFromDevicePath(GI, PanoramicName, -1, -1, true);
             if (null == fWallTexture)

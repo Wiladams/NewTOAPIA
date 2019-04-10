@@ -23,6 +23,20 @@
             y = y_;
         }
 
+        #region Properties
+        public int X
+        {
+            get { return this.x; }
+            set { this.x = value; }
+        }
+
+        public int Y
+        {
+            get { return this.y; }
+            set { this.y = value; }
+        }
+        #endregion
+
         public static Point2I operator *(Point2I pt, double value)
         {
             return new Point2I((int)(pt.x * value), (int)(pt.y * value));

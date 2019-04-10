@@ -1,11 +1,12 @@
 ﻿using System;
 
-using NewTOAPIA;
 using NewTOAPIA.GL;
-using NewTOAPIA.GL.Media;
+
 using NewTOAPIA.GLU.Shapes;
-using NewTOAPIA.Media;
-using NewTOAPIA.UI;
+using NewTOAPIA.UI.GL;
+using NewTOAPIA.Graphics;
+using NewTOAPIA.Media.GL;
+
 
 namespace Reflection
 {
@@ -26,9 +27,9 @@ namespace Reflection
         VideoTexture fCubeTexture;
         VideoTexture fCylindarTexture;
 
-        bool doRotation;
-        bool showCylindarTexture;
-        bool showCubeTexture;
+        bool doRotation = false;
+        bool showCylindarTexture = false;
+        bool showCubeTexture = true;
 
         public ReflectionScene()
         {
@@ -39,8 +40,15 @@ namespace Reflection
             GraphicsInterface.gCheckErrors = false;
 
             fCubeTexture = VideoTexture.CreateFromDeviceIndex(GI, 0, true);
+            if (fCubeTexture != null) {
+                fCubeTexture.Start();
+            }
 
             fCylindarTexture = VideoTexture.CreateFromDeviceIndex(GI, 1, true);
+            if (fCylindarTexture != null)
+            {
+                fCylindarTexture.Start();
+            }
 
             // Set our typical parameters
             //GI.TexParameter(TextureParameterTarget.Texture2d, TextureParameterName.TextureWrapS, TextureWrapMode.Repeat);

@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-using NewTOAPIA;
+﻿
 using NewTOAPIA.GL;
 using NewTOAPIA.Modeling;
+using NewTOAPIA.Graphics;
 
 namespace Reflection
 {
@@ -69,14 +66,14 @@ namespace Reflection
             // the appropriate width and height.
 
             // First calculate the min/max values in the x-y plane
-            minX = -Size.X / 2;
-            maxX = Size.X/2;
+            minX = (float)-Size.x / 2.0f;
+            maxX = (float)Size.x/2.0f;
 
-            minY = -Size.Y/2;
-            maxY = Size.Y;
+            minY = (float)-Size.y/2;
+            maxY = (float)Size.y;
 
-            minZ = -Size.Z / 2;
-            maxZ = Size.Z / 2;
+            minZ = (float)-Size.z / 2;
+            maxZ = (float)Size.z / 2;
 
 
             // Now call the routines that will setup all our

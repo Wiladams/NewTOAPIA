@@ -34,3 +34,5 @@ C:\Archive\YCrCbVideo\obj\Debug\ResolveAssemblyReference.cache
 C:\Archive\YCrCbVideo\obj\Debug\QuadVideo.exe
 C:\Archive\YCrCbVideo\obj\Debug\QuadVideo.pdb
 C:\depot\SampleTOAPIA\YCrCbVideo\obj\Debug\ResolveAssemblyReference.cache
+C:\repos\NewTOAPIA\SampleTOAPIA\YCrCbVideo\obj\Debug\YCrCbVideo.csproj.CoreCompileInputs.cache
+C:\repos\NewTOAPIA\SampleTOAPIA\YCrCbVideo\obj\Debug\YCrCbVideo.csprojAssemblyReference.cache

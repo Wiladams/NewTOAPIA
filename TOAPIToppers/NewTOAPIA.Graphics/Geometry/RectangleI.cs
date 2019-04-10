@@ -11,6 +11,11 @@
         public int x2;
         public int y2;
 
+        public static RectangleI FromLTRB(int left, int top, int right, int bottom)
+        {
+            return new RectangleI(left, top, right, bottom);
+        }
+
         public RectangleI(Point2I origin, Size2I size)
         {
             x1 = origin.x;

@@ -1,8 +1,7 @@
 ﻿using System;
 
-using NewTOAPIA.GL;
-
 using QuadVideo;
+using NewTOAPIA.UI.GL;
 
 static class Program
 {

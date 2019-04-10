@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Drawing;
 
-using NewTOAPIA;
 using NewTOAPIA.Drawing;
 using NewTOAPIA.Drawing.GDI;
+using NewTOAPIA.Graphics;
 
 namespace Autometaii
 {
@@ -15,9 +14,9 @@ namespace Autometaii
     {
         IGraphPort fGraphPort;
         int fNumSegments;
-        Size fSize;
+        Size2I fSize;
 
-        public SineWave(Size aSize, int nSegments)
+        public SineWave(Size2I aSize, int nSegments)
         {
             fNumSegments = nSegments;
             fSize = aSize;    
@@ -39,14 +38,14 @@ namespace Autometaii
             int i;
             int cxClient = fSize.Width;
             int cyClient = fSize.Height;
-            Point[] points = new Point[fNumSegments];
+            Point2I[] points = new Point2I[fNumSegments];
 
             aPort.SaveState();
 
-            GDIPen redPen = new GDIPen(RGBColor.Red);
-            aPort.DrawLine(redPen, new Point(0, cyClient/2), new Point(cxClient, cyClient / 2));
+            GDIPen redPen = new GDIPen(Colorrefs.Red);
+            aPort.DrawLine(redPen, new Point2I(0, cyClient/2), new Point2I(cxClient, cyClient / 2));
 
-            GDIPen blackPen = new GDIPen(RGBColor.Black);
+            GDIPen blackPen = new GDIPen(Colorrefs.Black);
             for (i = 0; i < fNumSegments; i++)
             {
                 points[i].X = i * cxClient / fNumSegments;

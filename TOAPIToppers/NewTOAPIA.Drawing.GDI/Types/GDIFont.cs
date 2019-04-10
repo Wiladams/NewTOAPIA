@@ -89,7 +89,7 @@ namespace NewTOAPIA.Drawing.GDI
         /// </summary>
         /// <param name="aString"></param>
         /// <returns></returns>
-        public Size2D MeasureString(string aString)
+        public Size2I MeasureString(string aString)
         {
             // Create a screen context to do the measuring
             GDIContext dc = GDIContext.CreateForDefaultDisplay();
@@ -102,7 +102,7 @@ namespace NewTOAPIA.Drawing.GDI
             // Destroy the DC
 
             // Return the size
-            return new Size2D(aSize.cx, aSize.cy);
+            return new Size2I(aSize.cx, aSize.cy);
         }
     }
 }

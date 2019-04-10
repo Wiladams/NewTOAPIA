@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Drawing;
 
-using NewTOAPIA;
+
 using NewTOAPIA.Drawing;
 using NewTOAPIA.Drawing.GDI;
+using NewTOAPIA.Graphics;
 
 namespace Autometaii
 {
@@ -11,7 +12,7 @@ namespace Autometaii
     public class RandomRect : Autometus
     {
         Size fSize;
-        GDIPen framePen = new GDICosmeticPen(PenStyle.Solid, RGBColor.Black, Guid.NewGuid());
+        GDIPen framePen = new GDICosmeticPen(PenStyle.Solid, Colorrefs.Black, Guid.NewGuid());
         
         public RandomRect(Size aSize)
         {
@@ -42,7 +43,7 @@ namespace Autometaii
 
             for (int i = 0; i < 1000; i++)
             {
-                GDIBrush aBrush = new GDISolidBrush(RGBColor.RGB((byte)rnd.Next(0, 255), (byte)rnd.Next(0, 255), (byte)rnd.Next(0, 255)));
+                GDIBrush aBrush = new GDISolidBrush(Colorref.FromRGB((byte)rnd.Next(0, 255), (byte)rnd.Next(0, 255), (byte)rnd.Next(0, 255)));
 
                 int width = rnd.Next(10, maxWidth);
                 int height = rnd.Next(10, maxHeight);
@@ -50,10 +51,10 @@ namespace Autometaii
                 int orgY = rnd.Next(10, fSize.Height-height);
 
                 // Fill the rectangle
-                aPort.FillRectangle(aBrush, new Rectangle(orgX, orgY, width, height));
+                aPort.FillRectangle(aBrush, new RectangleI(orgX, orgY, width, height));
 
                 // Frame the rectangle
-                aPort.DrawRectangle(framePen, new Rectangle(orgX, orgY, width, height));
+                aPort.DrawRectangle(framePen, new RectangleI(orgX, orgY, width, height));
 
                 aBrush.Dispose();
             }

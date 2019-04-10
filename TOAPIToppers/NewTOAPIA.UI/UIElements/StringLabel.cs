@@ -78,8 +78,8 @@ namespace NewTOAPIA.UI
 				return;
 			}
 
-            Size2D aSize = fFont.MeasureString(fString);
-            ResizeTo((int)aSize.width,(int)aSize.height);
+            Size2I aSize = fFont.MeasureString(fString);
+            ResizeTo((int)aSize.Width,(int)aSize.Height);
 		    fNeedsCalculation = false;
 		}
 

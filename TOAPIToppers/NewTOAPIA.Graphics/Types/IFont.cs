@@ -59,7 +59,7 @@ namespace NewTOAPIA.Graphics
 
         int Height {get;}
 
-        Size2D MeasureString(string aString);
+        Size2I MeasureString(string aString);
 
     }
 }

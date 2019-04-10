@@ -1,7 +1,9 @@
 ﻿using System;
 
-using NewTOAPIA;
+//using NewTOAPIA;
 using NewTOAPIA.GL;
+using NewTOAPIA.Modeling;
+using NewTOAPIA.Graphics;
 
 namespace QuadVideo
 {

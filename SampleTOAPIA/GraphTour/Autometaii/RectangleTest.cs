@@ -1,19 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
+
 
 using NewTOAPIA;
 using NewTOAPIA.Drawing;
 using NewTOAPIA.Drawing.GDI;
+using NewTOAPIA.Graphics;
 
 namespace Autometaii
 {
     [Serializable]
     public class RectangleTest : Autometus
     {
-        Size fSize;
+        Size2I fSize;
 
-        public RectangleTest(Size aSize)
+        public RectangleTest(Size2I aSize)
         {
             fSize = aSize;
         }
@@ -27,8 +27,8 @@ namespace Autometaii
         {
             aPort.SaveState();
 
-            GDIPen rectPen = new GDICosmeticPen(PenStyle.Solid, RGBColor.Red, Guid.NewGuid());
-            GDIBrush rectBrush = new GDISolidBrush(RGBColor.Pink);
+            GDIPen rectPen = new GDICosmeticPen(PenStyle.Solid, Colorrefs.Red, Guid.NewGuid());
+            GDIBrush rectBrush = new GDISolidBrush(Colorrefs.Pink);
 
             for (int coord = 10; coord < fSize.Height; coord += 50)
             {

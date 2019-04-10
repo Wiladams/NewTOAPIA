@@ -20,7 +20,7 @@ namespace NewTOAPIA.GL
         private GLState fState;
         private Glu fGlu;
 
-        private GLAspectList fAspectList;
+        //private GLAspectList fAspectList;
         private GLFrameBuffer fBufferList;
         private GLClientFeatureList fClientFeatureList;
         private GLPrimitiveDrawing fDrawingList;
