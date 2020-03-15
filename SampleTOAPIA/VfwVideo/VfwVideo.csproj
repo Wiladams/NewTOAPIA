@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>GDIVideo</RootNamespace>
     <AssemblyName>GDIVideo</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -54,43 +54,34 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="NewTOAPIA.Core">
-      <HintPath>..\..\bin\Debug\NewTOAPIA.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="NewTOAPIA.Drawing">
-      <HintPath>..\..\bin\Debug\NewTOAPIA.Drawing.dll</HintPath>
-    </Reference>
     <Reference Include="NewTOAPIA.Drawing.GDI">
-      <HintPath>..\..\bin\Debug\NewTOAPIA.Drawing.GDI.dll</HintPath>
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Drawing.GDI.dll</HintPath>
     </Reference>
     <Reference Include="NewTOAPIA.Graphics">
-      <HintPath>..\..\bin\Debug\NewTOAPIA.Graphics.dll</HintPath>
-    </Reference>
-    <Reference Include="NewTOAPIA.Imaging">
-      <HintPath>..\..\bin\Debug\NewTOAPIA.Imaging.dll</HintPath>
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Graphics.dll</HintPath>
     </Reference>
     <Reference Include="NewTOAPIA.Kernel">
-      <HintPath>..\..\bin\Debug\NewTOAPIA.Kernel.dll</HintPath>
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Kernel.dll</HintPath>
     </Reference>
     <Reference Include="NewTOAPIA.Media.Vfw">
-      <HintPath>..\..\bin\Debug\NewTOAPIA.Media.Vfw.dll</HintPath>
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Media.Vfw.dll</HintPath>
     </Reference>
     <Reference Include="NewTOAPIA.UI">
-      <HintPath>..\..\bin\Debug\NewTOAPIA.UI.dll</HintPath>
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.UI.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
     <Reference Include="TOAPI.AviCap32">
-      <HintPath>..\..\bin\Debug\TOAPI.AviCap32.dll</HintPath>
+      <HintPath>..\..\TOAPIToppers\bin\Release\TOAPI.AviCap32.dll</HintPath>
     </Reference>
     <Reference Include="TOAPI.GDI32">
-      <HintPath>..\..\bin\Debug\TOAPI.GDI32.dll</HintPath>
+      <HintPath>..\..\TOAPIToppers\bin\Release\TOAPI.GDI32.dll</HintPath>
     </Reference>
     <Reference Include="TOAPI.Types">
-      <HintPath>..\..\bin\Debug\TOAPI.Types.dll</HintPath>
+      <HintPath>..\..\TOAPIToppers\bin\Release\TOAPI.Types.dll</HintPath>
     </Reference>
     <Reference Include="TOAPI.User32">
-      <HintPath>..\..\bin\Debug\TOAPI.User32.dll</HintPath>
+      <HintPath>..\..\TOAPIToppers\bin\Release\TOAPI.User32.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

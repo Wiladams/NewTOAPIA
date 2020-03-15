@@ -551,9 +551,9 @@ namespace NewTOAPIA.GL
         //private DglUniform4fv_IIaF glUniform4fv_IIaF;
 
         private DglUniform1i_II glUniform1i_II;
-        private DglUniform2i_III glUniform2i_III;
-        private DglUniform3i_IIII glUniform3i_IIII;
-        private DglUniform4i_IIIII glUniform4i_IIII;
+        //private DglUniform2i_III glUniform2i_III;
+        //private DglUniform3i_IIII glUniform3i_IIII;
+        //private DglUniform4i_IIIII glUniform4i_IIII;
 
         private DglUniform1iv_IIaI glUniform1iv_IIaI;
         //private DglUniform2iv_IIaI glUniform2iv_IIaI;

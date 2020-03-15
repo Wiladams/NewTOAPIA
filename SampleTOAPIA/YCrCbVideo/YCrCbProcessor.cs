@@ -7,7 +7,7 @@ namespace QuadVideo
     using TOAPI.OpenGL;
 
     using NewTOAPIA.GL;
-    using NewTOAPIA.GL.Media;
+    //using NewTOAPIA.Media.GL;
 
     public class YCrCbProcessor
     {

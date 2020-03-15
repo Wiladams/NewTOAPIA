@@ -1,29 +1,25 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
 
-
-using NewTOAPIA;
-using NewTOAPIA.Drawing;
 using NewTOAPIA.Drawing.GDI;
+using NewTOAPIA.Graphics;
 
 namespace Autometaii
 {
     [Serializable]
     public class GraphTest : Autometus
     {
-        Size fSize;
-        Rectangle[] rects;
+        Size2I fSize;
+        RectangleI[] rects;
 
-        public GraphTest(Size aSize)
+        public GraphTest(Size2I aSize)
         {
             fSize = aSize;
 
-            rects = new Rectangle[4];
-            rects[0] = new Rectangle(0, 10, 40, 200);
-            rects[1] = new Rectangle(60, 10, 40, 300);
-            rects[2] = new Rectangle(120, 10, 40, 150);
-            rects[3] = new Rectangle(180, 10, 40, 400);
+            rects = new RectangleI[4];
+            rects[0] = new RectangleI(0, 10, 40, 200);
+            rects[1] = new RectangleI(60, 10, 40, 300);
+            rects[2] = new RectangleI(120, 10, 40, 150);
+            rects[3] = new RectangleI(180, 10, 40, 400);
         }
 
         public void ReceiveCommand(Command_Render command)
@@ -40,8 +36,8 @@ namespace Autometaii
             aPort.UseDefaultBrush();
             aPort.UseDefaultPen();
 
-            aPort.SetDefaultBrushColor(RGBColor.DarkGreen);
-            aPort.SetDefaultPenColor(RGBColor.Black);
+            aPort.SetDefaultBrushColor(Colorrefs.DarkGreen);
+            aPort.SetDefaultPenColor(Colorrefs.Black);
 
             // Flip the coordinate system so 0,0 is in the lower left
             aPort.SetMappingMode(MappingModes.LoEnglish);
@@ -49,8 +45,8 @@ namespace Autometaii
             aPort.ScaleTransform(1, -1);
 
             aPort.Flush();
-            GDIPen rectPen = new GDICosmeticPen(PenStyle.Solid, RGBColor.Red, Guid.NewGuid());
-            GDIBrush rectBrush = new GDISolidBrush(RGBColor.DarkCyan);
+            GDIPen rectPen = new GDICosmeticPen(PenStyle.Solid, Colorrefs.Red, Guid.NewGuid());
+            GDIBrush rectBrush = new GDISolidBrush(Colorrefs.DarkCyan);
             for (int i = 0; i < 4; i++)
             {
 

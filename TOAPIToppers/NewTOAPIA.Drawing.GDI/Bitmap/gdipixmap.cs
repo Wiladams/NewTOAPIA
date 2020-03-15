@@ -21,7 +21,7 @@ namespace NewTOAPIA.Drawing.GDI
     {
         #region Fields
         GDIContext fMemoryContext;
-        IGraphPort m_GraphPort;
+        //IGraphPort m_GraphPort;
         IntPtr m_OldBMHandle;
         BitCount fBitCount;
         protected PixelRectangleInfo RectInfo { get; set; }

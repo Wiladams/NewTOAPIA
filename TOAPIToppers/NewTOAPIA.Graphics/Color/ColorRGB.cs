@@ -1,16 +1,12 @@
 ﻿
 namespace NewTOAPIA.Graphics
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Text;
-
     public struct ColorRGB
     {
         public float r, g, b;
 
         #region Constructor
-                public ColorRGB(Colorref colorref)
+        public ColorRGB(Colorref colorref)
         {
             r = (float)colorref.Red / 255f;
             g = (float)colorref.Green / 255f;

@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Text;
 using System.Runtime.InteropServices;
 
 using TOAPI.Types;
 using TOAPI.User32;
-using TOAPI.GDI32;
+using NewTOAPIA.Graphics;
 
-using NewTOAPIA.Drawing;
 
 namespace NewTOAPIA.UI
 {
@@ -88,7 +84,7 @@ namespace NewTOAPIA.UI
                     ps.Init();
                     //IntPtr paintDC = User32.BeginPaint(Handle, out ps);
 
-                    Rectangle paintRect = new Rectangle(ps.rcPaint.X, ps.rcPaint.Y, ps.rcPaint.Width, ps.rcPaint.Height);
+                    RectangleI paintRect = new RectangleI(ps.rcPaint.X, ps.rcPaint.Y, ps.rcPaint.Width, ps.rcPaint.Height);
                     DrawEvent dea = new DrawEvent(fClientAreaRenderer, paintRect);
                     OnPaint(dea);
 

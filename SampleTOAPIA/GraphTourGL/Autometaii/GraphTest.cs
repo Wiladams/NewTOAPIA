@@ -1,9 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Drawing;
 
-//using TOAPI.GDI32;
+
 using NewTOAPIA.Drawing;
+using NewTOAPIA.Graphics;
 
 namespace Autometaii
 {
@@ -13,17 +13,17 @@ namespace Autometaii
     public class GraphTest : Autometus
     {
         Size fSize;
-        Rectangle[] rects;
+        RectangleI[] rects;
 
         public GraphTest(Size aSize)
         {
             fSize = aSize;
 
-            rects = new Rectangle[4];
-            rects[0] = new Rectangle(0, 10, 40, 200);
-            rects[1] = new Rectangle(60, 10, 40, 300);
-            rects[2] = new Rectangle(120, 10, 40, 150);
-            rects[3] = new Rectangle(180, 10, 40, 400);
+            rects = new RectangleI[4];
+            rects[0] = new RectangleI(0, 10, 40, 200);
+            rects[1] = new RectangleI(60, 10, 40, 300);
+            rects[2] = new RectangleI(120, 10, 40, 150);
+            rects[3] = new RectangleI(180, 10, 40, 400);
         }
 
         public override void ReceiveCommand(ICommand command)
@@ -54,8 +54,8 @@ namespace Autometaii
             aPort.ScaleTransform(1, -1);
 
             aPort.Flush();
-            GDIPen rectPen = new GDICosmeticPen(PenStyle.Solid, RGBColor.Red, Guid.NewGuid());
-            GDIBrush rectBrush = new GDISolidBrush(RGBColor.DarkCyan);
+            GDIPen rectPen = new GDICosmeticPen(PenStyle.Solid, Colorrefs.Red, Guid.NewGuid());
+            GDIBrush rectBrush = new GDISolidBrush(Colorrefs.DarkCyan);
             for (int i = 0; i < 4; i++)
             {
                 aPort.DrawRectangle(rectPen, rects[i]);

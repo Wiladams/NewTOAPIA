@@ -1,19 +1,17 @@
 ﻿using System;
-using System.Drawing;
 
-using NewTOAPIA;
-using NewTOAPIA.Drawing;
 using NewTOAPIA.Drawing.GDI;
+using NewTOAPIA.Graphics;
 
 namespace Autometaii
 {
     [Serializable]
     public class RandomRect : Autometus
     {
-        Size fSize;
-        GDIPen framePen = new GDICosmeticPen(PenStyle.Solid, RGBColor.Black, Guid.NewGuid());
+        Size2I fSize;
+        GDIPen framePen = new GDICosmeticPen(PenStyle.Solid, Colorrefs.Black, Guid.NewGuid());
 
-        public RandomRect(Size aSize)
+        public RandomRect(Size2I aSize)
         {
             fSize = aSize;
         }
@@ -37,7 +35,7 @@ namespace Autometaii
 
             for (int i = 0; i < 1000; i++)
             {
-                GDIBrush aBrush = new GDISolidBrush(RGBColor.RGB((byte)rnd.Next(0, 255), (byte)rnd.Next(0, 255), (byte)rnd.Next(0, 255)));
+                GDIBrush aBrush = new GDISolidBrush(Colorref.FromRGB((byte)rnd.Next(0, 255), (byte)rnd.Next(0, 255), (byte)rnd.Next(0, 255)));
 
                 int width = rnd.Next(10, maxWidth);
                 int height = rnd.Next(10, maxHeight);

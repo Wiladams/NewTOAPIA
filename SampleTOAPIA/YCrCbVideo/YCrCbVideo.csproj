@@ -1,4 +1,4 @@
-﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="15.0">
   <PropertyGroup>
     <ProjectType>Local</ProjectType>
     <ProductVersion>9.0.30729</ProductVersion>
@@ -25,7 +25,9 @@
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
-    <OldToolsVersion>2.0</OldToolsVersion>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\Debug\</OutputPath>
@@ -74,29 +76,65 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="NewTOAPIA.Core, Version=1.6.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Debug\NewTOAPIA.Core.dll</HintPath>
+    <Reference Include="NewTOAPIA.Core">
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Core.dll</HintPath>
     </Reference>
-    <Reference Include="NewTOAPIA.GL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Debug\NewTOAPIA.GL.dll</HintPath>
+    <Reference Include="NewTOAPIA.DirectShow">
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.DirectShow.dll</HintPath>
     </Reference>
-    <Reference Include="NewTOAPIA.GL.Media, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Debug\NewTOAPIA.GL.Media.dll</HintPath>
+    <Reference Include="NewTOAPIA.Drawing">
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Drawing.dll</HintPath>
     </Reference>
-    <Reference Include="NewTOAPIA.Media, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Debug\NewTOAPIA.Media.dll</HintPath>
+    <Reference Include="NewTOAPIA.Drawing.GDI">
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Drawing.GDI.dll</HintPath>
     </Reference>
-    <Reference Include="NewTOAPIA.Media.Capture, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Debug\NewTOAPIA.Media.Capture.dll</HintPath>
+    <Reference Include="NewTOAPIA.GL">
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.GL.dll</HintPath>
     </Reference>
-    <Reference Include="NewTOAPIA.UI, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Debug\NewTOAPIA.UI.dll</HintPath>
+    <Reference Include="NewTOAPIA.GLU.Shapes">
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.GLU.Shapes.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.Graphics">
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Graphics.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.Imaging">
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Imaging.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.Kernel">
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.Media">
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Media.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.Media.Audio">
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Media.Audio.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.Media.Capture">
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Media.Capture.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.Media.GL">
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Media.GL.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.Media.Vfw">
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Media.Vfw.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.Media.WinMM">
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Media.WinMM.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.Modeling">
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Modeling.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.Net">
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.Particles">
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Particles.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.UI">
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.UI.GL">
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.UI.GL.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <Name>System</Name>
@@ -109,9 +147,29 @@
       <Name>System.Windows.Forms</Name>
     </Reference>
     <Reference Include="System.Xml" />
-    <Reference Include="TOAPI.OpenGL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\TOAPIToppers\bin\Debug\TOAPI.OpenGL.dll</HintPath>
+    <Reference Include="TOAPI.GDI32">
+      <HintPath>..\..\TOAPIToppers\bin\Release\TOAPI.GDI32.dll</HintPath>
+    </Reference>
+    <Reference Include="TOAPI.Kernel32">
+      <HintPath>..\..\TOAPIToppers\bin\Release\TOAPI.Kernel32.dll</HintPath>
+    </Reference>
+    <Reference Include="TOAPI.Ole">
+      <HintPath>..\..\TOAPIToppers\bin\Release\TOAPI.Ole.dll</HintPath>
+    </Reference>
+    <Reference Include="TOAPI.OpenGL">
+      <HintPath>..\..\TOAPIToppers\bin\Release\TOAPI.OpenGL.dll</HintPath>
+    </Reference>
+    <Reference Include="TOAPI.Types">
+      <HintPath>..\..\TOAPIToppers\bin\Release\TOAPI.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="TOAPI.User32">
+      <HintPath>..\..\TOAPIToppers\bin\Release\TOAPI.User32.dll</HintPath>
+    </Reference>
+    <Reference Include="TOAPI.WinMM">
+      <HintPath>..\..\TOAPIToppers\bin\Release\TOAPI.WinMM.dll</HintPath>
+    </Reference>
+    <Reference Include="TOAPI.Winsock">
+      <HintPath>..\..\TOAPIToppers\bin\Release\TOAPI.Winsock.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -122,6 +180,7 @@
     <Compile Include="VideoScene.cs" />
     <Compile Include="XYAxesPointMesh.cs" />
     <Compile Include="YCrCbProcessor.cs" />
+    <None Include="app.config" />
     <None Include="readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

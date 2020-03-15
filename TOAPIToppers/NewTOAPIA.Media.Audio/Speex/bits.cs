@@ -52,8 +52,8 @@ namespace NewTOAPIA.Media.Audio.Speex
         bool owner;   /**< Does the struct "own" the "raw" buffer (member "chars") */
         bool overflow;/**< Set to one if we try to read past the valid data */
         int buf_size;/**< Allocated size for buffer */
-        int reserved1; /**< Reserved for future use */
-        IntPtr reserved2; /**< Reserved for future use */
+        //int reserved1; /**< Reserved for future use */
+        //IntPtr reserved2; /**< Reserved for future use */
 
 
         public void speex_bits_init()

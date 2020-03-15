@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Drawing;
 
-using NewTOAPIA.GL;
-using NewTOAPIA.UI;
+using NewTOAPIA.UI.GL;
 
 namespace Reflection
 {

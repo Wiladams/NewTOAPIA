@@ -21,7 +21,7 @@ namespace VfwVideo
     public partial class Form1 : Window
     {
         VfwCameraDevice fCamera;
-        NewTOAPIA.Drawing.GDI.GDIContext fScreenContext;
+        GDIContext fScreenContext;
         BITMAPINFO fBitmapInfo;
         //PixelBuffer24 fPixelBuffer;
         VfwDeCompressor fDecompressor;

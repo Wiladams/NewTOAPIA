@@ -5,11 +5,13 @@ namespace QuadVideo
     using System;
     using System.Drawing;
 
-    using NewTOAPIA;
+    using NewTOAPIA.Graphics;
     using NewTOAPIA.GL;
-    using NewTOAPIA.GL.Media;
+    using NewTOAPIA.Media.GL;
     using NewTOAPIA.Media.Capture;
     using NewTOAPIA.UI;
+    using NewTOAPIA.UI.GL;
+
 
     class VideoScene : GLModel
     {

@@ -1,6 +1,8 @@
-﻿namespace NewTOAPIA
+﻿
+namespace NewTOAPIA
 {
-    public class Observer<T> : IObserver<T>
+    
+    public class Observer<T> : System.IObserver<T>
     {
         public virtual void OnNext(T data)
         {
@@ -14,5 +16,7 @@
         {
             throw excep;
         }
+
     }
+    
 }

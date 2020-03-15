@@ -165,19 +165,19 @@ namespace NewTOAPIA.Graphics
         public static readonly Colorref Blue = Colorref.FromRGB(0, 0, 0xff);
         public static readonly Colorref LtGray = Colorref.FromRGB(0xc0,0xc0,0xc0);
         public static readonly Colorref White = Colorref.FromRGB(0xff, 0xff, 0xff);
+        public static readonly Colorref Cyan = Colorref.FromRGB(0, 0xff, 0xff);
+        public static readonly Colorref DarkCyan = Colorref.FromRGB(0, 0x80, 0x80);
+        public static readonly Colorref Pink = Colorref.FromRGB(0xff, 0xC0, 0xCB);
 
-        public const uint
+        public static readonly uint
             DarkRed = 0x00000080,
-            Pink = 0x00cbc0ff,
             DarkOrange = 0x00008cff,
             Tomato = 0x004763ff,
             DarkGreen = 0x00008000,
             DarkBlue = 0x00800000,
             DarkYellow = 0x00008080,
             Yellow = 0x0000ffff,
-            DarkCyan = 0x00808000,
-            Cyan = 0x00ffff00,
-            DarkMagenta = 0x00800080,
+             DarkMagenta = 0x00800080,
             Magenta = 0x00ff00ff,
             Gray = 0x00bebebe,
             LightGray = 0x00d3d3d3,

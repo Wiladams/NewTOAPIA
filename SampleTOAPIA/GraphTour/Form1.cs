@@ -5,8 +5,8 @@ namespace PixTour
     using System;
     using System.Windows.Forms;
 
-    using NewTOAPIA.Drawing;
     using NewTOAPIA.Drawing.GDI;
+    using NewTOAPIA.Graphics;
 
     using Autometaii;
     
@@ -35,8 +35,9 @@ namespace PixTour
             fDemoCounter = 0;
             //this.Text = "PixTour";
 
-            bezierer = new BezierTest(ClientRectangle.Size);
-            aTextTest = new TextTest(ClientRectangle.Size);
+            var clientSize = ClientRectangle.Size;
+            bezierer = new BezierTest(new Size2I(clientSize.Width, clientSize.Height));
+            aTextTest = new TextTest(new Size2I(clientSize.Width, clientSize.Height));
 
             PrintDeviceContext(fDeviceContext);
         }
@@ -60,8 +61,8 @@ namespace PixTour
             //    pixmap.Pixels, ref bmi, 
             //    GDI32.DIB_RGB_COLORS, (uint)TernaryRasterOps.SRCCOPY);
 
-            fDeviceContext.PixelBlt(new System.Drawing.Rectangle(0, 0, pixmap.Width, pixmap.Height),
-                new System.Drawing.Rectangle(x, y, pixmap.Width, pixmap.Height),
+            fDeviceContext.PixelBlt(new RectangleI(0, 0, pixmap.Width, pixmap.Height),
+                new RectangleI(x, y, pixmap.Width, pixmap.Height),
                 pixmap.Pixels, pixmap.BitCount);
         }
 
@@ -81,54 +82,55 @@ namespace PixTour
             int width = fDeviceContext.SizeInPixels.Width;
             int height = fDeviceContext.SizeInPixels.Height;
 
+            Size2I cSize = new Size2I(ClientRectangle.Size.Width, ClientRectangle.Size.Height);
             switch (fDemoCounter)
             {
                 case 0:
-                    LineDemo1 aLineDemo = new LineDemo1(ClientRectangle.Size);
+                    LineDemo1 aLineDemo = new LineDemo1(cSize);
                     aLineDemo.ReceiveCommand(new Command_Render(fChannel));
                     break;
                 case 1:
-                    RectangleTest aRectTest = new RectangleTest(ClientRectangle.Size);
+                    RectangleTest aRectTest = new RectangleTest(cSize);
                     aRectTest.ReceiveCommand(new Command_Render(fChannel));
                     break;
 
                 case 2:
-                    aTextTest.Dimension = ClientRectangle.Size;
+                    aTextTest.Dimension = cSize;
                     aTextTest.ReceiveCommand(new Command_Render(fChannel));
                     break;
 
                 case 3:
-                    SineWave siner = new SineWave(ClientRectangle.Size, 100);
+                    SineWave siner = new SineWave(cSize, 100);
                     siner.ReceiveCommand(new Command_Render(fChannel));
                     break;
 
                 case 4:
-                    PolygonTest polygoner = new PolygonTest(ClientRectangle.Size);
+                    PolygonTest polygoner = new PolygonTest(cSize);
                     polygoner.ReceiveCommand(new Command_Render(fChannel));
                     break;
 
                 case 5:
-                    bezierer.Dimension = ClientRectangle.Size;
+                    bezierer.Dimension = cSize;
                     bezierer.ReceiveCommand(new Command_Render(fChannel));
                     break;
 
                 case 6:
-                    GraphTest grapher = new GraphTest(ClientRectangle.Size);
+                    GraphTest grapher = new GraphTest(cSize);
                     grapher.ReceiveCommand(new Command_Render(fChannel));
                     break;
 
                 case 7:
-                    RandomRect randrect = new RandomRect(ClientRectangle.Size);
+                    RandomRect randrect = new RandomRect(cSize);
                     randrect.ReceiveCommand(new Command_Render(fChannel));
                     break;
 
                 case 8:
-                    RegionTest regionTest = new RegionTest(ClientRectangle.Size);
+                    RegionTest regionTest = new RegionTest(cSize);
                     regionTest.ReceiveCommand(new Command_Render(fChannel));
                     break;
 
                 case 9:
-                    PathTest pathTest = new PathTest(ClientRectangle.Size);
+                    PathTest pathTest = new PathTest(cSize);
                     pathTest.ReceiveCommand(new Command_Render(fChannel));
                     break;
             }

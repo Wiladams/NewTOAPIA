@@ -87,7 +87,8 @@ namespace NewTOAPIA.Media.GL
             fVideoSource.Stop();
         }
 
-        public override void Bind()
+        //public override void Bind()
+        public void Bind()
         {
 
             fBufferObject.Bind();
@@ -115,7 +116,8 @@ namespace NewTOAPIA.Media.GL
 
         }
 
-        public override void Unbind()
+        //public override void Unbind()
+        public void Unbind()
         {
             base.Unbind();
 

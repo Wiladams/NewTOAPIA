@@ -1,19 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
 
-using NewTOAPIA;
-using NewTOAPIA.Drawing;
+
 using NewTOAPIA.Drawing.GDI;
+using NewTOAPIA.Graphics;
 
 namespace Autometaii
 {
     [Serializable]
     public class RegionTest : Autometus
     {
-        Size fSize;
+        Size2I fSize;
 
-        public RegionTest(Size aSize)
+        public RegionTest(Size2I aSize)
         {
             fSize = aSize;
         }
@@ -33,7 +31,7 @@ namespace Autometaii
 
             bool isEqual = aRegion.Equals(bRegion);
 
-            Rectangle[] rects = aRegion.GetRectangles();
+            RectangleI[] rects = aRegion.GetRectangles();
 
             aRegion.Add(dRegion);
             //aRegion.Subtract(dRegion);
@@ -46,9 +44,9 @@ namespace Autometaii
             //rects = aRegion.GetRectangles();
 
 
-            Rectangle frame = aRegion.GetFrame();
+            RectangleI frame = aRegion.GetFrame();
 
-            uint colorref = RGBColor.RGB(255, 127, 127);
+            Colorref colorref = Colorref.FromRGB(255, 127, 127);
             GDIBrush newBrush = new GDIBrush(BrushStyle.Solid, HatchStyle.DiagCross, colorref, Guid.NewGuid());
             aPort.SetBrush(newBrush);
 
@@ -62,11 +60,11 @@ namespace Autometaii
             rects = aRegion.GetRectangles();
             //Random rnd = new Random();
 
-            GDIPen regionPen = new GDICosmeticPen(PenStyle.Solid, RGBColor.Red, Guid.NewGuid());
-            GDISolidBrush regionBrush = new GDISolidBrush(RGBColor.Red);
+            GDIPen regionPen = new GDICosmeticPen(PenStyle.Solid, Colorrefs.Red, Guid.NewGuid());
+            GDISolidBrush regionBrush = new GDISolidBrush(Colorrefs.Red);
 
             // I GraphPort does not have FillRegion yet, so we fake it
-            foreach (Rectangle r in rects)
+            foreach (RectangleI r in rects)
             {
                 // Create some random color
                 //uint randomcolor = RGBColor.RGB((byte)rnd.Next(0, 255), (byte)rnd.Next(0, 255), (byte)rnd.Next(0, 255));

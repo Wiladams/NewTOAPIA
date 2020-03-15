@@ -10,5 +10,15 @@
             width = width_;
             height = height_;
         }
+
+        public int Width
+        {
+            get { return this.width; }
+        }
+
+        public int Height
+        {
+            get { return this.height; }
+        }
     }
 }

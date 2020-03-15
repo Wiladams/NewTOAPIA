@@ -69,6 +69,28 @@ namespace NewTOAPIA.Graphics
         }
         #endregion
 
+        #region Properties
+        double X
+        {
+            get { return this.x; }
+        }
+
+        double Y
+        {
+            get { return this.y; }
+        }
+
+        double Z
+        {
+            get { return this.Z; }
+        }
+
+        double W
+        {
+            get { return this.w; }
+        }
+        #endregion
+
         #region Methods
         public Vector3D Cross(Vector3D v)
         {

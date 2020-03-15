@@ -1,4 +1,4 @@
-﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="15.0">
   <PropertyGroup>
     <ProjectType>Local</ProjectType>
     <ProductVersion>9.0.30729</ProductVersion>
@@ -25,8 +25,9 @@
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
-    <OldToolsVersion>2.0</OldToolsVersion>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\Debug\</OutputPath>
@@ -79,7 +80,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Core.dll</HintPath>
     </Reference>
-    <Reference Include="NewTOAPIA.GL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="NewTOAPIA.GL, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.GL.dll</HintPath>
     </Reference>
@@ -91,9 +92,18 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.GLU.Shapes.dll</HintPath>
     </Reference>
+    <Reference Include="NewTOAPIA.Graphics">
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Graphics.dll</HintPath>
+    </Reference>
     <Reference Include="NewTOAPIA.Media, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Media.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.Media.Capture">
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Media.Capture.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.Media.GL">
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.Media.GL.dll</HintPath>
     </Reference>
     <Reference Include="NewTOAPIA.Modeling, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -102,6 +112,9 @@
     <Reference Include="NewTOAPIA.UI, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="NewTOAPIA.UI.GL">
+      <HintPath>..\..\TOAPIToppers\bin\Release\NewTOAPIA.UI.GL.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <Name>System</Name>
@@ -126,6 +139,9 @@
     <Compile Include="GroundPlane.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ReflectionScene.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
